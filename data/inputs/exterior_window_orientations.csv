@@ -1,10 +1,10 @@
 name,host,zone,world_azimuth_deg,vertex_polygon_area_m2,frame_object,construction,idf_start_line,idf_end_line
-HIBO CWC LabB Vision,Surface 69 Ext,Thermal Zone: Space 101,153.0,9.032240000000002,HIBO CWC Vision Frame,EXT_Window_SN54,3194,3215
+HIBO CWC LabB Vision,Surface 69 Ext,Thermal Zone: Space 103 LAB B,153.0,9.032240000000002,HIBO CWC Vision Frame,EXT_Window_SN54,3194,3215
 HIBO CWB Control Vision,Surface 68 Ext,Thermal Zone: Space 102 - Plus,153.0,2.8387040000000017,HIBO CWB Vision Frame,EXT_Window_SN54,3217,3238
-HIBO CWC LabA Vision,Surface 66 Ext,Thermal Zone: Space 103,153.0,9.032239999999998,HIBO CWC Vision Frame,EXT_Window_SN54,3240,3261
-HIBO CWA LabB West Lower CTIG,Surface 70 Ext,Thermal Zone: Space 101,243.0,0.74322432,,EXT_Window_SN54,5287,5308
-HIBO CWA LabB West Upper CTIG,Surface 70 Ext,Thermal Zone: Space 101,243.0,1.3470940800000002,,EXT_Window_SN54,5310,5331
-HIBO CWA LabA East Lower CTIG,Surface 67 Ext,Thermal Zone: Space 103,63.0,0.74322432,,EXT_Window_SN54,5448,5469
-HIBO CWA LabA East Upper CTIG,Surface 67 Ext,Thermal Zone: Space 103,63.0,1.3470940800000002,,EXT_Window_SN54,5471,5492
+HIBO CWC LabA Vision,Surface 66 Ext,Thermal Zone: Space 105 LAB A,153.0,9.032239999999998,HIBO CWC Vision Frame,EXT_Window_SN54,3240,3261
+HIBO CWA LabB West Lower CTIG,Surface 70 Ext,Thermal Zone: Space 103 LAB B,243.0,0.74322432,,EXT_Window_SN54,5287,5308
+HIBO CWA LabB West Upper CTIG,Surface 70 Ext,Thermal Zone: Space 103 LAB B,243.0,1.3470940800000002,,EXT_Window_SN54,5310,5331
+HIBO CWA LabA East Lower CTIG,Surface 67 Ext,Thermal Zone: Space 105 LAB A,63.0,0.74322432,,EXT_Window_SN54,5448,5469
+HIBO CWA LabA East Upper CTIG,Surface 67 Ext,Thermal Zone: Space 105 LAB A,63.0,1.3470940800000002,,EXT_Window_SN54,5471,5492
 HIBO N1 Lower CTIG,Surface 24 Ext,Thermal Zone: Space 102 - Plus,333.0,0.8258048000000002,,EXT_Window_SN54,5609,5630
 HIBO N1 Upper CTIG,Surface 24 Ext,Thermal Zone: Space 102 - Plus,333.0,0.8258048000000002,,EXT_Window_SN54,5632,5653

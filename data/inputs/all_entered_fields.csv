@@ -849,19 +849,19 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 84,Zone,Thermal Zone: Plenum,11,Zone Inside Convection Algorithm,,True,1428
 84,Zone,Thermal Zone: Plenum,12,Zone Outside Convection Algorithm,,True,1429
 84,Zone,Thermal Zone: Plenum,13,Part of Total Floor Area,No,False,1430
-85,Zone,Thermal Zone: Space 101,1,Name,Thermal Zone: Space 101,False,1433
-85,Zone,Thermal Zone: Space 101,2,Direction of Relative North {deg},-0,False,1434
-85,Zone,Thermal Zone: Space 101,3,X Origin {m},0,False,1435
-85,Zone,Thermal Zone: Space 101,4,Y Origin {m},0,False,1436
-85,Zone,Thermal Zone: Space 101,5,Z Origin {m},0,False,1437
-85,Zone,Thermal Zone: Space 101,6,Type,,True,1438
-85,Zone,Thermal Zone: Space 101,7,Multiplier,1,False,1439
-85,Zone,Thermal Zone: Space 101,8,Ceiling Height {m},,True,1440
-85,Zone,Thermal Zone: Space 101,9,Volume {m3},,True,1441
-85,Zone,Thermal Zone: Space 101,10,Floor Area {m2},,True,1442
-85,Zone,Thermal Zone: Space 101,11,Zone Inside Convection Algorithm,,True,1443
-85,Zone,Thermal Zone: Space 101,12,Zone Outside Convection Algorithm,,True,1444
-85,Zone,Thermal Zone: Space 101,13,Part of Total Floor Area,Yes,False,1445
+85,Zone,Thermal Zone: Space 103 LAB B,1,Name,Thermal Zone: Space 103 LAB B,False,1433
+85,Zone,Thermal Zone: Space 103 LAB B,2,Direction of Relative North {deg},-0,False,1434
+85,Zone,Thermal Zone: Space 103 LAB B,3,X Origin {m},0,False,1435
+85,Zone,Thermal Zone: Space 103 LAB B,4,Y Origin {m},0,False,1436
+85,Zone,Thermal Zone: Space 103 LAB B,5,Z Origin {m},0,False,1437
+85,Zone,Thermal Zone: Space 103 LAB B,6,Type,,True,1438
+85,Zone,Thermal Zone: Space 103 LAB B,7,Multiplier,1,False,1439
+85,Zone,Thermal Zone: Space 103 LAB B,8,Ceiling Height {m},,True,1440
+85,Zone,Thermal Zone: Space 103 LAB B,9,Volume {m3},,True,1441
+85,Zone,Thermal Zone: Space 103 LAB B,10,Floor Area {m2},,True,1442
+85,Zone,Thermal Zone: Space 103 LAB B,11,Zone Inside Convection Algorithm,,True,1443
+85,Zone,Thermal Zone: Space 103 LAB B,12,Zone Outside Convection Algorithm,,True,1444
+85,Zone,Thermal Zone: Space 103 LAB B,13,Part of Total Floor Area,Yes,False,1445
 86,Zone,Thermal Zone: Space 102 - Plus,1,Name,Thermal Zone: Space 102 - Plus,False,1448
 86,Zone,Thermal Zone: Space 102 - Plus,2,Direction of Relative North {deg},-0,False,1449
 86,Zone,Thermal Zone: Space 102 - Plus,3,X Origin {m},0,False,1450
@@ -875,19 +875,19 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 86,Zone,Thermal Zone: Space 102 - Plus,11,Zone Inside Convection Algorithm,,True,1458
 86,Zone,Thermal Zone: Space 102 - Plus,12,Zone Outside Convection Algorithm,,True,1459
 86,Zone,Thermal Zone: Space 102 - Plus,13,Part of Total Floor Area,Yes,False,1460
-87,Zone,Thermal Zone: Space 103,1,Name,Thermal Zone: Space 103,False,1463
-87,Zone,Thermal Zone: Space 103,2,Direction of Relative North {deg},-0,False,1464
-87,Zone,Thermal Zone: Space 103,3,X Origin {m},0,False,1465
-87,Zone,Thermal Zone: Space 103,4,Y Origin {m},0,False,1466
-87,Zone,Thermal Zone: Space 103,5,Z Origin {m},0,False,1467
-87,Zone,Thermal Zone: Space 103,6,Type,,True,1468
-87,Zone,Thermal Zone: Space 103,7,Multiplier,1,False,1469
-87,Zone,Thermal Zone: Space 103,8,Ceiling Height {m},,True,1470
-87,Zone,Thermal Zone: Space 103,9,Volume {m3},,True,1471
-87,Zone,Thermal Zone: Space 103,10,Floor Area {m2},,True,1472
-87,Zone,Thermal Zone: Space 103,11,Zone Inside Convection Algorithm,,True,1473
-87,Zone,Thermal Zone: Space 103,12,Zone Outside Convection Algorithm,,True,1474
-87,Zone,Thermal Zone: Space 103,13,Part of Total Floor Area,Yes,False,1475
+87,Zone,Thermal Zone: Space 105 LAB A,1,Name,Thermal Zone: Space 105 LAB A,False,1463
+87,Zone,Thermal Zone: Space 105 LAB A,2,Direction of Relative North {deg},-0,False,1464
+87,Zone,Thermal Zone: Space 105 LAB A,3,X Origin {m},0,False,1465
+87,Zone,Thermal Zone: Space 105 LAB A,4,Y Origin {m},0,False,1466
+87,Zone,Thermal Zone: Space 105 LAB A,5,Z Origin {m},0,False,1467
+87,Zone,Thermal Zone: Space 105 LAB A,6,Type,,True,1468
+87,Zone,Thermal Zone: Space 105 LAB A,7,Multiplier,1,False,1469
+87,Zone,Thermal Zone: Space 105 LAB A,8,Ceiling Height {m},,True,1470
+87,Zone,Thermal Zone: Space 105 LAB A,9,Volume {m3},,True,1471
+87,Zone,Thermal Zone: Space 105 LAB A,10,Floor Area {m2},,True,1472
+87,Zone,Thermal Zone: Space 105 LAB A,11,Zone Inside Convection Algorithm,,True,1473
+87,Zone,Thermal Zone: Space 105 LAB A,12,Zone Outside Convection Algorithm,,True,1474
+87,Zone,Thermal Zone: Space 105 LAB A,13,Part of Total Floor Area,Yes,False,1475
 88,BuildingSurface:Detailed,Surface 40,1,Name,Surface 40,False,1481
 88,BuildingSurface:Detailed,Surface 40,2,Surface Type,Floor,False,1482
 88,BuildingSurface:Detailed,Surface 40,3,Construction Name,HIBO Slab Sealed Concrete,False,1483
@@ -1386,7 +1386,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 109,BuildingSurface:Detailed,Surface 1,1,Name,Surface 1,False,2018
 109,BuildingSurface:Detailed,Surface 1,2,Surface Type,Floor,False,2019
 109,BuildingSurface:Detailed,Surface 1,3,Construction Name,HIBO Slab Carpet,False,2020
-109,BuildingSurface:Detailed,Surface 1,4,Zone Name,Thermal Zone: Space 101,False,2021
+109,BuildingSurface:Detailed,Surface 1,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2021
 109,BuildingSurface:Detailed,Surface 1,5,Space Name,,True,2022
 109,BuildingSurface:Detailed,Surface 1,6,Outside Boundary Condition,Ground,False,2023
 109,BuildingSurface:Detailed,Surface 1,7,Outside Boundary Condition Object,,True,2024
@@ -1409,7 +1409,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 110,BuildingSurface:Detailed,Surface 3 Ext,1,Name,Surface 3 Ext,False,2043
 110,BuildingSurface:Detailed,Surface 3 Ext,2,Surface Type,Wall,False,2044
 110,BuildingSurface:Detailed,Surface 3 Ext,3,Construction Name,HIBO Metal Panel Exterior Wall,False,2045
-110,BuildingSurface:Detailed,Surface 3 Ext,4,Zone Name,Thermal Zone: Space 101,False,2046
+110,BuildingSurface:Detailed,Surface 3 Ext,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2046
 110,BuildingSurface:Detailed,Surface 3 Ext,5,Space Name,,True,2047
 110,BuildingSurface:Detailed,Surface 3 Ext,6,Outside Boundary Condition,Outdoors,False,2048
 110,BuildingSurface:Detailed,Surface 3 Ext,7,Outside Boundary Condition Object,,True,2049
@@ -1432,7 +1432,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 111,BuildingSurface:Detailed,Surface 4,1,Name,Surface 4,False,2068
 111,BuildingSurface:Detailed,Surface 4,2,Surface Type,Wall,False,2069
 111,BuildingSurface:Detailed,Surface 4,3,Construction Name,HIBO Interior Partition SA.8.21,False,2070
-111,BuildingSurface:Detailed,Surface 4,4,Zone Name,Thermal Zone: Space 101,False,2071
+111,BuildingSurface:Detailed,Surface 4,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2071
 111,BuildingSurface:Detailed,Surface 4,5,Space Name,,True,2072
 111,BuildingSurface:Detailed,Surface 4,6,Outside Boundary Condition,Surface,False,2073
 111,BuildingSurface:Detailed,Surface 4,7,Outside Boundary Condition Object,Surface 35,False,2074
@@ -1455,7 +1455,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 112,BuildingSurface:Detailed,Surface 5,1,Name,Surface 5,False,2093
 112,BuildingSurface:Detailed,Surface 5,2,Surface Type,Wall,False,2094
 112,BuildingSurface:Detailed,Surface 5,3,Construction Name,HIBO Interior Partition SA.6.20,False,2095
-112,BuildingSurface:Detailed,Surface 5,4,Zone Name,Thermal Zone: Space 101,False,2096
+112,BuildingSurface:Detailed,Surface 5,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2096
 112,BuildingSurface:Detailed,Surface 5,5,Space Name,,True,2097
 112,BuildingSurface:Detailed,Surface 5,6,Outside Boundary Condition,Surface,False,2098
 112,BuildingSurface:Detailed,Surface 5,7,Outside Boundary Condition Object,Surface 29,False,2099
@@ -1478,7 +1478,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 113,BuildingSurface:Detailed,Surface 6,1,Name,Surface 6,False,2118
 113,BuildingSurface:Detailed,Surface 6,2,Surface Type,Wall,False,2119
 113,BuildingSurface:Detailed,Surface 6,3,Construction Name,HIBO Interior Partition SA.6.20,False,2120
-113,BuildingSurface:Detailed,Surface 6,4,Zone Name,Thermal Zone: Space 101,False,2121
+113,BuildingSurface:Detailed,Surface 6,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2121
 113,BuildingSurface:Detailed,Surface 6,5,Space Name,,True,2122
 113,BuildingSurface:Detailed,Surface 6,6,Outside Boundary Condition,Surface,False,2123
 113,BuildingSurface:Detailed,Surface 6,7,Outside Boundary Condition Object,Surface 13,False,2124
@@ -1501,7 +1501,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 114,BuildingSurface:Detailed,Surface 69 Ext,1,Name,Surface 69 Ext,False,2143
 114,BuildingSurface:Detailed,Surface 69 Ext,2,Surface Type,Wall,False,2144
 114,BuildingSurface:Detailed,Surface 69 Ext,3,Construction Name,HIBO Metal Panel Exterior Wall,False,2145
-114,BuildingSurface:Detailed,Surface 69 Ext,4,Zone Name,Thermal Zone: Space 101,False,2146
+114,BuildingSurface:Detailed,Surface 69 Ext,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2146
 114,BuildingSurface:Detailed,Surface 69 Ext,5,Space Name,,True,2147
 114,BuildingSurface:Detailed,Surface 69 Ext,6,Outside Boundary Condition,Outdoors,False,2148
 114,BuildingSurface:Detailed,Surface 69 Ext,7,Outside Boundary Condition Object,,True,2149
@@ -1524,7 +1524,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 115,BuildingSurface:Detailed,Surface 70 Ext,1,Name,Surface 70 Ext,False,2168
 115,BuildingSurface:Detailed,Surface 70 Ext,2,Surface Type,Wall,False,2169
 115,BuildingSurface:Detailed,Surface 70 Ext,3,Construction Name,HIBO Metal Panel Exterior Wall,False,2170
-115,BuildingSurface:Detailed,Surface 70 Ext,4,Zone Name,Thermal Zone: Space 101,False,2171
+115,BuildingSurface:Detailed,Surface 70 Ext,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2171
 115,BuildingSurface:Detailed,Surface 70 Ext,5,Space Name,,True,2172
 115,BuildingSurface:Detailed,Surface 70 Ext,6,Outside Boundary Condition,Outdoors,False,2173
 115,BuildingSurface:Detailed,Surface 70 Ext,7,Outside Boundary Condition Object,,True,2174
@@ -1547,7 +1547,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 116,BuildingSurface:Detailed,Surface 8,1,Name,Surface 8,False,2193
 116,BuildingSurface:Detailed,Surface 8,2,Surface Type,Ceiling,False,2194
 116,BuildingSurface:Detailed,Surface 8,3,Construction Name,HIBO APC-1 Ceiling,False,2195
-116,BuildingSurface:Detailed,Surface 8,4,Zone Name,Thermal Zone: Space 101,False,2196
+116,BuildingSurface:Detailed,Surface 8,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2196
 116,BuildingSurface:Detailed,Surface 8,5,Space Name,,True,2197
 116,BuildingSurface:Detailed,Surface 8,6,Outside Boundary Condition,Surface,False,2198
 116,BuildingSurface:Detailed,Surface 8,7,Outside Boundary Condition Object,Surface 65,False,2199
@@ -1985,7 +1985,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 134,BuildingSurface:Detailed,Surface 15,1,Name,Surface 15,False,2667
 134,BuildingSurface:Detailed,Surface 15,2,Surface Type,Floor,False,2668
 134,BuildingSurface:Detailed,Surface 15,3,Construction Name,HIBO Slab Carpet,False,2669
-134,BuildingSurface:Detailed,Surface 15,4,Zone Name,Thermal Zone: Space 103,False,2670
+134,BuildingSurface:Detailed,Surface 15,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2670
 134,BuildingSurface:Detailed,Surface 15,5,Space Name,,True,2671
 134,BuildingSurface:Detailed,Surface 15,6,Outside Boundary Condition,Ground,False,2672
 134,BuildingSurface:Detailed,Surface 15,7,Outside Boundary Condition Object,,True,2673
@@ -2008,7 +2008,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 135,BuildingSurface:Detailed,Surface 16,1,Name,Surface 16,False,2692
 135,BuildingSurface:Detailed,Surface 16,2,Surface Type,Wall,False,2693
 135,BuildingSurface:Detailed,Surface 16,3,Construction Name,HIBO Interior Partition SA.8.21,False,2694
-135,BuildingSurface:Detailed,Surface 16,4,Zone Name,Thermal Zone: Space 103,False,2695
+135,BuildingSurface:Detailed,Surface 16,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2695
 135,BuildingSurface:Detailed,Surface 16,5,Space Name,,True,2696
 135,BuildingSurface:Detailed,Surface 16,6,Outside Boundary Condition,Surface,False,2697
 135,BuildingSurface:Detailed,Surface 16,7,Outside Boundary Condition Object,Surface 43,False,2698
@@ -2031,7 +2031,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 136,BuildingSurface:Detailed,Surface 17 Ext,1,Name,Surface 17 Ext,False,2717
 136,BuildingSurface:Detailed,Surface 17 Ext,2,Surface Type,Wall,False,2718
 136,BuildingSurface:Detailed,Surface 17 Ext,3,Construction Name,HIBO Metal Panel Exterior Wall,False,2719
-136,BuildingSurface:Detailed,Surface 17 Ext,4,Zone Name,Thermal Zone: Space 103,False,2720
+136,BuildingSurface:Detailed,Surface 17 Ext,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2720
 136,BuildingSurface:Detailed,Surface 17 Ext,5,Space Name,,True,2721
 136,BuildingSurface:Detailed,Surface 17 Ext,6,Outside Boundary Condition,Outdoors,False,2722
 136,BuildingSurface:Detailed,Surface 17 Ext,7,Outside Boundary Condition Object,,True,2723
@@ -2054,7 +2054,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 137,BuildingSurface:Detailed,Surface 20,1,Name,Surface 20,False,2742
 137,BuildingSurface:Detailed,Surface 20,2,Surface Type,Wall,False,2743
 137,BuildingSurface:Detailed,Surface 20,3,Construction Name,HIBO Interior Partition SA.6.20,False,2744
-137,BuildingSurface:Detailed,Surface 20,4,Zone Name,Thermal Zone: Space 103,False,2745
+137,BuildingSurface:Detailed,Surface 20,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2745
 137,BuildingSurface:Detailed,Surface 20,5,Space Name,,True,2746
 137,BuildingSurface:Detailed,Surface 20,6,Outside Boundary Condition,Surface,False,2747
 137,BuildingSurface:Detailed,Surface 20,7,Outside Boundary Condition Object,Surface 11,False,2748
@@ -2077,7 +2077,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 138,BuildingSurface:Detailed,Surface 21,1,Name,Surface 21,False,2767
 138,BuildingSurface:Detailed,Surface 21,2,Surface Type,Wall,False,2768
 138,BuildingSurface:Detailed,Surface 21,3,Construction Name,HIBO Interior Partition SA.6.20,False,2769
-138,BuildingSurface:Detailed,Surface 21,4,Zone Name,Thermal Zone: Space 103,False,2770
+138,BuildingSurface:Detailed,Surface 21,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2770
 138,BuildingSurface:Detailed,Surface 21,5,Space Name,,True,2771
 138,BuildingSurface:Detailed,Surface 21,6,Outside Boundary Condition,Surface,False,2772
 138,BuildingSurface:Detailed,Surface 21,7,Outside Boundary Condition Object,Surface 27,False,2773
@@ -2100,7 +2100,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 139,BuildingSurface:Detailed,Surface 22,1,Name,Surface 22,False,2792
 139,BuildingSurface:Detailed,Surface 22,2,Surface Type,Ceiling,False,2793
 139,BuildingSurface:Detailed,Surface 22,3,Construction Name,HIBO APC-1 Ceiling,False,2794
-139,BuildingSurface:Detailed,Surface 22,4,Zone Name,Thermal Zone: Space 103,False,2795
+139,BuildingSurface:Detailed,Surface 22,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2795
 139,BuildingSurface:Detailed,Surface 22,5,Space Name,,True,2796
 139,BuildingSurface:Detailed,Surface 22,6,Outside Boundary Condition,Surface,False,2797
 139,BuildingSurface:Detailed,Surface 22,7,Outside Boundary Condition Object,Surface 47,False,2798
@@ -2123,7 +2123,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 140,BuildingSurface:Detailed,Surface 66 Ext,1,Name,Surface 66 Ext,False,2817
 140,BuildingSurface:Detailed,Surface 66 Ext,2,Surface Type,Wall,False,2818
 140,BuildingSurface:Detailed,Surface 66 Ext,3,Construction Name,HIBO Metal Panel Exterior Wall,False,2819
-140,BuildingSurface:Detailed,Surface 66 Ext,4,Zone Name,Thermal Zone: Space 103,False,2820
+140,BuildingSurface:Detailed,Surface 66 Ext,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2820
 140,BuildingSurface:Detailed,Surface 66 Ext,5,Space Name,,True,2821
 140,BuildingSurface:Detailed,Surface 66 Ext,6,Outside Boundary Condition,Outdoors,False,2822
 140,BuildingSurface:Detailed,Surface 66 Ext,7,Outside Boundary Condition Object,,True,2823
@@ -2146,7 +2146,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 141,BuildingSurface:Detailed,Surface 69 Low CMU,1,Name,Surface 69 Low CMU,False,2842
 141,BuildingSurface:Detailed,Surface 69 Low CMU,2,Surface Type,Wall,False,2843
 141,BuildingSurface:Detailed,Surface 69 Low CMU,3,Construction Name,HIBO CMU Veneer Exterior Wall,False,2844
-141,BuildingSurface:Detailed,Surface 69 Low CMU,4,Zone Name,Thermal Zone: Space 101,False,2845
+141,BuildingSurface:Detailed,Surface 69 Low CMU,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2845
 141,BuildingSurface:Detailed,Surface 69 Low CMU,5,Space Name,,True,2846
 141,BuildingSurface:Detailed,Surface 69 Low CMU,6,Outside Boundary Condition,Outdoors,False,2847
 141,BuildingSurface:Detailed,Surface 69 Low CMU,7,Outside Boundary Condition Object,,True,2848
@@ -2192,7 +2192,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 143,BuildingSurface:Detailed,Surface 66 Low CMU,1,Name,Surface 66 Low CMU,False,2892
 143,BuildingSurface:Detailed,Surface 66 Low CMU,2,Surface Type,Wall,False,2893
 143,BuildingSurface:Detailed,Surface 66 Low CMU,3,Construction Name,HIBO CMU Veneer Exterior Wall,False,2894
-143,BuildingSurface:Detailed,Surface 66 Low CMU,4,Zone Name,Thermal Zone: Space 103,False,2895
+143,BuildingSurface:Detailed,Surface 66 Low CMU,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2895
 143,BuildingSurface:Detailed,Surface 66 Low CMU,5,Space Name,,True,2896
 143,BuildingSurface:Detailed,Surface 66 Low CMU,6,Outside Boundary Condition,Outdoors,False,2897
 143,BuildingSurface:Detailed,Surface 66 Low CMU,7,Outside Boundary Condition Object,,True,2898
@@ -2215,7 +2215,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 144,BuildingSurface:Detailed,Surface 67 Ext,1,Name,Surface 67 Ext,False,2917
 144,BuildingSurface:Detailed,Surface 67 Ext,2,Surface Type,Wall,False,2918
 144,BuildingSurface:Detailed,Surface 67 Ext,3,Construction Name,HIBO Metal Panel Exterior Wall,False,2919
-144,BuildingSurface:Detailed,Surface 67 Ext,4,Zone Name,Thermal Zone: Space 103,False,2920
+144,BuildingSurface:Detailed,Surface 67 Ext,4,Zone Name,Thermal Zone: Space 105 LAB A,False,2920
 144,BuildingSurface:Detailed,Surface 67 Ext,5,Space Name,,True,2921
 144,BuildingSurface:Detailed,Surface 67 Ext,6,Outside Boundary Condition,Outdoors,False,2922
 144,BuildingSurface:Detailed,Surface 67 Ext,7,Outside Boundary Condition Object,,True,2923
@@ -2284,7 +2284,7 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 147,BuildingSurface:Detailed,Surface 71,1,Name,Surface 71,False,2992
 147,BuildingSurface:Detailed,Surface 71,2,Surface Type,Wall,False,2993
 147,BuildingSurface:Detailed,Surface 71,3,Construction Name,HIBO Interior Partition SA.8.21,False,2994
-147,BuildingSurface:Detailed,Surface 71,4,Zone Name,Thermal Zone: Space 101,False,2995
+147,BuildingSurface:Detailed,Surface 71,4,Zone Name,Thermal Zone: Space 103 LAB B,False,2995
 147,BuildingSurface:Detailed,Surface 71,5,Space Name,,True,2996
 147,BuildingSurface:Detailed,Surface 71,6,Outside Boundary Condition,Surface,False,2997
 147,BuildingSurface:Detailed,Surface 71,7,Outside Boundary Condition Object,Surface 72,False,2998
@@ -4880,19 +4880,19 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 273,Shading:Building:Detailed,HIBO Upper Parapet NE Shoulder,13,Vertex 4 X-coordinate {m},11.00023200,False,5852
 273,Shading:Building:Detailed,HIBO Upper Parapet NE Shoulder,14,Vertex 4 Y-coordinate {m},4.65429600,False,5853
 273,Shading:Building:Detailed,HIBO Upper Parapet NE Shoulder,15,Vertex 4 Z-coordinate {m},5.08000000,False,5854
-274,People,Space 101 People 1,1,Name,Space 101 People 1,False,5860
-274,People,Space 101 People 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 101,False,5861
-274,People,Space 101 People 1,3,Number of People Schedule Name,OCCUPY-1,False,5862
-274,People,Space 101 People 1,4,Number of People Calculation Method,Area/Person,False,5863
-274,People,Space 101 People 1,5,Number of People,,True,5864
-274,People,Space 101 People 1,6,People per Floor Area {person/m2},,True,5865
-274,People,Space 101 People 1,7,Floor Area per Person {m2/person},18.580626,False,5866
-274,People,Space 101 People 1,8,Fraction Radiant,0.3,False,5867
-274,People,Space 101 People 1,9,Sensible Heat Fraction,,True,5868
-274,People,Space 101 People 1,10,Activity Level Schedule Name,ActSchd,False,5869
-274,People,Space 101 People 1,11,Carbon Dioxide Generation Rate {m3/s-W},,True,5870
-274,People,Space 101 People 1,12,Enable ASHRAE 55 Comfort Warnings,No,False,5871
-274,People,Space 101 People 1,13,Mean Radiant Temperature Calculation Type,ZoneAveraged,False,5872
+274,People,Space 103 LAB B People 1,1,Name,Space 103 LAB B People 1,False,5860
+274,People,Space 103 LAB B People 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 103 LAB B,False,5861
+274,People,Space 103 LAB B People 1,3,Number of People Schedule Name,OCCUPY-1,False,5862
+274,People,Space 103 LAB B People 1,4,Number of People Calculation Method,Area/Person,False,5863
+274,People,Space 103 LAB B People 1,5,Number of People,,True,5864
+274,People,Space 103 LAB B People 1,6,People per Floor Area {person/m2},,True,5865
+274,People,Space 103 LAB B People 1,7,Floor Area per Person {m2/person},18.580626,False,5866
+274,People,Space 103 LAB B People 1,8,Fraction Radiant,0.3,False,5867
+274,People,Space 103 LAB B People 1,9,Sensible Heat Fraction,,True,5868
+274,People,Space 103 LAB B People 1,10,Activity Level Schedule Name,ActSchd,False,5869
+274,People,Space 103 LAB B People 1,11,Carbon Dioxide Generation Rate {m3/s-W},,True,5870
+274,People,Space 103 LAB B People 1,12,Enable ASHRAE 55 Comfort Warnings,No,False,5871
+274,People,Space 103 LAB B People 1,13,Mean Radiant Temperature Calculation Type,ZoneAveraged,False,5872
 275,People,Space 102 People 1,1,Name,Space 102 People 1,False,5875
 275,People,Space 102 People 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 102 - Plus,False,5876
 275,People,Space 102 People 1,3,Number of People Schedule Name,OCCUPY-1,False,5877
@@ -4906,32 +4906,32 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 275,People,Space 102 People 1,11,Carbon Dioxide Generation Rate {m3/s-W},,True,5885
 275,People,Space 102 People 1,12,Enable ASHRAE 55 Comfort Warnings,No,False,5886
 275,People,Space 102 People 1,13,Mean Radiant Temperature Calculation Type,ZoneAveraged,False,5887
-276,People,Space 103 People 1,1,Name,Space 103 People 1,False,5890
-276,People,Space 103 People 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 103,False,5891
-276,People,Space 103 People 1,3,Number of People Schedule Name,OCCUPY-1,False,5892
-276,People,Space 103 People 1,4,Number of People Calculation Method,Area/Person,False,5893
-276,People,Space 103 People 1,5,Number of People,,True,5894
-276,People,Space 103 People 1,6,People per Floor Area {person/m2},,True,5895
-276,People,Space 103 People 1,7,Floor Area per Person {m2/person},18.580626,False,5896
-276,People,Space 103 People 1,8,Fraction Radiant,0.3,False,5897
-276,People,Space 103 People 1,9,Sensible Heat Fraction,,True,5898
-276,People,Space 103 People 1,10,Activity Level Schedule Name,ActSchd,False,5899
-276,People,Space 103 People 1,11,Carbon Dioxide Generation Rate {m3/s-W},,True,5900
-276,People,Space 103 People 1,12,Enable ASHRAE 55 Comfort Warnings,No,False,5901
-276,People,Space 103 People 1,13,Mean Radiant Temperature Calculation Type,ZoneAveraged,False,5902
-277,Lights,Space 101 Lights 1,1,Name,Space 101 Lights 1,False,5908
-277,Lights,Space 101 Lights 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 101,False,5909
-277,Lights,Space 101 Lights 1,3,Schedule Name,ltg_sch_office,False,5910
-277,Lights,Space 101 Lights 1,4,Design Level Calculation Method,Watts/Area,False,5911
-277,Lights,Space 101 Lights 1,5,Lighting Level {W},,True,5912
-277,Lights,Space 101 Lights 1,6,Watts per Zone Floor Area {W/m2},6.181254,False,5913
-277,Lights,Space 101 Lights 1,7,Watts per Person {W/person},,True,5914
-277,Lights,Space 101 Lights 1,8,Return Air Fraction,0,False,5915
-277,Lights,Space 101 Lights 1,9,Fraction Radiant,0.7,False,5916
-277,Lights,Space 101 Lights 1,10,Fraction Visible,0.2,False,5917
-277,Lights,Space 101 Lights 1,11,Fraction Replaceable,1,False,5918
-277,Lights,Space 101 Lights 1,12,End-Use Subcategory,LightsWired,False,5919
-277,Lights,Space 101 Lights 1,13,Return Air Fraction Calculated from Plenum Temperature,No,False,5920
+276,People,Space 105 LAB A People 1,1,Name,Space 105 LAB A People 1,False,5890
+276,People,Space 105 LAB A People 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 105 LAB A,False,5891
+276,People,Space 105 LAB A People 1,3,Number of People Schedule Name,OCCUPY-1,False,5892
+276,People,Space 105 LAB A People 1,4,Number of People Calculation Method,Area/Person,False,5893
+276,People,Space 105 LAB A People 1,5,Number of People,,True,5894
+276,People,Space 105 LAB A People 1,6,People per Floor Area {person/m2},,True,5895
+276,People,Space 105 LAB A People 1,7,Floor Area per Person {m2/person},18.580626,False,5896
+276,People,Space 105 LAB A People 1,8,Fraction Radiant,0.3,False,5897
+276,People,Space 105 LAB A People 1,9,Sensible Heat Fraction,,True,5898
+276,People,Space 105 LAB A People 1,10,Activity Level Schedule Name,ActSchd,False,5899
+276,People,Space 105 LAB A People 1,11,Carbon Dioxide Generation Rate {m3/s-W},,True,5900
+276,People,Space 105 LAB A People 1,12,Enable ASHRAE 55 Comfort Warnings,No,False,5901
+276,People,Space 105 LAB A People 1,13,Mean Radiant Temperature Calculation Type,ZoneAveraged,False,5902
+277,Lights,Space 103 LAB B Lights 1,1,Name,Space 103 LAB B Lights 1,False,5908
+277,Lights,Space 103 LAB B Lights 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 103 LAB B,False,5909
+277,Lights,Space 103 LAB B Lights 1,3,Schedule Name,ltg_sch_office,False,5910
+277,Lights,Space 103 LAB B Lights 1,4,Design Level Calculation Method,Watts/Area,False,5911
+277,Lights,Space 103 LAB B Lights 1,5,Lighting Level {W},,True,5912
+277,Lights,Space 103 LAB B Lights 1,6,Watts per Zone Floor Area {W/m2},6.181254,False,5913
+277,Lights,Space 103 LAB B Lights 1,7,Watts per Person {W/person},,True,5914
+277,Lights,Space 103 LAB B Lights 1,8,Return Air Fraction,0,False,5915
+277,Lights,Space 103 LAB B Lights 1,9,Fraction Radiant,0.7,False,5916
+277,Lights,Space 103 LAB B Lights 1,10,Fraction Visible,0.2,False,5917
+277,Lights,Space 103 LAB B Lights 1,11,Fraction Replaceable,1,False,5918
+277,Lights,Space 103 LAB B Lights 1,12,End-Use Subcategory,LightsWired,False,5919
+277,Lights,Space 103 LAB B Lights 1,13,Return Air Fraction Calculated from Plenum Temperature,No,False,5920
 278,Lights,Space 102 Lights 1,1,Name,Space 102 Lights 1,False,5923
 278,Lights,Space 102 Lights 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 102 - Plus,False,5924
 278,Lights,Space 102 Lights 1,3,Schedule Name,ltg_sch_office,False,5925
@@ -4945,30 +4945,30 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 278,Lights,Space 102 Lights 1,11,Fraction Replaceable,1,False,5933
 278,Lights,Space 102 Lights 1,12,End-Use Subcategory,LightsWired,False,5934
 278,Lights,Space 102 Lights 1,13,Return Air Fraction Calculated from Plenum Temperature,No,False,5935
-279,Lights,Space 103 Lights 1,1,Name,Space 103 Lights 1,False,5938
-279,Lights,Space 103 Lights 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 103,False,5939
-279,Lights,Space 103 Lights 1,3,Schedule Name,ltg_sch_office,False,5940
-279,Lights,Space 103 Lights 1,4,Design Level Calculation Method,Watts/Area,False,5941
-279,Lights,Space 103 Lights 1,5,Lighting Level {W},,True,5942
-279,Lights,Space 103 Lights 1,6,Watts per Zone Floor Area {W/m2},6.181254,False,5943
-279,Lights,Space 103 Lights 1,7,Watts per Person {W/person},,True,5944
-279,Lights,Space 103 Lights 1,8,Return Air Fraction,0,False,5945
-279,Lights,Space 103 Lights 1,9,Fraction Radiant,0.7,False,5946
-279,Lights,Space 103 Lights 1,10,Fraction Visible,0.2,False,5947
-279,Lights,Space 103 Lights 1,11,Fraction Replaceable,1,False,5948
-279,Lights,Space 103 Lights 1,12,End-Use Subcategory,LightsWired,False,5949
-279,Lights,Space 103 Lights 1,13,Return Air Fraction Calculated from Plenum Temperature,No,False,5950
-280,ElectricEquipment,Space 101 ElecEq 1,1,Name,Space 101 ElecEq 1,False,5956
-280,ElectricEquipment,Space 101 ElecEq 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 101,False,5957
-280,ElectricEquipment,Space 101 ElecEq 1,3,Schedule Name,EQUIP-1,False,5958
-280,ElectricEquipment,Space 101 ElecEq 1,4,Design Level Calculation Method,Watts/Area,False,5959
-280,ElectricEquipment,Space 101 ElecEq 1,5,Design Level {W},,True,5960
-280,ElectricEquipment,Space 101 ElecEq 1,6,Watts per Zone Floor Area {W/m2},6.78,False,5961
-280,ElectricEquipment,Space 101 ElecEq 1,7,Watts per Person {W/person},,True,5962
-280,ElectricEquipment,Space 101 ElecEq 1,8,Fraction Latent,,True,5963
-280,ElectricEquipment,Space 101 ElecEq 1,9,Fraction Radiant,,True,5964
-280,ElectricEquipment,Space 101 ElecEq 1,10,Fraction Lost,,True,5965
-280,ElectricEquipment,Space 101 ElecEq 1,11,End-Use Subcategory,MiscPlug,False,5966
+279,Lights,Space 105 LAB A Lights 1,1,Name,Space 105 LAB A Lights 1,False,5938
+279,Lights,Space 105 LAB A Lights 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 105 LAB A,False,5939
+279,Lights,Space 105 LAB A Lights 1,3,Schedule Name,ltg_sch_office,False,5940
+279,Lights,Space 105 LAB A Lights 1,4,Design Level Calculation Method,Watts/Area,False,5941
+279,Lights,Space 105 LAB A Lights 1,5,Lighting Level {W},,True,5942
+279,Lights,Space 105 LAB A Lights 1,6,Watts per Zone Floor Area {W/m2},6.181254,False,5943
+279,Lights,Space 105 LAB A Lights 1,7,Watts per Person {W/person},,True,5944
+279,Lights,Space 105 LAB A Lights 1,8,Return Air Fraction,0,False,5945
+279,Lights,Space 105 LAB A Lights 1,9,Fraction Radiant,0.7,False,5946
+279,Lights,Space 105 LAB A Lights 1,10,Fraction Visible,0.2,False,5947
+279,Lights,Space 105 LAB A Lights 1,11,Fraction Replaceable,1,False,5948
+279,Lights,Space 105 LAB A Lights 1,12,End-Use Subcategory,LightsWired,False,5949
+279,Lights,Space 105 LAB A Lights 1,13,Return Air Fraction Calculated from Plenum Temperature,No,False,5950
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,1,Name,Space 103 LAB B ElecEq 1,False,5956
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 103 LAB B,False,5957
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,3,Schedule Name,EQUIP-1,False,5958
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,4,Design Level Calculation Method,Watts/Area,False,5959
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,5,Design Level {W},,True,5960
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,6,Watts per Zone Floor Area {W/m2},6.78,False,5961
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,7,Watts per Person {W/person},,True,5962
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,8,Fraction Latent,,True,5963
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,9,Fraction Radiant,,True,5964
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,10,Fraction Lost,,True,5965
+280,ElectricEquipment,Space 103 LAB B ElecEq 1,11,End-Use Subcategory,MiscPlug,False,5966
 281,ElectricEquipment,Space 102 ElecEq 1,1,Name,Space 102 ElecEq 1,False,5969
 281,ElectricEquipment,Space 102 ElecEq 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 102 - Plus,False,5970
 281,ElectricEquipment,Space 102 ElecEq 1,3,Schedule Name,EQUIP-1,False,5971
@@ -4980,29 +4980,29 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 281,ElectricEquipment,Space 102 ElecEq 1,9,Fraction Radiant,,True,5977
 281,ElectricEquipment,Space 102 ElecEq 1,10,Fraction Lost,,True,5978
 281,ElectricEquipment,Space 102 ElecEq 1,11,End-Use Subcategory,MiscPlug,False,5979
-282,ElectricEquipment,Space 103 ElecEq 1,1,Name,Space 103 ElecEq 1,False,5982
-282,ElectricEquipment,Space 103 ElecEq 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 103,False,5983
-282,ElectricEquipment,Space 103 ElecEq 1,3,Schedule Name,EQUIP-1,False,5984
-282,ElectricEquipment,Space 103 ElecEq 1,4,Design Level Calculation Method,Watts/Area,False,5985
-282,ElectricEquipment,Space 103 ElecEq 1,5,Design Level {W},,True,5986
-282,ElectricEquipment,Space 103 ElecEq 1,6,Watts per Zone Floor Area {W/m2},6.78,False,5987
-282,ElectricEquipment,Space 103 ElecEq 1,7,Watts per Person {W/person},,True,5988
-282,ElectricEquipment,Space 103 ElecEq 1,8,Fraction Latent,,True,5989
-282,ElectricEquipment,Space 103 ElecEq 1,9,Fraction Radiant,,True,5990
-282,ElectricEquipment,Space 103 ElecEq 1,10,Fraction Lost,,True,5991
-282,ElectricEquipment,Space 103 ElecEq 1,11,End-Use Subcategory,MiscPlug,False,5992
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,1,Name,Space 101 Infil 1,False,5998
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 101,False,5999
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,3,Schedule Name,INFIL-SCH,False,6000
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,4,Design Flow Rate Calculation Method,Flow/ExteriorWallArea,False,6001
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,5,Design Flow Rate {m3/s},0,False,6002
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,6,Flow Rate per Floor Area {m3/s-m2},,True,6003
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,7,Flow Rate per Exterior Surface Area {m3/s-m2},0.000199350288,False,6004
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,8,Air Changes per Hour {1/hr},,True,6005
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,9,Constant Term Coefficient,0,False,6006
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,10,Temperature Term Coefficient,0,False,6007
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,11,Velocity Term Coefficient,0.224,False,6008
-283,ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,12,Velocity Squared Term Coefficient,0,False,6009
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,1,Name,Space 105 LAB A ElecEq 1,False,5982
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 105 LAB A,False,5983
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,3,Schedule Name,EQUIP-1,False,5984
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,4,Design Level Calculation Method,Watts/Area,False,5985
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,5,Design Level {W},,True,5986
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,6,Watts per Zone Floor Area {W/m2},6.78,False,5987
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,7,Watts per Person {W/person},,True,5988
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,8,Fraction Latent,,True,5989
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,9,Fraction Radiant,,True,5990
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,10,Fraction Lost,,True,5991
+282,ElectricEquipment,Space 105 LAB A ElecEq 1,11,End-Use Subcategory,MiscPlug,False,5992
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,1,Name,Space 103 LAB B Infil 1,False,5998
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 103 LAB B,False,5999
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,3,Schedule Name,INFIL-SCH,False,6000
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,4,Design Flow Rate Calculation Method,Flow/ExteriorWallArea,False,6001
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,5,Design Flow Rate {m3/s},0,False,6002
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,6,Flow Rate per Floor Area {m3/s-m2},,True,6003
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,7,Flow Rate per Exterior Surface Area {m3/s-m2},0.000199350288,False,6004
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,8,Air Changes per Hour {1/hr},,True,6005
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,9,Constant Term Coefficient,0,False,6006
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,10,Temperature Term Coefficient,0,False,6007
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,11,Velocity Term Coefficient,0.224,False,6008
+283,ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,12,Velocity Squared Term Coefficient,0,False,6009
 284,ZoneInfiltration:DesignFlowRate,Space 102 Infil 1,1,Name,Space 102 Infil 1,False,6012
 284,ZoneInfiltration:DesignFlowRate,Space 102 Infil 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 102 - Plus,False,6013
 284,ZoneInfiltration:DesignFlowRate,Space 102 Infil 1,3,Schedule Name,INFIL-SCH,False,6014
@@ -5015,18 +5015,18 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 284,ZoneInfiltration:DesignFlowRate,Space 102 Infil 1,10,Temperature Term Coefficient,0,False,6021
 284,ZoneInfiltration:DesignFlowRate,Space 102 Infil 1,11,Velocity Term Coefficient,0.224,False,6022
 284,ZoneInfiltration:DesignFlowRate,Space 102 Infil 1,12,Velocity Squared Term Coefficient,0,False,6023
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,1,Name,Space 103 Infil 1,False,6026
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 103,False,6027
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,3,Schedule Name,INFIL-SCH,False,6028
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,4,Design Flow Rate Calculation Method,Flow/ExteriorWallArea,False,6029
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,5,Design Flow Rate {m3/s},0,False,6030
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,6,Flow Rate per Floor Area {m3/s-m2},,True,6031
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,7,Flow Rate per Exterior Surface Area {m3/s-m2},0.000199350288,False,6032
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,8,Air Changes per Hour {1/hr},,True,6033
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,9,Constant Term Coefficient,0,False,6034
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,10,Temperature Term Coefficient,0,False,6035
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,11,Velocity Term Coefficient,0.224,False,6036
-285,ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,12,Velocity Squared Term Coefficient,0,False,6037
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,1,Name,Space 105 LAB A Infil 1,False,6026
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,2,Zone or ZoneList or Space or SpaceList Name,Thermal Zone: Space 105 LAB A,False,6027
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,3,Schedule Name,INFIL-SCH,False,6028
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,4,Design Flow Rate Calculation Method,Flow/ExteriorWallArea,False,6029
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,5,Design Flow Rate {m3/s},0,False,6030
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,6,Flow Rate per Floor Area {m3/s-m2},,True,6031
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,7,Flow Rate per Exterior Surface Area {m3/s-m2},0.000199350288,False,6032
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,8,Air Changes per Hour {1/hr},,True,6033
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,9,Constant Term Coefficient,0,False,6034
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,10,Temperature Term Coefficient,0,False,6035
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,11,Velocity Term Coefficient,0.224,False,6036
+285,ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,12,Velocity Squared Term Coefficient,0,False,6037
 286,ZoneInfiltration:DesignFlowRate,MEP Infil 1,1,Name,MEP Infil 1,False,6040
 286,ZoneInfiltration:DesignFlowRate,MEP Infil 1,2,Zone or ZoneList or Space or SpaceList Name,MEP,False,6041
 286,ZoneInfiltration:DesignFlowRate,MEP Infil 1,3,Schedule Name,INFIL-SCH,False,6042
@@ -5044,13 +5044,13 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 287,Exterior:Lights,Exterior_Lights_a,3,Design Level {W},88.49,False,6059
 287,Exterior:Lights,Exterior_Lights_a,4,Control Option,,True,6060
 287,Exterior:Lights,Exterior_Lights_a,5,End-Use Subcategory,General,False,6061
-288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,1,Name,SZ DSOA Thermal Zone: Space 101,False,6067
-288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,2,Outdoor Air Method,Sum,False,6068
-288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,3,Outdoor Air Flow per Person {m3/s-person},0.0025,False,6069
-288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,4,Outdoor Air Flow per Zone Floor Area {m3/s-m2},0.0003,False,6070
-288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,5,Outdoor Air Flow per Zone {m3/s},0,False,6071
-288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,6,Outdoor Air Flow Air Changes per Hour {1/hr},0,False,6072
-288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,7,Outdoor Air Schedule Name,Min OA Sched,False,6073
+288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103 LAB B,1,Name,SZ DSOA Thermal Zone: Space 103 LAB B,False,6067
+288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103 LAB B,2,Outdoor Air Method,Sum,False,6068
+288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103 LAB B,3,Outdoor Air Flow per Person {m3/s-person},0.0025,False,6069
+288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103 LAB B,4,Outdoor Air Flow per Zone Floor Area {m3/s-m2},0.0003,False,6070
+288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103 LAB B,5,Outdoor Air Flow per Zone {m3/s},0,False,6071
+288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103 LAB B,6,Outdoor Air Flow Air Changes per Hour {1/hr},0,False,6072
+288,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103 LAB B,7,Outdoor Air Schedule Name,Min OA Sched,False,6073
 289,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 102 - Plus,1,Name,SZ DSOA Thermal Zone: Space 102 - Plus,False,6076
 289,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 102 - Plus,2,Outdoor Air Method,Sum,False,6077
 289,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 102 - Plus,3,Outdoor Air Flow per Person {m3/s-person},0.0025,False,6078
@@ -5058,58 +5058,58 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 289,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 102 - Plus,5,Outdoor Air Flow per Zone {m3/s},0,False,6080
 289,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 102 - Plus,6,Outdoor Air Flow Air Changes per Hour {1/hr},0,False,6081
 289,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 102 - Plus,7,Outdoor Air Schedule Name,Min OA Sched,False,6082
-290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,1,Name,SZ DSOA Thermal Zone: Space 103,False,6085
-290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,2,Outdoor Air Method,Sum,False,6086
-290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,3,Outdoor Air Flow per Person {m3/s-person},0.0025,False,6087
-290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,4,Outdoor Air Flow per Zone Floor Area {m3/s-m2},0.0003,False,6088
-290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,5,Outdoor Air Flow per Zone {m3/s},0,False,6089
-290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,6,Outdoor Air Flow Air Changes per Hour {1/hr},0,False,6090
-290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,7,Outdoor Air Schedule Name,Min OA Sched,False,6091
-291,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 101,1,Name,SZ DSZAD Thermal Zone: Space 101,False,6097
-291,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 101,2,Zone Air Distribution Effectiveness in Cooling Mode {dimensionless},1,False,6098
-291,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 101,3,Zone Air Distribution Effectiveness in Heating Mode {dimensionless},1,False,6099
+290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 105 LAB A,1,Name,SZ DSOA Thermal Zone: Space 105 LAB A,False,6085
+290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 105 LAB A,2,Outdoor Air Method,Sum,False,6086
+290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 105 LAB A,3,Outdoor Air Flow per Person {m3/s-person},0.0025,False,6087
+290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 105 LAB A,4,Outdoor Air Flow per Zone Floor Area {m3/s-m2},0.0003,False,6088
+290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 105 LAB A,5,Outdoor Air Flow per Zone {m3/s},0,False,6089
+290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 105 LAB A,6,Outdoor Air Flow Air Changes per Hour {1/hr},0,False,6090
+290,DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 105 LAB A,7,Outdoor Air Schedule Name,Min OA Sched,False,6091
+291,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103 LAB B,1,Name,SZ DSZAD Thermal Zone: Space 103 LAB B,False,6097
+291,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103 LAB B,2,Zone Air Distribution Effectiveness in Cooling Mode {dimensionless},1,False,6098
+291,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103 LAB B,3,Zone Air Distribution Effectiveness in Heating Mode {dimensionless},1,False,6099
 292,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 102 - Plus,1,Name,SZ DSZAD Thermal Zone: Space 102 - Plus,False,6102
 292,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 102 - Plus,2,Zone Air Distribution Effectiveness in Cooling Mode {dimensionless},1,False,6103
 292,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 102 - Plus,3,Zone Air Distribution Effectiveness in Heating Mode {dimensionless},1,False,6104
-293,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103,1,Name,SZ DSZAD Thermal Zone: Space 103,False,6107
-293,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103,2,Zone Air Distribution Effectiveness in Cooling Mode {dimensionless},1,False,6108
-293,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103,3,Zone Air Distribution Effectiveness in Heating Mode {dimensionless},1,False,6109
+293,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 105 LAB A,1,Name,SZ DSZAD Thermal Zone: Space 105 LAB A,False,6107
+293,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 105 LAB A,2,Zone Air Distribution Effectiveness in Cooling Mode {dimensionless},1,False,6108
+293,DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 105 LAB A,3,Zone Air Distribution Effectiveness in Heating Mode {dimensionless},1,False,6109
 294,Sizing:Parameters,1.2,1,Heating Sizing Factor,1.2,False,6115
 294,Sizing:Parameters,1.2,2,Cooling Sizing Factor,2,False,6116
-295,Sizing:Zone,Thermal Zone: Space 101,1,Zone or ZoneList Name,Thermal Zone: Space 101,False,6122
-295,Sizing:Zone,Thermal Zone: Space 101,2,Zone Cooling Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6123
-295,Sizing:Zone,Thermal Zone: Space 101,3,Zone Cooling Design Supply Air Temperature {C},12.8,False,6124
-295,Sizing:Zone,Thermal Zone: Space 101,4,Zone Cooling Design Supply Air Temperature Difference {deltaC},11,False,6125
-295,Sizing:Zone,Thermal Zone: Space 101,5,Zone Heating Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6126
-295,Sizing:Zone,Thermal Zone: Space 101,6,Zone Heating Design Supply Air Temperature {C},40,False,6127
-295,Sizing:Zone,Thermal Zone: Space 101,7,Zone Heating Design Supply Air Temperature Difference {deltaC},,True,6128
-295,Sizing:Zone,Thermal Zone: Space 101,8,Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir},0.0085,False,6129
-295,Sizing:Zone,Thermal Zone: Space 101,9,Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir},0.008,False,6130
-295,Sizing:Zone,Thermal Zone: Space 101,10,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 101,False,6131
-295,Sizing:Zone,Thermal Zone: Space 101,11,Zone Heating Sizing Factor,1.2,False,6132
-295,Sizing:Zone,Thermal Zone: Space 101,12,Zone Cooling Sizing Factor,1.2,False,6133
-295,Sizing:Zone,Thermal Zone: Space 101,13,Cooling Design Air Flow Method,,True,6134
-295,Sizing:Zone,Thermal Zone: Space 101,14,Cooling Design Air Flow Rate {m3/s},,True,6135
-295,Sizing:Zone,Thermal Zone: Space 101,15,Cooling Minimum Air Flow per Zone Floor Area {m3/s-m2},,True,6136
-295,Sizing:Zone,Thermal Zone: Space 101,16,Cooling Minimum Air Flow {m3/s},,True,6137
-295,Sizing:Zone,Thermal Zone: Space 101,17,Cooling Minimum Air Flow Fraction,,True,6138
-295,Sizing:Zone,Thermal Zone: Space 101,18,Heating Design Air Flow Method,,True,6139
-295,Sizing:Zone,Thermal Zone: Space 101,19,Heating Design Air Flow Rate {m3/s},,True,6140
-295,Sizing:Zone,Thermal Zone: Space 101,20,Heating Maximum Air Flow per Zone Floor Area {m3/s-m2},,True,6141
-295,Sizing:Zone,Thermal Zone: Space 101,21,Heating Maximum Air Flow {m3/s},,True,6142
-295,Sizing:Zone,Thermal Zone: Space 101,22,Heating Maximum Air Flow Fraction,,True,6143
-295,Sizing:Zone,Thermal Zone: Space 101,23,Design Specification Zone Air Distribution Object Name,SZ DSZAD Thermal Zone: Space 101,False,6144
-295,Sizing:Zone,Thermal Zone: Space 101,24,Account for Dedicated Outdoor Air System,No,False,6145
-295,Sizing:Zone,Thermal Zone: Space 101,25,Dedicated Outdoor Air System Control Strategy,,True,6146
-295,Sizing:Zone,Thermal Zone: Space 101,26,Dedicated Outdoor Air Low Setpoint Temperature for Design {C},,True,6147
-295,Sizing:Zone,Thermal Zone: Space 101,27,Dedicated Outdoor Air High Setpoint Temperature for Design {C},,True,6148
-295,Sizing:Zone,Thermal Zone: Space 101,28,Zone Load Sizing Method,Sensible Load Only No Latent Load,False,6149
-295,Sizing:Zone,Thermal Zone: Space 101,29,Zone Latent Cooling Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6150
-295,Sizing:Zone,Thermal Zone: Space 101,30,Zone Dehumidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6151
-295,Sizing:Zone,Thermal Zone: Space 101,31,Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6152
-295,Sizing:Zone,Thermal Zone: Space 101,32,Zone Latent Heating Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6153
-295,Sizing:Zone,Thermal Zone: Space 101,33,Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6154
-295,Sizing:Zone,Thermal Zone: Space 101,34,Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6155
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,1,Zone or ZoneList Name,Thermal Zone: Space 103 LAB B,False,6122
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,2,Zone Cooling Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6123
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,3,Zone Cooling Design Supply Air Temperature {C},12.8,False,6124
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,4,Zone Cooling Design Supply Air Temperature Difference {deltaC},11,False,6125
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,5,Zone Heating Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6126
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,6,Zone Heating Design Supply Air Temperature {C},40,False,6127
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,7,Zone Heating Design Supply Air Temperature Difference {deltaC},,True,6128
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,8,Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir},0.0085,False,6129
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,9,Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir},0.008,False,6130
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,10,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 103 LAB B,False,6131
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,11,Zone Heating Sizing Factor,1.2,False,6132
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,12,Zone Cooling Sizing Factor,1.2,False,6133
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,13,Cooling Design Air Flow Method,,True,6134
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,14,Cooling Design Air Flow Rate {m3/s},,True,6135
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,15,Cooling Minimum Air Flow per Zone Floor Area {m3/s-m2},,True,6136
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,16,Cooling Minimum Air Flow {m3/s},,True,6137
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,17,Cooling Minimum Air Flow Fraction,,True,6138
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,18,Heating Design Air Flow Method,,True,6139
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,19,Heating Design Air Flow Rate {m3/s},,True,6140
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,20,Heating Maximum Air Flow per Zone Floor Area {m3/s-m2},,True,6141
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,21,Heating Maximum Air Flow {m3/s},,True,6142
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,22,Heating Maximum Air Flow Fraction,,True,6143
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,23,Design Specification Zone Air Distribution Object Name,SZ DSZAD Thermal Zone: Space 103 LAB B,False,6144
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,24,Account for Dedicated Outdoor Air System,No,False,6145
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,25,Dedicated Outdoor Air System Control Strategy,,True,6146
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,26,Dedicated Outdoor Air Low Setpoint Temperature for Design {C},,True,6147
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,27,Dedicated Outdoor Air High Setpoint Temperature for Design {C},,True,6148
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,28,Zone Load Sizing Method,Sensible Load Only No Latent Load,False,6149
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,29,Zone Latent Cooling Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6150
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,30,Zone Dehumidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6151
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,31,Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6152
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,32,Zone Latent Heating Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6153
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,33,Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6154
+295,Sizing:Zone,Thermal Zone: Space 103 LAB B,34,Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6155
 296,Sizing:Zone,Thermal Zone: Space 102 - Plus,1,Zone or ZoneList Name,Thermal Zone: Space 102 - Plus,False,6158
 296,Sizing:Zone,Thermal Zone: Space 102 - Plus,2,Zone Cooling Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6159
 296,Sizing:Zone,Thermal Zone: Space 102 - Plus,3,Zone Cooling Design Supply Air Temperature {C},12.8,False,6160
@@ -5144,40 +5144,40 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 296,Sizing:Zone,Thermal Zone: Space 102 - Plus,32,Zone Latent Heating Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6189
 296,Sizing:Zone,Thermal Zone: Space 102 - Plus,33,Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6190
 296,Sizing:Zone,Thermal Zone: Space 102 - Plus,34,Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6191
-297,Sizing:Zone,Thermal Zone: Space 103,1,Zone or ZoneList Name,Thermal Zone: Space 103,False,6194
-297,Sizing:Zone,Thermal Zone: Space 103,2,Zone Cooling Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6195
-297,Sizing:Zone,Thermal Zone: Space 103,3,Zone Cooling Design Supply Air Temperature {C},12.8,False,6196
-297,Sizing:Zone,Thermal Zone: Space 103,4,Zone Cooling Design Supply Air Temperature Difference {deltaC},,True,6197
-297,Sizing:Zone,Thermal Zone: Space 103,5,Zone Heating Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6198
-297,Sizing:Zone,Thermal Zone: Space 103,6,Zone Heating Design Supply Air Temperature {C},40,False,6199
-297,Sizing:Zone,Thermal Zone: Space 103,7,Zone Heating Design Supply Air Temperature Difference {deltaC},,True,6200
-297,Sizing:Zone,Thermal Zone: Space 103,8,Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir},0.0085,False,6201
-297,Sizing:Zone,Thermal Zone: Space 103,9,Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir},0.008,False,6202
-297,Sizing:Zone,Thermal Zone: Space 103,10,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 103,False,6203
-297,Sizing:Zone,Thermal Zone: Space 103,11,Zone Heating Sizing Factor,1.2,False,6204
-297,Sizing:Zone,Thermal Zone: Space 103,12,Zone Cooling Sizing Factor,1.2,False,6205
-297,Sizing:Zone,Thermal Zone: Space 103,13,Cooling Design Air Flow Method,,True,6206
-297,Sizing:Zone,Thermal Zone: Space 103,14,Cooling Design Air Flow Rate {m3/s},,True,6207
-297,Sizing:Zone,Thermal Zone: Space 103,15,Cooling Minimum Air Flow per Zone Floor Area {m3/s-m2},,True,6208
-297,Sizing:Zone,Thermal Zone: Space 103,16,Cooling Minimum Air Flow {m3/s},,True,6209
-297,Sizing:Zone,Thermal Zone: Space 103,17,Cooling Minimum Air Flow Fraction,,True,6210
-297,Sizing:Zone,Thermal Zone: Space 103,18,Heating Design Air Flow Method,,True,6211
-297,Sizing:Zone,Thermal Zone: Space 103,19,Heating Design Air Flow Rate {m3/s},,True,6212
-297,Sizing:Zone,Thermal Zone: Space 103,20,Heating Maximum Air Flow per Zone Floor Area {m3/s-m2},,True,6213
-297,Sizing:Zone,Thermal Zone: Space 103,21,Heating Maximum Air Flow {m3/s},,True,6214
-297,Sizing:Zone,Thermal Zone: Space 103,22,Heating Maximum Air Flow Fraction,,True,6215
-297,Sizing:Zone,Thermal Zone: Space 103,23,Design Specification Zone Air Distribution Object Name,SZ DSZAD Thermal Zone: Space 103,False,6216
-297,Sizing:Zone,Thermal Zone: Space 103,24,Account for Dedicated Outdoor Air System,No,False,6217
-297,Sizing:Zone,Thermal Zone: Space 103,25,Dedicated Outdoor Air System Control Strategy,,True,6218
-297,Sizing:Zone,Thermal Zone: Space 103,26,Dedicated Outdoor Air Low Setpoint Temperature for Design {C},,True,6219
-297,Sizing:Zone,Thermal Zone: Space 103,27,Dedicated Outdoor Air High Setpoint Temperature for Design {C},,True,6220
-297,Sizing:Zone,Thermal Zone: Space 103,28,Zone Load Sizing Method,Sensible Load Only No Latent Load,False,6221
-297,Sizing:Zone,Thermal Zone: Space 103,29,Zone Latent Cooling Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6222
-297,Sizing:Zone,Thermal Zone: Space 103,30,Zone Dehumidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6223
-297,Sizing:Zone,Thermal Zone: Space 103,31,Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6224
-297,Sizing:Zone,Thermal Zone: Space 103,32,Zone Latent Heating Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6225
-297,Sizing:Zone,Thermal Zone: Space 103,33,Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6226
-297,Sizing:Zone,Thermal Zone: Space 103,34,Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6227
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,1,Zone or ZoneList Name,Thermal Zone: Space 105 LAB A,False,6194
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,2,Zone Cooling Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6195
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,3,Zone Cooling Design Supply Air Temperature {C},12.8,False,6196
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,4,Zone Cooling Design Supply Air Temperature Difference {deltaC},,True,6197
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,5,Zone Heating Design Supply Air Temperature Input Method,SupplyAirTemperature,False,6198
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,6,Zone Heating Design Supply Air Temperature {C},40,False,6199
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,7,Zone Heating Design Supply Air Temperature Difference {deltaC},,True,6200
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,8,Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir},0.0085,False,6201
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,9,Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir},0.008,False,6202
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,10,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 105 LAB A,False,6203
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,11,Zone Heating Sizing Factor,1.2,False,6204
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,12,Zone Cooling Sizing Factor,1.2,False,6205
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,13,Cooling Design Air Flow Method,,True,6206
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,14,Cooling Design Air Flow Rate {m3/s},,True,6207
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,15,Cooling Minimum Air Flow per Zone Floor Area {m3/s-m2},,True,6208
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,16,Cooling Minimum Air Flow {m3/s},,True,6209
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,17,Cooling Minimum Air Flow Fraction,,True,6210
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,18,Heating Design Air Flow Method,,True,6211
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,19,Heating Design Air Flow Rate {m3/s},,True,6212
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,20,Heating Maximum Air Flow per Zone Floor Area {m3/s-m2},,True,6213
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,21,Heating Maximum Air Flow {m3/s},,True,6214
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,22,Heating Maximum Air Flow Fraction,,True,6215
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,23,Design Specification Zone Air Distribution Object Name,SZ DSZAD Thermal Zone: Space 105 LAB A,False,6216
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,24,Account for Dedicated Outdoor Air System,No,False,6217
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,25,Dedicated Outdoor Air System Control Strategy,,True,6218
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,26,Dedicated Outdoor Air Low Setpoint Temperature for Design {C},,True,6219
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,27,Dedicated Outdoor Air High Setpoint Temperature for Design {C},,True,6220
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,28,Zone Load Sizing Method,Sensible Load Only No Latent Load,False,6221
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,29,Zone Latent Cooling Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6222
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,30,Zone Dehumidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6223
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,31,Zone Cooling Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6224
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,32,Zone Latent Heating Design Supply Air Humidity Ratio Input Method,HumidityRatioDifference,False,6225
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,33,Zone Humidification Design Supply Air Humidity Ratio {kgWater/kgDryAir},,True,6226
+297,Sizing:Zone,Thermal Zone: Space 105 LAB A,34,Zone Humidification Design Supply Air Humidity Ratio Difference {kgWater/kgDryAir},0.005,False,6227
 298,Sizing:System,DXVAV Sys 1,1,AirLoop Name,DXVAV Sys 1,False,6233
 298,Sizing:System,DXVAV Sys 1,2,Type of Load to Size On,Sensible,False,6234
 298,Sizing:System,DXVAV Sys 1,3,Design Outdoor Air Flow Rate {m3/s},autosize,False,6235
@@ -5215,44 +5215,44 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 298,Sizing:System,DXVAV Sys 1,35,Heating Design Capacity Per Floor Area {W/m2},,True,6267
 298,Sizing:System,DXVAV Sys 1,36,Fraction of Autosized Heating Design Capacity,,True,6268
 298,Sizing:System,DXVAV Sys 1,37,Central Cooling Capacity Control Method,OnOff,False,6269
-299,ZoneControl:Thermostat,Thermal Zone: Space 101 Thermostat,1,Name,Thermal Zone: Space 101 Thermostat,False,6275
-299,ZoneControl:Thermostat,Thermal Zone: Space 101 Thermostat,2,Zone or ZoneList Name,Thermal Zone: Space 101,False,6276
-299,ZoneControl:Thermostat,Thermal Zone: Space 101 Thermostat,3,Control Type Schedule Name,HVACTemplate-Always 4,False,6277
-299,ZoneControl:Thermostat,Thermal Zone: Space 101 Thermostat,4,Control 1 Object Type,ThermostatSetpoint:DualSetpoint,False,6278
-299,ZoneControl:Thermostat,Thermal Zone: Space 101 Thermostat,5,Control 1 Name,Dual SP Control,False,6279
+299,ZoneControl:Thermostat,Thermal Zone: Space 103 LAB B Thermostat,1,Name,Thermal Zone: Space 103 LAB B Thermostat,False,6275
+299,ZoneControl:Thermostat,Thermal Zone: Space 103 LAB B Thermostat,2,Zone or ZoneList Name,Thermal Zone: Space 103 LAB B,False,6276
+299,ZoneControl:Thermostat,Thermal Zone: Space 103 LAB B Thermostat,3,Control Type Schedule Name,HVACTemplate-Always 4,False,6277
+299,ZoneControl:Thermostat,Thermal Zone: Space 103 LAB B Thermostat,4,Control 1 Object Type,ThermostatSetpoint:DualSetpoint,False,6278
+299,ZoneControl:Thermostat,Thermal Zone: Space 103 LAB B Thermostat,5,Control 1 Name,Dual SP Control,False,6279
 300,ZoneControl:Thermostat,Thermal Zone: Space 102 - Plus Thermostat,1,Name,Thermal Zone: Space 102 - Plus Thermostat,False,6282
 300,ZoneControl:Thermostat,Thermal Zone: Space 102 - Plus Thermostat,2,Zone or ZoneList Name,Thermal Zone: Space 102 - Plus,False,6283
 300,ZoneControl:Thermostat,Thermal Zone: Space 102 - Plus Thermostat,3,Control Type Schedule Name,HVACTemplate-Always 4,False,6284
 300,ZoneControl:Thermostat,Thermal Zone: Space 102 - Plus Thermostat,4,Control 1 Object Type,ThermostatSetpoint:DualSetpoint,False,6285
 300,ZoneControl:Thermostat,Thermal Zone: Space 102 - Plus Thermostat,5,Control 1 Name,Dual SP Control,False,6286
-301,ZoneControl:Thermostat,Thermal Zone: Space 103 Thermostat,1,Name,Thermal Zone: Space 103 Thermostat,False,6289
-301,ZoneControl:Thermostat,Thermal Zone: Space 103 Thermostat,2,Zone or ZoneList Name,Thermal Zone: Space 103,False,6290
-301,ZoneControl:Thermostat,Thermal Zone: Space 103 Thermostat,3,Control Type Schedule Name,HVACTemplate-Always 4,False,6291
-301,ZoneControl:Thermostat,Thermal Zone: Space 103 Thermostat,4,Control 1 Object Type,ThermostatSetpoint:DualSetpoint,False,6292
-301,ZoneControl:Thermostat,Thermal Zone: Space 103 Thermostat,5,Control 1 Name,Dual SP Control,False,6293
+301,ZoneControl:Thermostat,Thermal Zone: Space 105 LAB A Thermostat,1,Name,Thermal Zone: Space 105 LAB A Thermostat,False,6289
+301,ZoneControl:Thermostat,Thermal Zone: Space 105 LAB A Thermostat,2,Zone or ZoneList Name,Thermal Zone: Space 105 LAB A,False,6290
+301,ZoneControl:Thermostat,Thermal Zone: Space 105 LAB A Thermostat,3,Control Type Schedule Name,HVACTemplate-Always 4,False,6291
+301,ZoneControl:Thermostat,Thermal Zone: Space 105 LAB A Thermostat,4,Control 1 Object Type,ThermostatSetpoint:DualSetpoint,False,6292
+301,ZoneControl:Thermostat,Thermal Zone: Space 105 LAB A Thermostat,5,Control 1 Name,Dual SP Control,False,6293
 302,ThermostatSetpoint:DualSetpoint,Dual SP Control,1,Name,Dual SP Control,False,6299
 302,ThermostatSetpoint:DualSetpoint,Dual SP Control,2,Heating Setpoint Temperature Schedule Name,HTGSETP_SCH_NO_OPTIMUM,False,6300
 302,ThermostatSetpoint:DualSetpoint,Dual SP Control,3,Cooling Setpoint Temperature Schedule Name,CLGSETP_SCH_NO_OPTIMUM,False,6301
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,1,Name,Thermal Zone: Space 101 VAV Reheat,False,6307
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,2,Availability Schedule Name,,True,6308
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,3,Damper Air Outlet Node Name,Thermal Zone: Space 101 Damper Outlet,False,6309
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,4,Air Inlet Node Name,Thermal Zone: Space 101 Zone Equip Inlet,False,6310
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,5,Maximum Air Flow Rate {m3/s},autosize,False,6311
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,6,Zone Minimum Air Flow Input Method,Constant,False,6312
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,7,Constant Minimum Air Flow Fraction,autosize,False,6313
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,8,Fixed Minimum Air Flow Rate {m3/s},,True,6314
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,9,Minimum Air Flow Fraction Schedule Name,,True,6315
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,10,Reheat Coil Object Type,Coil:Heating:Electric,False,6316
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,11,Reheat Coil Name,Thermal Zone: Space 101 Reheat Coil,False,6317
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,12,Maximum Hot Water or Steam Flow Rate {m3/s},,True,6318
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,13,Minimum Hot Water or Steam Flow Rate {m3/s},,True,6319
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,14,Air Outlet Node Name,Thermal Zone: Space 101 Supply Inlet,False,6320
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,15,Convergence Tolerance,0.001,False,6321
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,16,Damper Heating Action,Reverse,False,6322
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,17,Maximum Flow per Zone Floor Area During Reheat {m3/s-m2},autocalculate,False,6323
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,18,Maximum Flow Fraction During Reheat,,True,6324
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,19,Maximum Reheat Air Temperature {C},,True,6325
-303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,20,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 101,False,6326
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,1,Name,Thermal Zone: Space 103 LAB B VAV Reheat,False,6307
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,2,Availability Schedule Name,,True,6308
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,3,Damper Air Outlet Node Name,Thermal Zone: Space 103 LAB B Damper Outlet,False,6309
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,4,Air Inlet Node Name,Thermal Zone: Space 103 LAB B Zone Equip Inlet,False,6310
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,5,Maximum Air Flow Rate {m3/s},autosize,False,6311
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,6,Zone Minimum Air Flow Input Method,Constant,False,6312
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,7,Constant Minimum Air Flow Fraction,autosize,False,6313
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,8,Fixed Minimum Air Flow Rate {m3/s},,True,6314
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,9,Minimum Air Flow Fraction Schedule Name,,True,6315
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,10,Reheat Coil Object Type,Coil:Heating:Electric,False,6316
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,11,Reheat Coil Name,Thermal Zone: Space 103 LAB B Reheat Coil,False,6317
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,12,Maximum Hot Water or Steam Flow Rate {m3/s},,True,6318
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,13,Minimum Hot Water or Steam Flow Rate {m3/s},,True,6319
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,14,Air Outlet Node Name,Thermal Zone: Space 103 LAB B Supply Inlet,False,6320
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,15,Convergence Tolerance,0.001,False,6321
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,16,Damper Heating Action,Reverse,False,6322
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,17,Maximum Flow per Zone Floor Area During Reheat {m3/s-m2},autocalculate,False,6323
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,18,Maximum Flow Fraction During Reheat,,True,6324
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,19,Maximum Reheat Air Temperature {C},,True,6325
+303,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,20,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 103 LAB B,False,6326
 304,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 102 - Plus VAV Reheat,1,Name,Thermal Zone: Space 102 - Plus VAV Reheat,False,6329
 304,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 102 - Plus VAV Reheat,2,Availability Schedule Name,,True,6330
 304,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 102 - Plus VAV Reheat,3,Damper Air Outlet Node Name,Thermal Zone: Space 102 - Plus Damper Outlet,False,6331
@@ -5273,46 +5273,46 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 304,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 102 - Plus VAV Reheat,18,Maximum Flow Fraction During Reheat,,True,6346
 304,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 102 - Plus VAV Reheat,19,Maximum Reheat Air Temperature {C},,True,6347
 304,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 102 - Plus VAV Reheat,20,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 102 - Plus,False,6348
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,1,Name,Thermal Zone: Space 103 VAV Reheat,False,6351
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,2,Availability Schedule Name,,True,6352
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,3,Damper Air Outlet Node Name,Thermal Zone: Space 103 Damper Outlet,False,6353
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,4,Air Inlet Node Name,Thermal Zone: Space 103 Zone Equip Inlet,False,6354
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,5,Maximum Air Flow Rate {m3/s},autosize,False,6355
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,6,Zone Minimum Air Flow Input Method,Constant,False,6356
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,7,Constant Minimum Air Flow Fraction,autosize,False,6357
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,8,Fixed Minimum Air Flow Rate {m3/s},,True,6358
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,9,Minimum Air Flow Fraction Schedule Name,,True,6359
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,10,Reheat Coil Object Type,Coil:Heating:Electric,False,6360
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,11,Reheat Coil Name,Thermal Zone: Space 103 Reheat Coil,False,6361
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,12,Maximum Hot Water or Steam Flow Rate {m3/s},,True,6362
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,13,Minimum Hot Water or Steam Flow Rate {m3/s},,True,6363
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,14,Air Outlet Node Name,Thermal Zone: Space 103 Supply Inlet,False,6364
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,15,Convergence Tolerance,0.001,False,6365
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,16,Damper Heating Action,Reverse,False,6366
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,17,Maximum Flow per Zone Floor Area During Reheat {m3/s-m2},autocalculate,False,6367
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,18,Maximum Flow Fraction During Reheat,,True,6368
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,19,Maximum Reheat Air Temperature {C},,True,6369
-305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,20,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 103,False,6370
-306,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 101 ATU,1,Name,Thermal Zone: Space 101 ATU,False,6376
-306,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 101 ATU,2,Air Distribution Unit Outlet Node Name,Thermal Zone: Space 101 Supply Inlet,False,6377
-306,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 101 ATU,3,Air Terminal Object Type,AirTerminal:SingleDuct:VAV:Reheat,False,6378
-306,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 101 ATU,4,Air Terminal Name,Thermal Zone: Space 101 VAV Reheat,False,6379
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,1,Name,Thermal Zone: Space 105 LAB A VAV Reheat,False,6351
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,2,Availability Schedule Name,,True,6352
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,3,Damper Air Outlet Node Name,Thermal Zone: Space 105 LAB A Damper Outlet,False,6353
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,4,Air Inlet Node Name,Thermal Zone: Space 105 LAB A Zone Equip Inlet,False,6354
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,5,Maximum Air Flow Rate {m3/s},autosize,False,6355
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,6,Zone Minimum Air Flow Input Method,Constant,False,6356
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,7,Constant Minimum Air Flow Fraction,autosize,False,6357
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,8,Fixed Minimum Air Flow Rate {m3/s},,True,6358
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,9,Minimum Air Flow Fraction Schedule Name,,True,6359
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,10,Reheat Coil Object Type,Coil:Heating:Electric,False,6360
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,11,Reheat Coil Name,Thermal Zone: Space 105 LAB A Reheat Coil,False,6361
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,12,Maximum Hot Water or Steam Flow Rate {m3/s},,True,6362
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,13,Minimum Hot Water or Steam Flow Rate {m3/s},,True,6363
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,14,Air Outlet Node Name,Thermal Zone: Space 105 LAB A Supply Inlet,False,6364
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,15,Convergence Tolerance,0.001,False,6365
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,16,Damper Heating Action,Reverse,False,6366
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,17,Maximum Flow per Zone Floor Area During Reheat {m3/s-m2},autocalculate,False,6367
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,18,Maximum Flow Fraction During Reheat,,True,6368
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,19,Maximum Reheat Air Temperature {C},,True,6369
+305,AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,20,Design Specification Outdoor Air Object Name,SZ DSOA Thermal Zone: Space 105 LAB A,False,6370
+306,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 LAB B ATU,1,Name,Thermal Zone: Space 103 LAB B ATU,False,6376
+306,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 LAB B ATU,2,Air Distribution Unit Outlet Node Name,Thermal Zone: Space 103 LAB B Supply Inlet,False,6377
+306,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 LAB B ATU,3,Air Terminal Object Type,AirTerminal:SingleDuct:VAV:Reheat,False,6378
+306,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 LAB B ATU,4,Air Terminal Name,Thermal Zone: Space 103 LAB B VAV Reheat,False,6379
 307,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 102 - Plus ATU,1,Name,Thermal Zone: Space 102 - Plus ATU,False,6382
 307,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 102 - Plus ATU,2,Air Distribution Unit Outlet Node Name,Thermal Zone: Space 102 - Plus Supply Inlet,False,6383
 307,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 102 - Plus ATU,3,Air Terminal Object Type,AirTerminal:SingleDuct:VAV:Reheat,False,6384
 307,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 102 - Plus ATU,4,Air Terminal Name,Thermal Zone: Space 102 - Plus VAV Reheat,False,6385
-308,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 ATU,1,Name,Thermal Zone: Space 103 ATU,False,6388
-308,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 ATU,2,Air Distribution Unit Outlet Node Name,Thermal Zone: Space 103 Supply Inlet,False,6389
-308,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 ATU,3,Air Terminal Object Type,AirTerminal:SingleDuct:VAV:Reheat,False,6390
-308,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 ATU,4,Air Terminal Name,Thermal Zone: Space 103 VAV Reheat,False,6391
-309,ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,1,Name,Thermal Zone: Space 101 Equipment,False,6397
-309,ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,2,Load Distribution Scheme,SequentialLoad,False,6398
-309,ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,3,Zone Equipment 1 Object Type,ZoneHVAC:AirDistributionUnit,False,6399
-309,ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,4,Zone Equipment 1 Name,Thermal Zone: Space 101 ATU,False,6400
-309,ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,5,Zone Equipment 1 Cooling Sequence,1,False,6401
-309,ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,6,Zone Equipment 1 Heating or No-Load Sequence,1,False,6402
-309,ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,7,Zone Equipment 1 Sequential Cooling Fraction Schedule Name,,True,6403
-309,ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,8,Zone Equipment 1 Sequential Heating Fraction Schedule Name,,True,6404
+308,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 105 LAB A ATU,1,Name,Thermal Zone: Space 105 LAB A ATU,False,6388
+308,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 105 LAB A ATU,2,Air Distribution Unit Outlet Node Name,Thermal Zone: Space 105 LAB A Supply Inlet,False,6389
+308,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 105 LAB A ATU,3,Air Terminal Object Type,AirTerminal:SingleDuct:VAV:Reheat,False,6390
+308,ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 105 LAB A ATU,4,Air Terminal Name,Thermal Zone: Space 105 LAB A VAV Reheat,False,6391
+309,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,1,Name,Thermal Zone: Space 103 LAB B Equipment,False,6397
+309,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,2,Load Distribution Scheme,SequentialLoad,False,6398
+309,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,3,Zone Equipment 1 Object Type,ZoneHVAC:AirDistributionUnit,False,6399
+309,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,4,Zone Equipment 1 Name,Thermal Zone: Space 103 LAB B ATU,False,6400
+309,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,5,Zone Equipment 1 Cooling Sequence,1,False,6401
+309,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,6,Zone Equipment 1 Heating or No-Load Sequence,1,False,6402
+309,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,7,Zone Equipment 1 Sequential Cooling Fraction Schedule Name,,True,6403
+309,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,8,Zone Equipment 1 Sequential Heating Fraction Schedule Name,,True,6404
 310,ZoneHVAC:EquipmentList,Thermal Zone: Space 102 - Plus Equipment,1,Name,Thermal Zone: Space 102 - Plus Equipment,False,6407
 310,ZoneHVAC:EquipmentList,Thermal Zone: Space 102 - Plus Equipment,2,Load Distribution Scheme,SequentialLoad,False,6408
 310,ZoneHVAC:EquipmentList,Thermal Zone: Space 102 - Plus Equipment,3,Zone Equipment 1 Object Type,ZoneHVAC:AirDistributionUnit,False,6409
@@ -5321,32 +5321,32 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 310,ZoneHVAC:EquipmentList,Thermal Zone: Space 102 - Plus Equipment,6,Zone Equipment 1 Heating or No-Load Sequence,1,False,6412
 310,ZoneHVAC:EquipmentList,Thermal Zone: Space 102 - Plus Equipment,7,Zone Equipment 1 Sequential Cooling Fraction Schedule Name,,True,6413
 310,ZoneHVAC:EquipmentList,Thermal Zone: Space 102 - Plus Equipment,8,Zone Equipment 1 Sequential Heating Fraction Schedule Name,,True,6414
-311,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,1,Name,Thermal Zone: Space 103 Equipment,False,6417
-311,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,2,Load Distribution Scheme,SequentialLoad,False,6418
-311,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,3,Zone Equipment 1 Object Type,ZoneHVAC:AirDistributionUnit,False,6419
-311,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,4,Zone Equipment 1 Name,Thermal Zone: Space 103 ATU,False,6420
-311,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,5,Zone Equipment 1 Cooling Sequence,1,False,6421
-311,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,6,Zone Equipment 1 Heating or No-Load Sequence,1,False,6422
-311,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,7,Zone Equipment 1 Sequential Cooling Fraction Schedule Name,,True,6423
-311,ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,8,Zone Equipment 1 Sequential Heating Fraction Schedule Name,,True,6424
-312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 101,1,Zone Name,Thermal Zone: Space 101,False,6430
-312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 101,2,Zone Conditioning Equipment List Name,Thermal Zone: Space 101 Equipment,False,6431
-312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 101,3,Zone Air Inlet Node or NodeList Name,Thermal Zone: Space 101 Supply Inlet,False,6432
-312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 101,4,Zone Air Exhaust Node or NodeList Name,,True,6433
-312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 101,5,Zone Air Node Name,Thermal Zone: Space 101 Zone Air Node,False,6434
-312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 101,6,Zone Return Air Node or NodeList Name,Thermal Zone: Space 101 Return Outlet,False,6435
+311,ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,1,Name,Thermal Zone: Space 105 LAB A Equipment,False,6417
+311,ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,2,Load Distribution Scheme,SequentialLoad,False,6418
+311,ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,3,Zone Equipment 1 Object Type,ZoneHVAC:AirDistributionUnit,False,6419
+311,ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,4,Zone Equipment 1 Name,Thermal Zone: Space 105 LAB A ATU,False,6420
+311,ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,5,Zone Equipment 1 Cooling Sequence,1,False,6421
+311,ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,6,Zone Equipment 1 Heating or No-Load Sequence,1,False,6422
+311,ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,7,Zone Equipment 1 Sequential Cooling Fraction Schedule Name,,True,6423
+311,ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,8,Zone Equipment 1 Sequential Heating Fraction Schedule Name,,True,6424
+312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103 LAB B,1,Zone Name,Thermal Zone: Space 103 LAB B,False,6430
+312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103 LAB B,2,Zone Conditioning Equipment List Name,Thermal Zone: Space 103 LAB B Equipment,False,6431
+312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103 LAB B,3,Zone Air Inlet Node or NodeList Name,Thermal Zone: Space 103 LAB B Supply Inlet,False,6432
+312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103 LAB B,4,Zone Air Exhaust Node or NodeList Name,,True,6433
+312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103 LAB B,5,Zone Air Node Name,Thermal Zone: Space 103 LAB B Zone Air Node,False,6434
+312,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103 LAB B,6,Zone Return Air Node or NodeList Name,Thermal Zone: Space 103 LAB B Return Outlet,False,6435
 313,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 102 - Plus,1,Zone Name,Thermal Zone: Space 102 - Plus,False,6438
 313,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 102 - Plus,2,Zone Conditioning Equipment List Name,Thermal Zone: Space 102 - Plus Equipment,False,6439
 313,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 102 - Plus,3,Zone Air Inlet Node or NodeList Name,Thermal Zone: Space 102 - Plus Supply Inlet,False,6440
 313,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 102 - Plus,4,Zone Air Exhaust Node or NodeList Name,,True,6441
 313,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 102 - Plus,5,Zone Air Node Name,Thermal Zone: Space 102 - Plus Zone Air Node,False,6442
 313,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 102 - Plus,6,Zone Return Air Node or NodeList Name,Thermal Zone: Space 102 - Plus Return Outlet,False,6443
-314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103,1,Zone Name,Thermal Zone: Space 103,False,6446
-314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103,2,Zone Conditioning Equipment List Name,Thermal Zone: Space 103 Equipment,False,6447
-314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103,3,Zone Air Inlet Node or NodeList Name,Thermal Zone: Space 103 Supply Inlet,False,6448
-314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103,4,Zone Air Exhaust Node or NodeList Name,,True,6449
-314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103,5,Zone Air Node Name,Thermal Zone: Space 103 Zone Air Node,False,6450
-314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103,6,Zone Return Air Node or NodeList Name,Thermal Zone: Space 103 Return Outlet,False,6451
+314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 105 LAB A,1,Zone Name,Thermal Zone: Space 105 LAB A,False,6446
+314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 105 LAB A,2,Zone Conditioning Equipment List Name,Thermal Zone: Space 105 LAB A Equipment,False,6447
+314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 105 LAB A,3,Zone Air Inlet Node or NodeList Name,Thermal Zone: Space 105 LAB A Supply Inlet,False,6448
+314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 105 LAB A,4,Zone Air Exhaust Node or NodeList Name,,True,6449
+314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 105 LAB A,5,Zone Air Node Name,Thermal Zone: Space 105 LAB A Zone Air Node,False,6450
+314,ZoneHVAC:EquipmentConnections,Thermal Zone: Space 105 LAB A,6,Zone Return Air Node or NodeList Name,Thermal Zone: Space 105 LAB A Return Outlet,False,6451
 315,Fan:VariableVolume,DXVAV Sys 1 Return Fan,1,Name,DXVAV Sys 1 Return Fan,False,6457
 315,Fan:VariableVolume,DXVAV Sys 1 Return Fan,2,Availability Schedule Name,AvailSched_1,False,6458
 315,Fan:VariableVolume,DXVAV Sys 1 Return Fan,3,Fan Total Efficiency,0.3,False,6459
@@ -5414,24 +5414,24 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 317,Coil:Cooling:DX:TwoSpeed,DXVAV Sys 1 Cooling Coil,31,Condensate Collection Water Storage Tank Name,,True,6528
 317,Coil:Cooling:DX:TwoSpeed,DXVAV Sys 1 Cooling Coil,32,Basin Heater Capacity {W/K},,True,6529
 317,Coil:Cooling:DX:TwoSpeed,DXVAV Sys 1 Cooling Coil,33,Basin Heater Setpoint Temperature {C},2,False,6530
-318,Coil:Heating:Electric,Thermal Zone: Space 101 Reheat Coil,1,Name,Thermal Zone: Space 101 Reheat Coil,False,6536
-318,Coil:Heating:Electric,Thermal Zone: Space 101 Reheat Coil,2,Availability Schedule Name,AvailSched_1,False,6537
-318,Coil:Heating:Electric,Thermal Zone: Space 101 Reheat Coil,3,Efficiency,1,False,6538
-318,Coil:Heating:Electric,Thermal Zone: Space 101 Reheat Coil,4,Nominal Capacity {W},autosize,False,6539
-318,Coil:Heating:Electric,Thermal Zone: Space 101 Reheat Coil,5,Air Inlet Node Name,Thermal Zone: Space 101 Damper Outlet,False,6540
-318,Coil:Heating:Electric,Thermal Zone: Space 101 Reheat Coil,6,Air Outlet Node Name,Thermal Zone: Space 101 Supply Inlet,False,6541
+318,Coil:Heating:Electric,Thermal Zone: Space 103 LAB B Reheat Coil,1,Name,Thermal Zone: Space 103 LAB B Reheat Coil,False,6536
+318,Coil:Heating:Electric,Thermal Zone: Space 103 LAB B Reheat Coil,2,Availability Schedule Name,AvailSched_1,False,6537
+318,Coil:Heating:Electric,Thermal Zone: Space 103 LAB B Reheat Coil,3,Efficiency,1,False,6538
+318,Coil:Heating:Electric,Thermal Zone: Space 103 LAB B Reheat Coil,4,Nominal Capacity {W},autosize,False,6539
+318,Coil:Heating:Electric,Thermal Zone: Space 103 LAB B Reheat Coil,5,Air Inlet Node Name,Thermal Zone: Space 103 LAB B Damper Outlet,False,6540
+318,Coil:Heating:Electric,Thermal Zone: Space 103 LAB B Reheat Coil,6,Air Outlet Node Name,Thermal Zone: Space 103 LAB B Supply Inlet,False,6541
 319,Coil:Heating:Electric,Thermal Zone: Space 102 - Plus Reheat Coil,1,Name,Thermal Zone: Space 102 - Plus Reheat Coil,False,6544
 319,Coil:Heating:Electric,Thermal Zone: Space 102 - Plus Reheat Coil,2,Availability Schedule Name,AvailSched_1,False,6545
 319,Coil:Heating:Electric,Thermal Zone: Space 102 - Plus Reheat Coil,3,Efficiency,1,False,6546
 319,Coil:Heating:Electric,Thermal Zone: Space 102 - Plus Reheat Coil,4,Nominal Capacity {W},autosize,False,6547
 319,Coil:Heating:Electric,Thermal Zone: Space 102 - Plus Reheat Coil,5,Air Inlet Node Name,Thermal Zone: Space 102 - Plus Damper Outlet,False,6548
 319,Coil:Heating:Electric,Thermal Zone: Space 102 - Plus Reheat Coil,6,Air Outlet Node Name,Thermal Zone: Space 102 - Plus Supply Inlet,False,6549
-320,Coil:Heating:Electric,Thermal Zone: Space 103 Reheat Coil,1,Name,Thermal Zone: Space 103 Reheat Coil,False,6552
-320,Coil:Heating:Electric,Thermal Zone: Space 103 Reheat Coil,2,Availability Schedule Name,AvailSched_1,False,6553
-320,Coil:Heating:Electric,Thermal Zone: Space 103 Reheat Coil,3,Efficiency,1,False,6554
-320,Coil:Heating:Electric,Thermal Zone: Space 103 Reheat Coil,4,Nominal Capacity {W},autosize,False,6555
-320,Coil:Heating:Electric,Thermal Zone: Space 103 Reheat Coil,5,Air Inlet Node Name,Thermal Zone: Space 103 Damper Outlet,False,6556
-320,Coil:Heating:Electric,Thermal Zone: Space 103 Reheat Coil,6,Air Outlet Node Name,Thermal Zone: Space 103 Supply Inlet,False,6557
+320,Coil:Heating:Electric,Thermal Zone: Space 105 LAB A Reheat Coil,1,Name,Thermal Zone: Space 105 LAB A Reheat Coil,False,6552
+320,Coil:Heating:Electric,Thermal Zone: Space 105 LAB A Reheat Coil,2,Availability Schedule Name,AvailSched_1,False,6553
+320,Coil:Heating:Electric,Thermal Zone: Space 105 LAB A Reheat Coil,3,Efficiency,1,False,6554
+320,Coil:Heating:Electric,Thermal Zone: Space 105 LAB A Reheat Coil,4,Nominal Capacity {W},autosize,False,6555
+320,Coil:Heating:Electric,Thermal Zone: Space 105 LAB A Reheat Coil,5,Air Inlet Node Name,Thermal Zone: Space 105 LAB A Damper Outlet,False,6556
+320,Coil:Heating:Electric,Thermal Zone: Space 105 LAB A Reheat Coil,6,Air Outlet Node Name,Thermal Zone: Space 105 LAB A Supply Inlet,False,6557
 321,Coil:Heating:Electric,DXVAV Sys 1 Heating Coil,1,Name,DXVAV Sys 1 Heating Coil,False,6560
 321,Coil:Heating:Electric,DXVAV Sys 1 Heating Coil,2,Availability Schedule Name,AvailSched_1,False,6561
 321,Coil:Heating:Electric,DXVAV Sys 1 Heating Coil,3,Efficiency,1,False,6562
@@ -5474,15 +5474,15 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,3,Demand Controlled Ventilation,No,False,6614
 324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,4,System Outdoor Air Method,Standard62.1VentilationRateProcedure,False,6615
 324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,5,Zone Maximum Outdoor Air Fraction {dimensionless},1.0,False,6616
-324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,6,Zone or ZoneList 1 Name,Thermal Zone: Space 101,False,6617
-324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,7,Design Specification Outdoor Air Object Name 1,SZ DSOA Thermal Zone: Space 101,False,6618
-324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,8,Design Specification Zone Air Distribution Object Name 1,SZ DSZAD Thermal Zone: Space 101,False,6619
+324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,6,Zone or ZoneList 1 Name,Thermal Zone: Space 103 LAB B,False,6617
+324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,7,Design Specification Outdoor Air Object Name 1,SZ DSOA Thermal Zone: Space 103 LAB B,False,6618
+324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,8,Design Specification Zone Air Distribution Object Name 1,SZ DSZAD Thermal Zone: Space 103 LAB B,False,6619
 324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,9,Zone or ZoneList 2 Name,Thermal Zone: Space 102 - Plus,False,6620
 324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,10,Design Specification Outdoor Air Object Name 2,SZ DSOA Thermal Zone: Space 102 - Plus,False,6621
 324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,11,Design Specification Zone Air Distribution Object Name 2,SZ DSZAD Thermal Zone: Space 102 - Plus,False,6622
-324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,12,Zone or ZoneList 3 Name,Thermal Zone: Space 103,False,6623
-324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,13,Design Specification Outdoor Air Object Name 3,SZ DSOA Thermal Zone: Space 103,False,6624
-324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,14,Design Specification Zone Air Distribution Object Name 3,SZ DSZAD Thermal Zone: Space 103,False,6625
+324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,12,Zone or ZoneList 3 Name,Thermal Zone: Space 105 LAB A,False,6623
+324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,13,Design Specification Outdoor Air Object Name 3,SZ DSOA Thermal Zone: Space 105 LAB A,False,6624
+324,Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,14,Design Specification Zone Air Distribution Object Name 3,SZ DSZAD Thermal Zone: Space 105 LAB A,False,6625
 325,AirLoopHVAC:ControllerList,DXVAV Sys 1 OA System Controllers,1,Name,DXVAV Sys 1 OA System Controllers,False,6631
 325,AirLoopHVAC:ControllerList,DXVAV Sys 1 OA System Controllers,2,Controller 1 Object Type,Controller:OutdoorAir,False,6632
 325,AirLoopHVAC:ControllerList,DXVAV Sys 1 OA System Controllers,3,Controller 1 Name,DXVAV Sys 1 OA Controller,False,6633
@@ -5509,9 +5509,9 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 329,OutdoorAir:Mixer,DXVAV Sys 1 OA Mixing Box,5,Return Air Stream Node Name,DXVAV Sys 1 Return Fan Outlet,False,6674
 330,AirLoopHVAC:ZoneSplitter,DXVAV Sys 1 Zone Splitter,1,Name,DXVAV Sys 1 Zone Splitter,False,6680
 330,AirLoopHVAC:ZoneSplitter,DXVAV Sys 1 Zone Splitter,2,Inlet Node Name,DXVAV Sys 1 Supply Path Inlet,False,6681
-330,AirLoopHVAC:ZoneSplitter,DXVAV Sys 1 Zone Splitter,3,Outlet 1 Node Name,Thermal Zone: Space 101 Zone Equip Inlet,False,6682
+330,AirLoopHVAC:ZoneSplitter,DXVAV Sys 1 Zone Splitter,3,Outlet 1 Node Name,Thermal Zone: Space 103 LAB B Zone Equip Inlet,False,6682
 330,AirLoopHVAC:ZoneSplitter,DXVAV Sys 1 Zone Splitter,4,Outlet 2 Node Name,Thermal Zone: Space 102 - Plus Zone Equip Inlet,False,6683
-330,AirLoopHVAC:ZoneSplitter,DXVAV Sys 1 Zone Splitter,5,Outlet 3 Node Name,Thermal Zone: Space 103 Zone Equip Inlet,False,6684
+330,AirLoopHVAC:ZoneSplitter,DXVAV Sys 1 Zone Splitter,5,Outlet 3 Node Name,Thermal Zone: Space 105 LAB A Zone Equip Inlet,False,6684
 331,AirLoopHVAC:SupplyPath,DXVAV Sys 1 Supply Path,1,Name,DXVAV Sys 1 Supply Path,False,6690
 331,AirLoopHVAC:SupplyPath,DXVAV Sys 1 Supply Path,2,Supply Air Path Inlet Node Name,DXVAV Sys 1 Supply Path Inlet,False,6691
 331,AirLoopHVAC:SupplyPath,DXVAV Sys 1 Supply Path,3,Component 1 Object Type,AirLoopHVAC:ZoneSplitter,False,6692
@@ -5521,9 +5521,9 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 332,AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,3,Zone Node Name,Thermal Zone: Plenum Zone Air Node,False,6701
 332,AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,4,Outlet Node Name,DXVAV Sys 1 Return Air Outlet,False,6702
 332,AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,5,Induced Air Outlet Node or NodeList Name,,True,6703
-332,AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,6,Inlet 1 Node Name,Thermal Zone: Space 101 Return Outlet,False,6704
+332,AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,6,Inlet 1 Node Name,Thermal Zone: Space 103 LAB B Return Outlet,False,6704
 332,AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,7,Inlet 2 Node Name,Thermal Zone: Space 102 - Plus Return Outlet,False,6705
-332,AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,8,Inlet 3 Node Name,Thermal Zone: Space 103 Return Outlet,False,6706
+332,AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,8,Inlet 3 Node Name,Thermal Zone: Space 105 LAB A Return Outlet,False,6706
 333,AirLoopHVAC:ReturnPath,DXVAV Sys 1 Return Path,1,Name,DXVAV Sys 1 Return Path,False,6712
 333,AirLoopHVAC:ReturnPath,DXVAV Sys 1 Return Path,2,Return Air Path Outlet Node Name,DXVAV Sys 1 Return Air Outlet,False,6713
 333,AirLoopHVAC:ReturnPath,DXVAV Sys 1 Return Path,3,Component 1 Object Type,AirLoopHVAC:ReturnPlenum,False,6714
@@ -5768,15 +5768,15 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 377,Output:Variable,DXVAV Sys 1 Heating Coil,1,Key Value,DXVAV Sys 1 Heating Coil,False,7107
 377,Output:Variable,DXVAV Sys 1 Heating Coil,2,Variable Name,Heating Coil Electricity Rate,False,7108
 377,Output:Variable,DXVAV Sys 1 Heating Coil,3,Reporting Frequency,TimeStep,False,7109
-378,Output:Variable,Thermal Zone: Space 101 Reheat Coil,1,Key Value,Thermal Zone: Space 101 Reheat Coil,False,7112
-378,Output:Variable,Thermal Zone: Space 101 Reheat Coil,2,Variable Name,Heating Coil Heating Rate,False,7113
-378,Output:Variable,Thermal Zone: Space 101 Reheat Coil,3,Reporting Frequency,TimeStep,False,7114
+378,Output:Variable,Thermal Zone: Space 103 LAB B Reheat Coil,1,Key Value,Thermal Zone: Space 103 LAB B Reheat Coil,False,7112
+378,Output:Variable,Thermal Zone: Space 103 LAB B Reheat Coil,2,Variable Name,Heating Coil Heating Rate,False,7113
+378,Output:Variable,Thermal Zone: Space 103 LAB B Reheat Coil,3,Reporting Frequency,TimeStep,False,7114
 379,Output:Variable,Thermal Zone: Space 102 - Plus Reheat Coil,1,Key Value,Thermal Zone: Space 102 - Plus Reheat Coil,False,7117
 379,Output:Variable,Thermal Zone: Space 102 - Plus Reheat Coil,2,Variable Name,Heating Coil Heating Rate,False,7118
 379,Output:Variable,Thermal Zone: Space 102 - Plus Reheat Coil,3,Reporting Frequency,TimeStep,False,7119
-380,Output:Variable,Thermal Zone: Space 103 Reheat Coil,1,Key Value,Thermal Zone: Space 103 Reheat Coil,False,7122
-380,Output:Variable,Thermal Zone: Space 103 Reheat Coil,2,Variable Name,Heating Coil Heating Rate,False,7123
-380,Output:Variable,Thermal Zone: Space 103 Reheat Coil,3,Reporting Frequency,TimeStep,False,7124
+380,Output:Variable,Thermal Zone: Space 105 LAB A Reheat Coil,1,Key Value,Thermal Zone: Space 105 LAB A Reheat Coil,False,7122
+380,Output:Variable,Thermal Zone: Space 105 LAB A Reheat Coil,2,Variable Name,Heating Coil Heating Rate,False,7123
+380,Output:Variable,Thermal Zone: Space 105 LAB A Reheat Coil,3,Reporting Frequency,TimeStep,False,7124
 381,Output:Variable,DXVAV Sys 1 Supply Fan,1,Key Value,DXVAV Sys 1 Supply Fan,False,7127
 381,Output:Variable,DXVAV Sys 1 Supply Fan,2,Variable Name,Fan Electricity Rate,False,7128
 381,Output:Variable,DXVAV Sys 1 Supply Fan,3,Reporting Frequency,TimeStep,False,7129
@@ -5798,15 +5798,15 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 387,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,1,Key Value,DXVAV Sys 1 Supply Fan Outlet,False,7157
 387,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,2,Variable Name,System Node Temperature,False,7158
 387,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,3,Reporting Frequency,TimeStep,False,7159
-388,Output:Variable,Thermal Zone: Space 101 Zone Equip Inlet,1,Key Value,Thermal Zone: Space 101 Zone Equip Inlet,False,7162
-388,Output:Variable,Thermal Zone: Space 101 Zone Equip Inlet,2,Variable Name,System Node Temperature,False,7163
-388,Output:Variable,Thermal Zone: Space 101 Zone Equip Inlet,3,Reporting Frequency,TimeStep,False,7164
+388,Output:Variable,Thermal Zone: Space 103 LAB B Zone Equip Inlet,1,Key Value,Thermal Zone: Space 103 LAB B Zone Equip Inlet,False,7162
+388,Output:Variable,Thermal Zone: Space 103 LAB B Zone Equip Inlet,2,Variable Name,System Node Temperature,False,7163
+388,Output:Variable,Thermal Zone: Space 103 LAB B Zone Equip Inlet,3,Reporting Frequency,TimeStep,False,7164
 389,Output:Variable,Thermal Zone: Space 102 - Plus Zone Equip Inlet,1,Key Value,Thermal Zone: Space 102 - Plus Zone Equip Inlet,False,7167
 389,Output:Variable,Thermal Zone: Space 102 - Plus Zone Equip Inlet,2,Variable Name,System Node Temperature,False,7168
 389,Output:Variable,Thermal Zone: Space 102 - Plus Zone Equip Inlet,3,Reporting Frequency,TimeStep,False,7169
-390,Output:Variable,Thermal Zone: Space 103 Zone Equip Inlet,1,Key Value,Thermal Zone: Space 103 Zone Equip Inlet,False,7172
-390,Output:Variable,Thermal Zone: Space 103 Zone Equip Inlet,2,Variable Name,System Node Temperature,False,7173
-390,Output:Variable,Thermal Zone: Space 103 Zone Equip Inlet,3,Reporting Frequency,TimeStep,False,7174
+390,Output:Variable,Thermal Zone: Space 105 LAB A Zone Equip Inlet,1,Key Value,Thermal Zone: Space 105 LAB A Zone Equip Inlet,False,7172
+390,Output:Variable,Thermal Zone: Space 105 LAB A Zone Equip Inlet,2,Variable Name,System Node Temperature,False,7173
+390,Output:Variable,Thermal Zone: Space 105 LAB A Zone Equip Inlet,3,Reporting Frequency,TimeStep,False,7174
 391,Output:Variable,DXVAV Sys 1,1,Key Value,DXVAV Sys 1,False,7177
 391,Output:Variable,DXVAV Sys 1,2,Variable Name,Air System Outdoor Air Economizer Status,False,7178
 391,Output:Variable,DXVAV Sys 1,3,Reporting Frequency,TimeStep,False,7179
@@ -5837,21 +5837,21 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 400,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,1,Key Value,DXVAV Sys 1 Supply Fan Outlet,False,7222
 400,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,2,Variable Name,System Node Setpoint Temperature,False,7223
 400,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,3,Reporting Frequency,TimeStep,False,7224
-401,Output:Variable,Thermal Zone: Space 101,1,Key Value,Thermal Zone: Space 101,False,7227
-401,Output:Variable,Thermal Zone: Space 101,2,Variable Name,Zone Thermostat Heating Setpoint Temperature,False,7228
-401,Output:Variable,Thermal Zone: Space 101,3,Reporting Frequency,TimeStep,False,7229
-402,Output:Variable,Thermal Zone: Space 101,1,Key Value,Thermal Zone: Space 101,False,7232
-402,Output:Variable,Thermal Zone: Space 101,2,Variable Name,Zone Thermostat Cooling Setpoint Temperature,False,7233
-402,Output:Variable,Thermal Zone: Space 101,3,Reporting Frequency,TimeStep,False,7234
-403,Output:Variable,Thermal Zone: Space 101,1,Key Value,Thermal Zone: Space 101,False,7237
-403,Output:Variable,Thermal Zone: Space 101,2,Variable Name,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,False,7238
-403,Output:Variable,Thermal Zone: Space 101,3,Reporting Frequency,TimeStep,False,7239
-404,Output:Variable,Thermal Zone: Space 101,1,Key Value,Thermal Zone: Space 101,False,7242
-404,Output:Variable,Thermal Zone: Space 101,2,Variable Name,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,False,7243
-404,Output:Variable,Thermal Zone: Space 101,3,Reporting Frequency,TimeStep,False,7244
-405,Output:Variable,Thermal Zone: Space 101 VAV Reheat,1,Key Value,Thermal Zone: Space 101 VAV Reheat,False,7247
-405,Output:Variable,Thermal Zone: Space 101 VAV Reheat,2,Variable Name,Zone Air Terminal VAV Damper Position,False,7248
-405,Output:Variable,Thermal Zone: Space 101 VAV Reheat,3,Reporting Frequency,TimeStep,False,7249
+401,Output:Variable,Thermal Zone: Space 103 LAB B,1,Key Value,Thermal Zone: Space 103 LAB B,False,7227
+401,Output:Variable,Thermal Zone: Space 103 LAB B,2,Variable Name,Zone Thermostat Heating Setpoint Temperature,False,7228
+401,Output:Variable,Thermal Zone: Space 103 LAB B,3,Reporting Frequency,TimeStep,False,7229
+402,Output:Variable,Thermal Zone: Space 103 LAB B,1,Key Value,Thermal Zone: Space 103 LAB B,False,7232
+402,Output:Variable,Thermal Zone: Space 103 LAB B,2,Variable Name,Zone Thermostat Cooling Setpoint Temperature,False,7233
+402,Output:Variable,Thermal Zone: Space 103 LAB B,3,Reporting Frequency,TimeStep,False,7234
+403,Output:Variable,Thermal Zone: Space 103 LAB B,1,Key Value,Thermal Zone: Space 103 LAB B,False,7237
+403,Output:Variable,Thermal Zone: Space 103 LAB B,2,Variable Name,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,False,7238
+403,Output:Variable,Thermal Zone: Space 103 LAB B,3,Reporting Frequency,TimeStep,False,7239
+404,Output:Variable,Thermal Zone: Space 103 LAB B,1,Key Value,Thermal Zone: Space 103 LAB B,False,7242
+404,Output:Variable,Thermal Zone: Space 103 LAB B,2,Variable Name,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,False,7243
+404,Output:Variable,Thermal Zone: Space 103 LAB B,3,Reporting Frequency,TimeStep,False,7244
+405,Output:Variable,Thermal Zone: Space 103 LAB B VAV Reheat,1,Key Value,Thermal Zone: Space 103 LAB B VAV Reheat,False,7247
+405,Output:Variable,Thermal Zone: Space 103 LAB B VAV Reheat,2,Variable Name,Zone Air Terminal VAV Damper Position,False,7248
+405,Output:Variable,Thermal Zone: Space 103 LAB B VAV Reheat,3,Reporting Frequency,TimeStep,False,7249
 406,Output:Variable,Thermal Zone: Space 102 - Plus,1,Key Value,Thermal Zone: Space 102 - Plus,False,7252
 406,Output:Variable,Thermal Zone: Space 102 - Plus,2,Variable Name,Zone Thermostat Heating Setpoint Temperature,False,7253
 406,Output:Variable,Thermal Zone: Space 102 - Plus,3,Reporting Frequency,TimeStep,False,7254
@@ -5867,21 +5867,21 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 410,Output:Variable,Thermal Zone: Space 102 - Plus VAV Reheat,1,Key Value,Thermal Zone: Space 102 - Plus VAV Reheat,False,7272
 410,Output:Variable,Thermal Zone: Space 102 - Plus VAV Reheat,2,Variable Name,Zone Air Terminal VAV Damper Position,False,7273
 410,Output:Variable,Thermal Zone: Space 102 - Plus VAV Reheat,3,Reporting Frequency,TimeStep,False,7274
-411,Output:Variable,Thermal Zone: Space 103,1,Key Value,Thermal Zone: Space 103,False,7277
-411,Output:Variable,Thermal Zone: Space 103,2,Variable Name,Zone Thermostat Heating Setpoint Temperature,False,7278
-411,Output:Variable,Thermal Zone: Space 103,3,Reporting Frequency,TimeStep,False,7279
-412,Output:Variable,Thermal Zone: Space 103,1,Key Value,Thermal Zone: Space 103,False,7282
-412,Output:Variable,Thermal Zone: Space 103,2,Variable Name,Zone Thermostat Cooling Setpoint Temperature,False,7283
-412,Output:Variable,Thermal Zone: Space 103,3,Reporting Frequency,TimeStep,False,7284
-413,Output:Variable,Thermal Zone: Space 103,1,Key Value,Thermal Zone: Space 103,False,7287
-413,Output:Variable,Thermal Zone: Space 103,2,Variable Name,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,False,7288
-413,Output:Variable,Thermal Zone: Space 103,3,Reporting Frequency,TimeStep,False,7289
-414,Output:Variable,Thermal Zone: Space 103,1,Key Value,Thermal Zone: Space 103,False,7292
-414,Output:Variable,Thermal Zone: Space 103,2,Variable Name,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,False,7293
-414,Output:Variable,Thermal Zone: Space 103,3,Reporting Frequency,TimeStep,False,7294
-415,Output:Variable,Thermal Zone: Space 103 VAV Reheat,1,Key Value,Thermal Zone: Space 103 VAV Reheat,False,7297
-415,Output:Variable,Thermal Zone: Space 103 VAV Reheat,2,Variable Name,Zone Air Terminal VAV Damper Position,False,7298
-415,Output:Variable,Thermal Zone: Space 103 VAV Reheat,3,Reporting Frequency,TimeStep,False,7299
+411,Output:Variable,Thermal Zone: Space 105 LAB A,1,Key Value,Thermal Zone: Space 105 LAB A,False,7277
+411,Output:Variable,Thermal Zone: Space 105 LAB A,2,Variable Name,Zone Thermostat Heating Setpoint Temperature,False,7278
+411,Output:Variable,Thermal Zone: Space 105 LAB A,3,Reporting Frequency,TimeStep,False,7279
+412,Output:Variable,Thermal Zone: Space 105 LAB A,1,Key Value,Thermal Zone: Space 105 LAB A,False,7282
+412,Output:Variable,Thermal Zone: Space 105 LAB A,2,Variable Name,Zone Thermostat Cooling Setpoint Temperature,False,7283
+412,Output:Variable,Thermal Zone: Space 105 LAB A,3,Reporting Frequency,TimeStep,False,7284
+413,Output:Variable,Thermal Zone: Space 105 LAB A,1,Key Value,Thermal Zone: Space 105 LAB A,False,7287
+413,Output:Variable,Thermal Zone: Space 105 LAB A,2,Variable Name,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,False,7288
+413,Output:Variable,Thermal Zone: Space 105 LAB A,3,Reporting Frequency,TimeStep,False,7289
+414,Output:Variable,Thermal Zone: Space 105 LAB A,1,Key Value,Thermal Zone: Space 105 LAB A,False,7292
+414,Output:Variable,Thermal Zone: Space 105 LAB A,2,Variable Name,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,False,7293
+414,Output:Variable,Thermal Zone: Space 105 LAB A,3,Reporting Frequency,TimeStep,False,7294
+415,Output:Variable,Thermal Zone: Space 105 LAB A VAV Reheat,1,Key Value,Thermal Zone: Space 105 LAB A VAV Reheat,False,7297
+415,Output:Variable,Thermal Zone: Space 105 LAB A VAV Reheat,2,Variable Name,Zone Air Terminal VAV Damper Position,False,7298
+415,Output:Variable,Thermal Zone: Space 105 LAB A VAV Reheat,3,Reporting Frequency,TimeStep,False,7299
 416,Output:Variable,*,1,Key Value,*,False,7302
 416,Output:Variable,*,2,Variable Name,Site Day Type Index,False,7303
 416,Output:Variable,*,3,Reporting Frequency,Timestep,False,7304
@@ -5993,15 +5993,15 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 452,Output:Variable,Min OA Sched,1,Key Value,Min OA Sched,False,7482
 452,Output:Variable,Min OA Sched,2,Variable Name,Schedule Value,False,7483
 452,Output:Variable,Min OA Sched,3,Reporting Frequency,Timestep,False,7484
-453,Output:Variable,Thermal Zone: Space 101 Supply Inlet,1,Key Value,Thermal Zone: Space 101 Supply Inlet,False,7487
-453,Output:Variable,Thermal Zone: Space 101 Supply Inlet,2,Variable Name,System Node Mass Flow Rate,False,7488
-453,Output:Variable,Thermal Zone: Space 101 Supply Inlet,3,Reporting Frequency,Timestep,False,7489
+453,Output:Variable,Thermal Zone: Space 103 LAB B Supply Inlet,1,Key Value,Thermal Zone: Space 103 LAB B Supply Inlet,False,7487
+453,Output:Variable,Thermal Zone: Space 103 LAB B Supply Inlet,2,Variable Name,System Node Mass Flow Rate,False,7488
+453,Output:Variable,Thermal Zone: Space 103 LAB B Supply Inlet,3,Reporting Frequency,Timestep,False,7489
 454,Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,1,Key Value,Thermal Zone: Space 102 - Plus Supply Inlet,False,7492
 454,Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,2,Variable Name,System Node Mass Flow Rate,False,7493
 454,Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,3,Reporting Frequency,Timestep,False,7494
-455,Output:Variable,Thermal Zone: Space 103 Supply Inlet,1,Key Value,Thermal Zone: Space 103 Supply Inlet,False,7497
-455,Output:Variable,Thermal Zone: Space 103 Supply Inlet,2,Variable Name,System Node Mass Flow Rate,False,7498
-455,Output:Variable,Thermal Zone: Space 103 Supply Inlet,3,Reporting Frequency,Timestep,False,7499
+455,Output:Variable,Thermal Zone: Space 105 LAB A Supply Inlet,1,Key Value,Thermal Zone: Space 105 LAB A Supply Inlet,False,7497
+455,Output:Variable,Thermal Zone: Space 105 LAB A Supply Inlet,2,Variable Name,System Node Mass Flow Rate,False,7498
+455,Output:Variable,Thermal Zone: Space 105 LAB A Supply Inlet,3,Reporting Frequency,Timestep,False,7499
 456,Output:Variable,*,1,Key Value,*,False,7502
 456,Output:Variable,*,2,Variable Name,Zone Heating Setpoint Not Met Time,False,7503
 456,Output:Variable,*,3,Reporting Frequency,Timestep,False,7504
@@ -6017,15 +6017,15 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 460,Output:Variable,DXVAV Sys 1,1,Key Value,DXVAV Sys 1,False,7522
 460,Output:Variable,DXVAV Sys 1,2,Variable Name,Air System Outdoor Air Mechanical Ventilation Requested Mass Flow Rate,False,7523
 460,Output:Variable,DXVAV Sys 1,3,Reporting Frequency,Timestep,False,7524
-461,Output:Variable,Thermal Zone: Space 101 Supply Inlet,1,Key Value,Thermal Zone: Space 101 Supply Inlet,False,7527
-461,Output:Variable,Thermal Zone: Space 101 Supply Inlet,2,Variable Name,System Node Standard Density Volume Flow Rate,False,7528
-461,Output:Variable,Thermal Zone: Space 101 Supply Inlet,3,Reporting Frequency,Timestep,False,7529
+461,Output:Variable,Thermal Zone: Space 103 LAB B Supply Inlet,1,Key Value,Thermal Zone: Space 103 LAB B Supply Inlet,False,7527
+461,Output:Variable,Thermal Zone: Space 103 LAB B Supply Inlet,2,Variable Name,System Node Standard Density Volume Flow Rate,False,7528
+461,Output:Variable,Thermal Zone: Space 103 LAB B Supply Inlet,3,Reporting Frequency,Timestep,False,7529
 462,Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,1,Key Value,Thermal Zone: Space 102 - Plus Supply Inlet,False,7532
 462,Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,2,Variable Name,System Node Standard Density Volume Flow Rate,False,7533
 462,Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,3,Reporting Frequency,Timestep,False,7534
-463,Output:Variable,Thermal Zone: Space 103 Supply Inlet,1,Key Value,Thermal Zone: Space 103 Supply Inlet,False,7537
-463,Output:Variable,Thermal Zone: Space 103 Supply Inlet,2,Variable Name,System Node Standard Density Volume Flow Rate,False,7538
-463,Output:Variable,Thermal Zone: Space 103 Supply Inlet,3,Reporting Frequency,Timestep,False,7539
+463,Output:Variable,Thermal Zone: Space 105 LAB A Supply Inlet,1,Key Value,Thermal Zone: Space 105 LAB A Supply Inlet,False,7537
+463,Output:Variable,Thermal Zone: Space 105 LAB A Supply Inlet,2,Variable Name,System Node Standard Density Volume Flow Rate,False,7538
+463,Output:Variable,Thermal Zone: Space 105 LAB A Supply Inlet,3,Reporting Frequency,Timestep,False,7539
 464,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,1,Key Value,DXVAV Sys 1 Supply Fan Outlet,False,7542
 464,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,2,Variable Name,System Node Standard Density Volume Flow Rate,False,7543
 464,Output:Variable,DXVAV Sys 1 Supply Fan Outlet,3,Reporting Frequency,Timestep,False,7544
@@ -6124,12 +6124,12 @@ object_index,object_class,object_name_or_first_field,field_number,field_label,en
 498,Output:Meter:MeterFileOnly,Heating:Electricity,2,Reporting Frequency,Hourly,False,7708
 499,Output:Meter:MeterFileOnly,Cooling:Electricity,1,Key Name,Cooling:Electricity,False,7711
 499,Output:Meter:MeterFileOnly,Cooling:Electricity,2,Reporting Frequency,Hourly,False,7712
-500,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 101,1,Key Name,Electricity:Zone:THERMAL ZONE: SPACE 101,False,7715
-500,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 101,2,Reporting Frequency,Hourly,False,7716
+500,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 103 LAB B,1,Key Name,Electricity:Zone:THERMAL ZONE: SPACE 103 LAB B,False,7715
+500,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 103 LAB B,2,Reporting Frequency,Hourly,False,7716
 501,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 102 - PLUS,1,Key Name,Electricity:Zone:THERMAL ZONE: SPACE 102 - PLUS,False,7719
 501,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 102 - PLUS,2,Reporting Frequency,Hourly,False,7720
-502,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 103,1,Key Name,Electricity:Zone:THERMAL ZONE: SPACE 103,False,7723
-502,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 103,2,Reporting Frequency,Hourly,False,7724
+502,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 105 LAB A,1,Key Name,Electricity:Zone:THERMAL ZONE: SPACE 105 LAB A,False,7723
+502,Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 105 LAB A,2,Reporting Frequency,Hourly,False,7724
 503,Output:Meter:MeterFileOnly,ElectricityNet:Facility,1,Key Name,ElectricityNet:Facility,False,7727
 503,Output:Meter:MeterFileOnly,ElectricityNet:Facility,2,Reporting Frequency,Hourly,False,7728
 504,Output:SQLite,SimpleAndTabular,1,Option Type,SimpleAndTabular,False,7734

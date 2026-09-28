@@ -3970,7 +3970,7 @@
   {
     "kind": "Zone",
     "fields": [
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "-0",
       "0",
       "0",
@@ -4072,7 +4072,7 @@
   {
     "kind": "Zone",
     "fields": [
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "-0",
       "0",
       "0",
@@ -5865,7 +5865,7 @@
       "Surface 1",
       "Floor",
       "HIBO Slab Carpet",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Ground",
       "",
@@ -5946,7 +5946,7 @@
       "Surface 3 Ext",
       "Wall",
       "HIBO Metal Panel Exterior Wall",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Outdoors",
       "",
@@ -6027,7 +6027,7 @@
       "Surface 4",
       "Wall",
       "HIBO Interior Partition SA.8.21",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Surface",
       "Surface 35",
@@ -6108,7 +6108,7 @@
       "Surface 5",
       "Wall",
       "HIBO Interior Partition SA.6.20",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Surface",
       "Surface 29",
@@ -6189,7 +6189,7 @@
       "Surface 6",
       "Wall",
       "HIBO Interior Partition SA.6.20",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Surface",
       "Surface 13",
@@ -6270,7 +6270,7 @@
       "Surface 69 Ext",
       "Wall",
       "HIBO Metal Panel Exterior Wall",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Outdoors",
       "",
@@ -6351,7 +6351,7 @@
       "Surface 70 Ext",
       "Wall",
       "HIBO Metal Panel Exterior Wall",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Outdoors",
       "",
@@ -6432,7 +6432,7 @@
       "Surface 8",
       "Ceiling",
       "HIBO APC-1 Ceiling",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Surface",
       "Surface 65",
@@ -7962,7 +7962,7 @@
       "Surface 15",
       "Floor",
       "HIBO Slab Carpet",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Ground",
       "",
@@ -8043,7 +8043,7 @@
       "Surface 16",
       "Wall",
       "HIBO Interior Partition SA.8.21",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Surface",
       "Surface 43",
@@ -8124,7 +8124,7 @@
       "Surface 17 Ext",
       "Wall",
       "HIBO Metal Panel Exterior Wall",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Outdoors",
       "",
@@ -8205,7 +8205,7 @@
       "Surface 20",
       "Wall",
       "HIBO Interior Partition SA.6.20",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Surface",
       "Surface 11",
@@ -8286,7 +8286,7 @@
       "Surface 21",
       "Wall",
       "HIBO Interior Partition SA.6.20",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Surface",
       "Surface 27",
@@ -8367,7 +8367,7 @@
       "Surface 22",
       "Ceiling",
       "HIBO APC-1 Ceiling",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Surface",
       "Surface 47",
@@ -8448,7 +8448,7 @@
       "Surface 66 Ext",
       "Wall",
       "HIBO Metal Panel Exterior Wall",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Outdoors",
       "",
@@ -8529,7 +8529,7 @@
       "Surface 69 Low CMU",
       "Wall",
       "HIBO CMU Veneer Exterior Wall",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Outdoors",
       "",
@@ -8691,7 +8691,7 @@
       "Surface 66 Low CMU",
       "Wall",
       "HIBO CMU Veneer Exterior Wall",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Outdoors",
       "",
@@ -8772,7 +8772,7 @@
       "Surface 67 Ext",
       "Wall",
       "HIBO Metal Panel Exterior Wall",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "",
       "Outdoors",
       "",
@@ -9015,7 +9015,7 @@
       "Surface 71",
       "Wall",
       "HIBO Interior Partition SA.8.21",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "",
       "Surface",
       "Surface 72",
@@ -18341,8 +18341,8 @@
   {
     "kind": "People",
     "fields": [
-      "Space 101 People 1",
-      "Thermal Zone: Space 101",
+      "Space 103 LAB B People 1",
+      "Thermal Zone: Space 103 LAB B",
       "OCCUPY-1",
       "Area/Person",
       "",
@@ -18445,8 +18445,8 @@
   {
     "kind": "People",
     "fields": [
-      "Space 103 People 1",
-      "Thermal Zone: Space 103",
+      "Space 105 LAB A People 1",
+      "Thermal Zone: Space 105 LAB A",
       "OCCUPY-1",
       "Area/Person",
       "",
@@ -18496,8 +18496,8 @@
   {
     "kind": "Lights",
     "fields": [
-      "Space 101 Lights 1",
-      "Thermal Zone: Space 101",
+      "Space 103 LAB B Lights 1",
+      "Thermal Zone: Space 103 LAB B",
       "ltg_sch_office",
       "Watts/Area",
       "",
@@ -18600,8 +18600,8 @@
   {
     "kind": "Lights",
     "fields": [
-      "Space 103 Lights 1",
-      "Thermal Zone: Space 103",
+      "Space 105 LAB A Lights 1",
+      "Thermal Zone: Space 105 LAB A",
       "ltg_sch_office",
       "Watts/Area",
       "",
@@ -18651,8 +18651,8 @@
   {
     "kind": "ElectricEquipment",
     "fields": [
-      "Space 101 ElecEq 1",
-      "Thermal Zone: Space 101",
+      "Space 103 LAB B ElecEq 1",
+      "Thermal Zone: Space 103 LAB B",
       "EQUIP-1",
       "Watts/Area",
       "",
@@ -18743,8 +18743,8 @@
   {
     "kind": "ElectricEquipment",
     "fields": [
-      "Space 103 ElecEq 1",
-      "Thermal Zone: Space 103",
+      "Space 105 LAB A ElecEq 1",
+      "Thermal Zone: Space 105 LAB A",
       "EQUIP-1",
       "Watts/Area",
       "",
@@ -18788,8 +18788,8 @@
   {
     "kind": "ZoneInfiltration:DesignFlowRate",
     "fields": [
-      "Space 101 Infil 1",
-      "Thermal Zone: Space 101",
+      "Space 103 LAB B Infil 1",
+      "Thermal Zone: Space 103 LAB B",
       "INFIL-SCH",
       "Flow/ExteriorWallArea",
       "0",
@@ -18886,8 +18886,8 @@
   {
     "kind": "ZoneInfiltration:DesignFlowRate",
     "fields": [
-      "Space 103 Infil 1",
-      "Thermal Zone: Space 103",
+      "Space 105 LAB A Infil 1",
+      "Thermal Zone: Space 105 LAB A",
       "INFIL-SCH",
       "Flow/ExteriorWallArea",
       "0",
@@ -19011,7 +19011,7 @@
   {
     "kind": "DesignSpecification:OutdoorAir",
     "fields": [
-      "SZ DSOA Thermal Zone: Space 101",
+      "SZ DSOA Thermal Zone: Space 103 LAB B",
       "Sum",
       "0.0025",
       "0.0003",
@@ -19079,7 +19079,7 @@
   {
     "kind": "DesignSpecification:OutdoorAir",
     "fields": [
-      "SZ DSOA Thermal Zone: Space 103",
+      "SZ DSOA Thermal Zone: Space 105 LAB A",
       "Sum",
       "0.0025",
       "0.0003",
@@ -19112,7 +19112,7 @@
   {
     "kind": "DesignSpecification:ZoneAirDistribution",
     "fields": [
-      "SZ DSZAD Thermal Zone: Space 101",
+      "SZ DSZAD Thermal Zone: Space 103 LAB B",
       "1",
       "1"
     ],
@@ -19156,7 +19156,7 @@
   {
     "kind": "DesignSpecification:ZoneAirDistribution",
     "fields": [
-      "SZ DSZAD Thermal Zone: Space 103",
+      "SZ DSZAD Thermal Zone: Space 105 LAB A",
       "1",
       "1"
     ],
@@ -19197,7 +19197,7 @@
   {
     "kind": "Sizing:Zone",
     "fields": [
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "SupplyAirTemperature",
       "12.8",
       "11",
@@ -19206,7 +19206,7 @@
       "",
       "0.0085",
       "0.008",
-      "SZ DSOA Thermal Zone: Space 101",
+      "SZ DSOA Thermal Zone: Space 103 LAB B",
       "1.2",
       "1.2",
       "",
@@ -19219,7 +19219,7 @@
       "",
       "",
       "",
-      "SZ DSZAD Thermal Zone: Space 101",
+      "SZ DSZAD Thermal Zone: Space 103 LAB B",
       "No",
       "",
       "",
@@ -19427,7 +19427,7 @@
   {
     "kind": "Sizing:Zone",
     "fields": [
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "SupplyAirTemperature",
       "12.8",
       "",
@@ -19436,7 +19436,7 @@
       "",
       "0.0085",
       "0.008",
-      "SZ DSOA Thermal Zone: Space 103",
+      "SZ DSOA Thermal Zone: Space 105 LAB A",
       "1.2",
       "1.2",
       "",
@@ -19449,7 +19449,7 @@
       "",
       "",
       "",
-      "SZ DSZAD Thermal Zone: Space 103",
+      "SZ DSZAD Thermal Zone: Space 105 LAB A",
       "No",
       "",
       "",
@@ -19666,8 +19666,8 @@
   {
     "kind": "ZoneControl:Thermostat",
     "fields": [
-      "Thermal Zone: Space 101 Thermostat",
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B Thermostat",
+      "Thermal Zone: Space 103 LAB B",
       "HVACTemplate-Always 4",
       "ThermostatSetpoint:DualSetpoint",
       "Dual SP Control"
@@ -19722,8 +19722,8 @@
   {
     "kind": "ZoneControl:Thermostat",
     "fields": [
-      "Thermal Zone: Space 103 Thermostat",
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A Thermostat",
+      "Thermal Zone: Space 105 LAB A",
       "HVACTemplate-Always 4",
       "ThermostatSetpoint:DualSetpoint",
       "Dual SP Control"
@@ -19772,26 +19772,26 @@
   {
     "kind": "AirTerminal:SingleDuct:VAV:Reheat",
     "fields": [
-      "Thermal Zone: Space 101 VAV Reheat",
+      "Thermal Zone: Space 103 LAB B VAV Reheat",
       "",
-      "Thermal Zone: Space 101 Damper Outlet",
-      "Thermal Zone: Space 101 Zone Equip Inlet",
+      "Thermal Zone: Space 103 LAB B Damper Outlet",
+      "Thermal Zone: Space 103 LAB B Zone Equip Inlet",
       "autosize",
       "Constant",
       "autosize",
       "",
       "",
       "Coil:Heating:Electric",
-      "Thermal Zone: Space 101 Reheat Coil",
+      "Thermal Zone: Space 103 LAB B Reheat Coil",
       "",
       "",
-      "Thermal Zone: Space 101 Supply Inlet",
+      "Thermal Zone: Space 103 LAB B Supply Inlet",
       "0.001",
       "Reverse",
       "autocalculate",
       "",
       "",
-      "SZ DSOA Thermal Zone: Space 101"
+      "SZ DSOA Thermal Zone: Space 103 LAB B"
     ],
     "start_line": 6306,
     "end_line": 6326,
@@ -19918,26 +19918,26 @@
   {
     "kind": "AirTerminal:SingleDuct:VAV:Reheat",
     "fields": [
-      "Thermal Zone: Space 103 VAV Reheat",
+      "Thermal Zone: Space 105 LAB A VAV Reheat",
       "",
-      "Thermal Zone: Space 103 Damper Outlet",
-      "Thermal Zone: Space 103 Zone Equip Inlet",
+      "Thermal Zone: Space 105 LAB A Damper Outlet",
+      "Thermal Zone: Space 105 LAB A Zone Equip Inlet",
       "autosize",
       "Constant",
       "autosize",
       "",
       "",
       "Coil:Heating:Electric",
-      "Thermal Zone: Space 103 Reheat Coil",
+      "Thermal Zone: Space 105 LAB A Reheat Coil",
       "",
       "",
-      "Thermal Zone: Space 103 Supply Inlet",
+      "Thermal Zone: Space 105 LAB A Supply Inlet",
       "0.001",
       "Reverse",
       "autocalculate",
       "",
       "",
-      "SZ DSOA Thermal Zone: Space 103"
+      "SZ DSOA Thermal Zone: Space 105 LAB A"
     ],
     "start_line": 6350,
     "end_line": 6370,
@@ -19990,10 +19990,10 @@
   {
     "kind": "ZoneHVAC:AirDistributionUnit",
     "fields": [
-      "Thermal Zone: Space 101 ATU",
-      "Thermal Zone: Space 101 Supply Inlet",
+      "Thermal Zone: Space 103 LAB B ATU",
+      "Thermal Zone: Space 103 LAB B Supply Inlet",
       "AirTerminal:SingleDuct:VAV:Reheat",
-      "Thermal Zone: Space 101 VAV Reheat"
+      "Thermal Zone: Space 103 LAB B VAV Reheat"
     ],
     "start_line": 6375,
     "end_line": 6379,
@@ -20040,10 +20040,10 @@
   {
     "kind": "ZoneHVAC:AirDistributionUnit",
     "fields": [
-      "Thermal Zone: Space 103 ATU",
-      "Thermal Zone: Space 103 Supply Inlet",
+      "Thermal Zone: Space 105 LAB A ATU",
+      "Thermal Zone: Space 105 LAB A Supply Inlet",
       "AirTerminal:SingleDuct:VAV:Reheat",
-      "Thermal Zone: Space 103 VAV Reheat"
+      "Thermal Zone: Space 105 LAB A VAV Reheat"
     ],
     "start_line": 6387,
     "end_line": 6391,
@@ -20064,10 +20064,10 @@
   {
     "kind": "ZoneHVAC:EquipmentList",
     "fields": [
-      "Thermal Zone: Space 101 Equipment",
+      "Thermal Zone: Space 103 LAB B Equipment",
       "SequentialLoad",
       "ZoneHVAC:AirDistributionUnit",
-      "Thermal Zone: Space 101 ATU",
+      "Thermal Zone: Space 103 LAB B ATU",
       "1",
       "1",
       "",
@@ -20138,10 +20138,10 @@
   {
     "kind": "ZoneHVAC:EquipmentList",
     "fields": [
-      "Thermal Zone: Space 103 Equipment",
+      "Thermal Zone: Space 105 LAB A Equipment",
       "SequentialLoad",
       "ZoneHVAC:AirDistributionUnit",
-      "Thermal Zone: Space 103 ATU",
+      "Thermal Zone: Space 105 LAB A ATU",
       "1",
       "1",
       "",
@@ -20174,12 +20174,12 @@
   {
     "kind": "ZoneHVAC:EquipmentConnections",
     "fields": [
-      "Thermal Zone: Space 101",
-      "Thermal Zone: Space 101 Equipment",
-      "Thermal Zone: Space 101 Supply Inlet",
+      "Thermal Zone: Space 103 LAB B",
+      "Thermal Zone: Space 103 LAB B Equipment",
+      "Thermal Zone: Space 103 LAB B Supply Inlet",
       "",
-      "Thermal Zone: Space 101 Zone Air Node",
-      "Thermal Zone: Space 101 Return Outlet"
+      "Thermal Zone: Space 103 LAB B Zone Air Node",
+      "Thermal Zone: Space 103 LAB B Return Outlet"
     ],
     "start_line": 6429,
     "end_line": 6435,
@@ -20236,12 +20236,12 @@
   {
     "kind": "ZoneHVAC:EquipmentConnections",
     "fields": [
-      "Thermal Zone: Space 103",
-      "Thermal Zone: Space 103 Equipment",
-      "Thermal Zone: Space 103 Supply Inlet",
+      "Thermal Zone: Space 105 LAB A",
+      "Thermal Zone: Space 105 LAB A Equipment",
+      "Thermal Zone: Space 105 LAB A Supply Inlet",
       "",
-      "Thermal Zone: Space 103 Zone Air Node",
-      "Thermal Zone: Space 103 Return Outlet"
+      "Thermal Zone: Space 105 LAB A Zone Air Node",
+      "Thermal Zone: Space 105 LAB A Return Outlet"
     ],
     "start_line": 6445,
     "end_line": 6451,
@@ -20507,12 +20507,12 @@
   {
     "kind": "Coil:Heating:Electric",
     "fields": [
-      "Thermal Zone: Space 101 Reheat Coil",
+      "Thermal Zone: Space 103 LAB B Reheat Coil",
       "AvailSched_1",
       "1",
       "autosize",
-      "Thermal Zone: Space 101 Damper Outlet",
-      "Thermal Zone: Space 101 Supply Inlet"
+      "Thermal Zone: Space 103 LAB B Damper Outlet",
+      "Thermal Zone: Space 103 LAB B Supply Inlet"
     ],
     "start_line": 6535,
     "end_line": 6541,
@@ -20569,12 +20569,12 @@
   {
     "kind": "Coil:Heating:Electric",
     "fields": [
-      "Thermal Zone: Space 103 Reheat Coil",
+      "Thermal Zone: Space 105 LAB A Reheat Coil",
       "AvailSched_1",
       "1",
       "autosize",
-      "Thermal Zone: Space 103 Damper Outlet",
-      "Thermal Zone: Space 103 Supply Inlet"
+      "Thermal Zone: Space 105 LAB A Damper Outlet",
+      "Thermal Zone: Space 105 LAB A Supply Inlet"
     ],
     "start_line": 6551,
     "end_line": 6557,
@@ -20755,15 +20755,15 @@
       "No",
       "Standard62.1VentilationRateProcedure",
       "1.0",
-      "Thermal Zone: Space 101",
-      "SZ DSOA Thermal Zone: Space 101",
-      "SZ DSZAD Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
+      "SZ DSOA Thermal Zone: Space 103 LAB B",
+      "SZ DSZAD Thermal Zone: Space 103 LAB B",
       "Thermal Zone: Space 102 - Plus",
       "SZ DSOA Thermal Zone: Space 102 - Plus",
       "SZ DSZAD Thermal Zone: Space 102 - Plus",
-      "Thermal Zone: Space 103",
-      "SZ DSOA Thermal Zone: Space 103",
-      "SZ DSZAD Thermal Zone: Space 103"
+      "Thermal Zone: Space 105 LAB A",
+      "SZ DSOA Thermal Zone: Space 105 LAB A",
+      "SZ DSZAD Thermal Zone: Space 105 LAB A"
     ],
     "start_line": 6611,
     "end_line": 6625,
@@ -20950,9 +20950,9 @@
     "fields": [
       "DXVAV Sys 1 Zone Splitter",
       "DXVAV Sys 1 Supply Path Inlet",
-      "Thermal Zone: Space 101 Zone Equip Inlet",
+      "Thermal Zone: Space 103 LAB B Zone Equip Inlet",
       "Thermal Zone: Space 102 - Plus Zone Equip Inlet",
-      "Thermal Zone: Space 103 Zone Equip Inlet"
+      "Thermal Zone: Space 105 LAB A Zone Equip Inlet"
     ],
     "start_line": 6679,
     "end_line": 6684,
@@ -21008,9 +21008,9 @@
       "Thermal Zone: Plenum Zone Air Node",
       "DXVAV Sys 1 Return Air Outlet",
       "",
-      "Thermal Zone: Space 101 Return Outlet",
+      "Thermal Zone: Space 103 LAB B Return Outlet",
       "Thermal Zone: Space 102 - Plus Return Outlet",
-      "Thermal Zone: Space 103 Return Outlet"
+      "Thermal Zone: Space 105 LAB A Return Outlet"
     ],
     "start_line": 6698,
     "end_line": 6706,
@@ -22359,7 +22359,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101 Reheat Coil",
+      "Thermal Zone: Space 103 LAB B Reheat Coil",
       "Heating Coil Heating Rate",
       "TimeStep"
     ],
@@ -22401,7 +22401,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103 Reheat Coil",
+      "Thermal Zone: Space 105 LAB A Reheat Coil",
       "Heating Coil Heating Rate",
       "TimeStep"
     ],
@@ -22569,7 +22569,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101 Zone Equip Inlet",
+      "Thermal Zone: Space 103 LAB B Zone Equip Inlet",
       "System Node Temperature",
       "TimeStep"
     ],
@@ -22611,7 +22611,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103 Zone Equip Inlet",
+      "Thermal Zone: Space 105 LAB A Zone Equip Inlet",
       "System Node Temperature",
       "TimeStep"
     ],
@@ -22842,7 +22842,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "Zone Thermostat Heating Setpoint Temperature",
       "TimeStep"
     ],
@@ -22863,7 +22863,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "Zone Thermostat Cooling Setpoint Temperature",
       "TimeStep"
     ],
@@ -22884,7 +22884,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate",
       "TimeStep"
     ],
@@ -22905,7 +22905,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101",
+      "Thermal Zone: Space 103 LAB B",
       "Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate",
       "TimeStep"
     ],
@@ -22926,7 +22926,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101 VAV Reheat",
+      "Thermal Zone: Space 103 LAB B VAV Reheat",
       "Zone Air Terminal VAV Damper Position",
       "TimeStep"
     ],
@@ -23052,7 +23052,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "Zone Thermostat Heating Setpoint Temperature",
       "TimeStep"
     ],
@@ -23073,7 +23073,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "Zone Thermostat Cooling Setpoint Temperature",
       "TimeStep"
     ],
@@ -23094,7 +23094,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate",
       "TimeStep"
     ],
@@ -23115,7 +23115,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103",
+      "Thermal Zone: Space 105 LAB A",
       "Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate",
       "TimeStep"
     ],
@@ -23136,7 +23136,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103 VAV Reheat",
+      "Thermal Zone: Space 105 LAB A VAV Reheat",
       "Zone Air Terminal VAV Damper Position",
       "TimeStep"
     ],
@@ -23934,7 +23934,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101 Supply Inlet",
+      "Thermal Zone: Space 103 LAB B Supply Inlet",
       "System Node Mass Flow Rate",
       "Timestep"
     ],
@@ -23976,7 +23976,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103 Supply Inlet",
+      "Thermal Zone: Space 105 LAB A Supply Inlet",
       "System Node Mass Flow Rate",
       "Timestep"
     ],
@@ -24102,7 +24102,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 101 Supply Inlet",
+      "Thermal Zone: Space 103 LAB B Supply Inlet",
       "System Node Standard Density Volume Flow Rate",
       "Timestep"
     ],
@@ -24144,7 +24144,7 @@
   {
     "kind": "Output:Variable",
     "fields": [
-      "Thermal Zone: Space 103 Supply Inlet",
+      "Thermal Zone: Space 105 LAB A Supply Inlet",
       "System Node Standard Density Volume Flow Rate",
       "Timestep"
     ],
@@ -24893,7 +24893,7 @@
   {
     "kind": "Output:Meter:MeterFileOnly",
     "fields": [
-      "Electricity:Zone:THERMAL ZONE: SPACE 101",
+      "Electricity:Zone:THERMAL ZONE: SPACE 103 LAB B",
       "Hourly"
     ],
     "start_line": 7714,
@@ -24929,7 +24929,7 @@
   {
     "kind": "Output:Meter:MeterFileOnly",
     "fields": [
-      "Electricity:Zone:THERMAL ZONE: SPACE 103",
+      "Electricity:Zone:THERMAL ZONE: SPACE 105 LAB A",
       "Hourly"
     ],
     "start_line": 7722,

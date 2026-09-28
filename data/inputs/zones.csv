@@ -1,6 +1,6 @@
 zone,floor_polygon_area_m2,counts_in_building_floor_area,relative_north_deg,idf_start_line,idf_end_line
 MEP,6.457300117632,Yes,-0,1402,1415
 Thermal Zone: Plenum,67.782169467648,No,-0,1417,1430
-Thermal Zone: Space 101,18.413809881984,Yes,-0,1432,1445
+Thermal Zone: Space 103 LAB B,18.413809881984,Yes,-0,1432,1445
 Thermal Zone: Space 102 - Plus,24.497249586047996,Yes,-0,1447,1460
-Thermal Zone: Space 103,18.413809881984005,Yes,-0,1462,1475
+Thermal Zone: Space 105 LAB A,18.413809881984005,Yes,-0,1462,1475

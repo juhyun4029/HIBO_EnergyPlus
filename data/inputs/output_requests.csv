@@ -14,9 +14,9 @@ DXVAV Sys 1 Cooling Coil,Cooling Coil Total Cooling Rate,TimeStep,7091,7094
 DXVAV Sys 1 Cooling Coil,Cooling Coil Electricity Rate,TimeStep,7096,7099
 DXVAV Sys 1 Heating Coil,Heating Coil Heating Rate,TimeStep,7101,7104
 DXVAV Sys 1 Heating Coil,Heating Coil Electricity Rate,TimeStep,7106,7109
-Thermal Zone: Space 101 Reheat Coil,Heating Coil Heating Rate,TimeStep,7111,7114
+Thermal Zone: Space 103 LAB B Reheat Coil,Heating Coil Heating Rate,TimeStep,7111,7114
 Thermal Zone: Space 102 - Plus Reheat Coil,Heating Coil Heating Rate,TimeStep,7116,7119
-Thermal Zone: Space 103 Reheat Coil,Heating Coil Heating Rate,TimeStep,7121,7124
+Thermal Zone: Space 105 LAB A Reheat Coil,Heating Coil Heating Rate,TimeStep,7121,7124
 DXVAV Sys 1 Supply Fan,Fan Electricity Rate,TimeStep,7126,7129
 DXVAV Sys 1 Supply Fan,Fan Air Mass Flow Rate,TimeStep,7131,7134
 DXVAV Sys 1 Return Fan,Fan Electricity Rate,TimeStep,7136,7139
@@ -24,9 +24,9 @@ DXVAV Sys 1 Mixed Air Outlet,System Node Temperature,TimeStep,7141,7144
 DXVAV Sys 1 Cooling Coil Outlet,System Node Temperature,TimeStep,7146,7149
 DXVAV Sys 1 Heating Coil Outlet,System Node Temperature,TimeStep,7151,7154
 DXVAV Sys 1 Supply Fan Outlet,System Node Temperature,TimeStep,7156,7159
-Thermal Zone: Space 101 Zone Equip Inlet,System Node Temperature,TimeStep,7161,7164
+Thermal Zone: Space 103 LAB B Zone Equip Inlet,System Node Temperature,TimeStep,7161,7164
 Thermal Zone: Space 102 - Plus Zone Equip Inlet,System Node Temperature,TimeStep,7166,7169
-Thermal Zone: Space 103 Zone Equip Inlet,System Node Temperature,TimeStep,7171,7174
+Thermal Zone: Space 105 LAB A Zone Equip Inlet,System Node Temperature,TimeStep,7171,7174
 DXVAV Sys 1,Air System Outdoor Air Economizer Status,TimeStep,7176,7179
 DXVAV Sys 1,Air System Outdoor Air Flow Fraction,TimeStep,7181,7184
 DXVAV Sys 1 Cooling Coil,Cooling Coil Sensible Cooling Rate,TimeStep,7186,7189
@@ -37,21 +37,21 @@ DXVAV Sys 1 Supply Fan Outlet,System Node Mass Flow Rate,TimeStep,7206,7209
 DXVAV Sys 1 Mixed Air Outlet,System Node Humidity Ratio,TimeStep,7211,7214
 DXVAV Sys 1 Supply Fan Outlet,System Node Humidity Ratio,TimeStep,7216,7219
 DXVAV Sys 1 Supply Fan Outlet,System Node Setpoint Temperature,TimeStep,7221,7224
-Thermal Zone: Space 101,Zone Thermostat Heating Setpoint Temperature,TimeStep,7226,7229
-Thermal Zone: Space 101,Zone Thermostat Cooling Setpoint Temperature,TimeStep,7231,7234
-Thermal Zone: Space 101,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,TimeStep,7236,7239
-Thermal Zone: Space 101,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,TimeStep,7241,7244
-Thermal Zone: Space 101 VAV Reheat,Zone Air Terminal VAV Damper Position,TimeStep,7246,7249
+Thermal Zone: Space 103 LAB B,Zone Thermostat Heating Setpoint Temperature,TimeStep,7226,7229
+Thermal Zone: Space 103 LAB B,Zone Thermostat Cooling Setpoint Temperature,TimeStep,7231,7234
+Thermal Zone: Space 103 LAB B,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,TimeStep,7236,7239
+Thermal Zone: Space 103 LAB B,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,TimeStep,7241,7244
+Thermal Zone: Space 103 LAB B VAV Reheat,Zone Air Terminal VAV Damper Position,TimeStep,7246,7249
 Thermal Zone: Space 102 - Plus,Zone Thermostat Heating Setpoint Temperature,TimeStep,7251,7254
 Thermal Zone: Space 102 - Plus,Zone Thermostat Cooling Setpoint Temperature,TimeStep,7256,7259
 Thermal Zone: Space 102 - Plus,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,TimeStep,7261,7264
 Thermal Zone: Space 102 - Plus,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,TimeStep,7266,7269
 Thermal Zone: Space 102 - Plus VAV Reheat,Zone Air Terminal VAV Damper Position,TimeStep,7271,7274
-Thermal Zone: Space 103,Zone Thermostat Heating Setpoint Temperature,TimeStep,7276,7279
-Thermal Zone: Space 103,Zone Thermostat Cooling Setpoint Temperature,TimeStep,7281,7284
-Thermal Zone: Space 103,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,TimeStep,7286,7289
-Thermal Zone: Space 103,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,TimeStep,7291,7294
-Thermal Zone: Space 103 VAV Reheat,Zone Air Terminal VAV Damper Position,TimeStep,7296,7299
+Thermal Zone: Space 105 LAB A,Zone Thermostat Heating Setpoint Temperature,TimeStep,7276,7279
+Thermal Zone: Space 105 LAB A,Zone Thermostat Cooling Setpoint Temperature,TimeStep,7281,7284
+Thermal Zone: Space 105 LAB A,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate,TimeStep,7286,7289
+Thermal Zone: Space 105 LAB A,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate,TimeStep,7291,7294
+Thermal Zone: Space 105 LAB A VAV Reheat,Zone Air Terminal VAV Damper Position,TimeStep,7296,7299
 *,Site Day Type Index,Timestep,7301,7304
 *,Zone Windows Total Transmitted Solar Radiation Rate,Timestep,7306,7309
 *,Zone Exterior Windows Total Transmitted Beam Solar Radiation Rate,Timestep,7311,7314
@@ -89,17 +89,17 @@ DXVAV Sys 1,Air System Outdoor Air Minimum Flow Fraction,Timestep,7466,7469
 *,Zone Air Terminal Outdoor Air Volume Flow Rate,Timestep,7471,7474
 *,Zone Air Terminal Minimum Air Flow Fraction,Timestep,7476,7479
 Min OA Sched,Schedule Value,Timestep,7481,7484
-Thermal Zone: Space 101 Supply Inlet,System Node Mass Flow Rate,Timestep,7486,7489
+Thermal Zone: Space 103 LAB B Supply Inlet,System Node Mass Flow Rate,Timestep,7486,7489
 Thermal Zone: Space 102 - Plus Supply Inlet,System Node Mass Flow Rate,Timestep,7491,7494
-Thermal Zone: Space 103 Supply Inlet,System Node Mass Flow Rate,Timestep,7496,7499
+Thermal Zone: Space 105 LAB A Supply Inlet,System Node Mass Flow Rate,Timestep,7496,7499
 *,Zone Heating Setpoint Not Met Time,Timestep,7501,7504
 *,Zone Cooling Setpoint Not Met Time,Timestep,7506,7509
 *,Zone Heating Setpoint Not Met While Occupied Time,Timestep,7511,7514
 *,Zone Cooling Setpoint Not Met While Occupied Time,Timestep,7516,7519
 DXVAV Sys 1,Air System Outdoor Air Mechanical Ventilation Requested Mass Flow Rate,Timestep,7521,7524
-Thermal Zone: Space 101 Supply Inlet,System Node Standard Density Volume Flow Rate,Timestep,7526,7529
+Thermal Zone: Space 103 LAB B Supply Inlet,System Node Standard Density Volume Flow Rate,Timestep,7526,7529
 Thermal Zone: Space 102 - Plus Supply Inlet,System Node Standard Density Volume Flow Rate,Timestep,7531,7534
-Thermal Zone: Space 103 Supply Inlet,System Node Standard Density Volume Flow Rate,Timestep,7536,7539
+Thermal Zone: Space 105 LAB A Supply Inlet,System Node Standard Density Volume Flow Rate,Timestep,7536,7539
 DXVAV Sys 1 Supply Fan Outlet,System Node Standard Density Volume Flow Rate,Timestep,7541,7544
 *,Site Ground Temperature,Timestep,7546,7549
 Surface 1,Surface Inside Face Temperature,Timestep,7551,7554

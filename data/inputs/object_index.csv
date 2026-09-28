@@ -83,9 +83,9 @@ Construction,HIBO ITSG Opaque Panel,1385,1387,2
 GlobalGeometryRules,UpperLeftCorner,1392,1397,5
 Zone,MEP,1402,1415,13
 Zone,Thermal Zone: Plenum,1417,1430,13
-Zone,Thermal Zone: Space 101,1432,1445,13
+Zone,Thermal Zone: Space 103 LAB B,1432,1445,13
 Zone,Thermal Zone: Space 102 - Plus,1447,1460,13
-Zone,Thermal Zone: Space 103,1462,1475,13
+Zone,Thermal Zone: Space 105 LAB A,1462,1475,13
 BuildingSurface:Detailed,Surface 40,1480,1503,23
 BuildingSurface:Detailed,Surface 41 Ext,1505,1528,23
 BuildingSurface:Detailed,Surface 42 Ext,1530,1553,23
@@ -272,53 +272,53 @@ Shading:Building:Detailed,HIBO Upper Parapet West,5788,5803,15
 Shading:Building:Detailed,HIBO Upper Parapet East,5805,5820,15
 Shading:Building:Detailed,HIBO Upper Parapet NW Shoulder,5822,5837,15
 Shading:Building:Detailed,HIBO Upper Parapet NE Shoulder,5839,5854,15
-People,Space 101 People 1,5859,5872,13
+People,Space 103 LAB B People 1,5859,5872,13
 People,Space 102 People 1,5874,5887,13
-People,Space 103 People 1,5889,5902,13
-Lights,Space 101 Lights 1,5907,5920,13
+People,Space 105 LAB A People 1,5889,5902,13
+Lights,Space 103 LAB B Lights 1,5907,5920,13
 Lights,Space 102 Lights 1,5922,5935,13
-Lights,Space 103 Lights 1,5937,5950,13
-ElectricEquipment,Space 101 ElecEq 1,5955,5966,11
+Lights,Space 105 LAB A Lights 1,5937,5950,13
+ElectricEquipment,Space 103 LAB B ElecEq 1,5955,5966,11
 ElectricEquipment,Space 102 ElecEq 1,5968,5979,11
-ElectricEquipment,Space 103 ElecEq 1,5981,5992,11
-ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,5997,6009,12
+ElectricEquipment,Space 105 LAB A ElecEq 1,5981,5992,11
+ZoneInfiltration:DesignFlowRate,Space 103 LAB B Infil 1,5997,6009,12
 ZoneInfiltration:DesignFlowRate,Space 102 Infil 1,6011,6023,12
-ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,6025,6037,12
+ZoneInfiltration:DesignFlowRate,Space 105 LAB A Infil 1,6025,6037,12
 ZoneInfiltration:DesignFlowRate,MEP Infil 1,6039,6051,12
 Exterior:Lights,Exterior_Lights_a,6056,6061,5
-DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,6066,6073,7
+DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103 LAB B,6066,6073,7
 DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 102 - Plus,6075,6082,7
-DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,6084,6091,7
-DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 101,6096,6099,3
+DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 105 LAB A,6084,6091,7
+DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103 LAB B,6096,6099,3
 DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 102 - Plus,6101,6104,3
-DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103,6106,6109,3
+DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 105 LAB A,6106,6109,3
 Sizing:Parameters,1.2,6114,6116,2
-Sizing:Zone,Thermal Zone: Space 101,6121,6155,34
+Sizing:Zone,Thermal Zone: Space 103 LAB B,6121,6155,34
 Sizing:Zone,Thermal Zone: Space 102 - Plus,6157,6191,34
-Sizing:Zone,Thermal Zone: Space 103,6193,6227,34
+Sizing:Zone,Thermal Zone: Space 105 LAB A,6193,6227,34
 Sizing:System,DXVAV Sys 1,6232,6269,37
-ZoneControl:Thermostat,Thermal Zone: Space 101 Thermostat,6274,6279,5
+ZoneControl:Thermostat,Thermal Zone: Space 103 LAB B Thermostat,6274,6279,5
 ZoneControl:Thermostat,Thermal Zone: Space 102 - Plus Thermostat,6281,6286,5
-ZoneControl:Thermostat,Thermal Zone: Space 103 Thermostat,6288,6293,5
+ZoneControl:Thermostat,Thermal Zone: Space 105 LAB A Thermostat,6288,6293,5
 ThermostatSetpoint:DualSetpoint,Dual SP Control,6298,6301,3
-AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,6306,6326,20
+AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 LAB B VAV Reheat,6306,6326,20
 AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 102 - Plus VAV Reheat,6328,6348,20
-AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,6350,6370,20
-ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 101 ATU,6375,6379,4
+AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 105 LAB A VAV Reheat,6350,6370,20
+ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 LAB B ATU,6375,6379,4
 ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 102 - Plus ATU,6381,6385,4
-ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 ATU,6387,6391,4
-ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,6396,6404,8
+ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 105 LAB A ATU,6387,6391,4
+ZoneHVAC:EquipmentList,Thermal Zone: Space 103 LAB B Equipment,6396,6404,8
 ZoneHVAC:EquipmentList,Thermal Zone: Space 102 - Plus Equipment,6406,6414,8
-ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,6416,6424,8
-ZoneHVAC:EquipmentConnections,Thermal Zone: Space 101,6429,6435,6
+ZoneHVAC:EquipmentList,Thermal Zone: Space 105 LAB A Equipment,6416,6424,8
+ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103 LAB B,6429,6435,6
 ZoneHVAC:EquipmentConnections,Thermal Zone: Space 102 - Plus,6437,6443,6
-ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103,6445,6451,6
+ZoneHVAC:EquipmentConnections,Thermal Zone: Space 105 LAB A,6445,6451,6
 Fan:VariableVolume,DXVAV Sys 1 Return Fan,6456,6473,17
 Fan:VariableVolume,DXVAV Sys 1 Supply Fan,6475,6492,17
 Coil:Cooling:DX:TwoSpeed,DXVAV Sys 1 Cooling Coil,6497,6530,33
-Coil:Heating:Electric,Thermal Zone: Space 101 Reheat Coil,6535,6541,6
+Coil:Heating:Electric,Thermal Zone: Space 103 LAB B Reheat Coil,6535,6541,6
 Coil:Heating:Electric,Thermal Zone: Space 102 - Plus Reheat Coil,6543,6549,6
-Coil:Heating:Electric,Thermal Zone: Space 103 Reheat Coil,6551,6557,6
+Coil:Heating:Electric,Thermal Zone: Space 105 LAB A Reheat Coil,6551,6557,6
 Coil:Heating:Electric,DXVAV Sys 1 Heating Coil,6559,6566,7
 CoilSystem:Cooling:DX,DXVAV Sys 1 System,6571,6581,10
 Controller:OutdoorAir,DXVAV Sys 1 OA Controller,6586,6606,20
@@ -376,9 +376,9 @@ Output:Variable,DXVAV Sys 1 Cooling Coil,7091,7094,3
 Output:Variable,DXVAV Sys 1 Cooling Coil,7096,7099,3
 Output:Variable,DXVAV Sys 1 Heating Coil,7101,7104,3
 Output:Variable,DXVAV Sys 1 Heating Coil,7106,7109,3
-Output:Variable,Thermal Zone: Space 101 Reheat Coil,7111,7114,3
+Output:Variable,Thermal Zone: Space 103 LAB B Reheat Coil,7111,7114,3
 Output:Variable,Thermal Zone: Space 102 - Plus Reheat Coil,7116,7119,3
-Output:Variable,Thermal Zone: Space 103 Reheat Coil,7121,7124,3
+Output:Variable,Thermal Zone: Space 105 LAB A Reheat Coil,7121,7124,3
 Output:Variable,DXVAV Sys 1 Supply Fan,7126,7129,3
 Output:Variable,DXVAV Sys 1 Supply Fan,7131,7134,3
 Output:Variable,DXVAV Sys 1 Return Fan,7136,7139,3
@@ -386,9 +386,9 @@ Output:Variable,DXVAV Sys 1 Mixed Air Outlet,7141,7144,3
 Output:Variable,DXVAV Sys 1 Cooling Coil Outlet,7146,7149,3
 Output:Variable,DXVAV Sys 1 Heating Coil Outlet,7151,7154,3
 Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7156,7159,3
-Output:Variable,Thermal Zone: Space 101 Zone Equip Inlet,7161,7164,3
+Output:Variable,Thermal Zone: Space 103 LAB B Zone Equip Inlet,7161,7164,3
 Output:Variable,Thermal Zone: Space 102 - Plus Zone Equip Inlet,7166,7169,3
-Output:Variable,Thermal Zone: Space 103 Zone Equip Inlet,7171,7174,3
+Output:Variable,Thermal Zone: Space 105 LAB A Zone Equip Inlet,7171,7174,3
 Output:Variable,DXVAV Sys 1,7176,7179,3
 Output:Variable,DXVAV Sys 1,7181,7184,3
 Output:Variable,DXVAV Sys 1 Cooling Coil,7186,7189,3
@@ -399,21 +399,21 @@ Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7206,7209,3
 Output:Variable,DXVAV Sys 1 Mixed Air Outlet,7211,7214,3
 Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7216,7219,3
 Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7221,7224,3
-Output:Variable,Thermal Zone: Space 101,7226,7229,3
-Output:Variable,Thermal Zone: Space 101,7231,7234,3
-Output:Variable,Thermal Zone: Space 101,7236,7239,3
-Output:Variable,Thermal Zone: Space 101,7241,7244,3
-Output:Variable,Thermal Zone: Space 101 VAV Reheat,7246,7249,3
+Output:Variable,Thermal Zone: Space 103 LAB B,7226,7229,3
+Output:Variable,Thermal Zone: Space 103 LAB B,7231,7234,3
+Output:Variable,Thermal Zone: Space 103 LAB B,7236,7239,3
+Output:Variable,Thermal Zone: Space 103 LAB B,7241,7244,3
+Output:Variable,Thermal Zone: Space 103 LAB B VAV Reheat,7246,7249,3
 Output:Variable,Thermal Zone: Space 102 - Plus,7251,7254,3
 Output:Variable,Thermal Zone: Space 102 - Plus,7256,7259,3
 Output:Variable,Thermal Zone: Space 102 - Plus,7261,7264,3
 Output:Variable,Thermal Zone: Space 102 - Plus,7266,7269,3
 Output:Variable,Thermal Zone: Space 102 - Plus VAV Reheat,7271,7274,3
-Output:Variable,Thermal Zone: Space 103,7276,7279,3
-Output:Variable,Thermal Zone: Space 103,7281,7284,3
-Output:Variable,Thermal Zone: Space 103,7286,7289,3
-Output:Variable,Thermal Zone: Space 103,7291,7294,3
-Output:Variable,Thermal Zone: Space 103 VAV Reheat,7296,7299,3
+Output:Variable,Thermal Zone: Space 105 LAB A,7276,7279,3
+Output:Variable,Thermal Zone: Space 105 LAB A,7281,7284,3
+Output:Variable,Thermal Zone: Space 105 LAB A,7286,7289,3
+Output:Variable,Thermal Zone: Space 105 LAB A,7291,7294,3
+Output:Variable,Thermal Zone: Space 105 LAB A VAV Reheat,7296,7299,3
 Output:Variable,*,7301,7304,3
 Output:Variable,*,7306,7309,3
 Output:Variable,*,7311,7314,3
@@ -451,17 +451,17 @@ Output:Variable,DXVAV Sys 1,7466,7469,3
 Output:Variable,*,7471,7474,3
 Output:Variable,*,7476,7479,3
 Output:Variable,Min OA Sched,7481,7484,3
-Output:Variable,Thermal Zone: Space 101 Supply Inlet,7486,7489,3
+Output:Variable,Thermal Zone: Space 103 LAB B Supply Inlet,7486,7489,3
 Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,7491,7494,3
-Output:Variable,Thermal Zone: Space 103 Supply Inlet,7496,7499,3
+Output:Variable,Thermal Zone: Space 105 LAB A Supply Inlet,7496,7499,3
 Output:Variable,*,7501,7504,3
 Output:Variable,*,7506,7509,3
 Output:Variable,*,7511,7514,3
 Output:Variable,*,7516,7519,3
 Output:Variable,DXVAV Sys 1,7521,7524,3
-Output:Variable,Thermal Zone: Space 101 Supply Inlet,7526,7529,3
+Output:Variable,Thermal Zone: Space 103 LAB B Supply Inlet,7526,7529,3
 Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,7531,7534,3
-Output:Variable,Thermal Zone: Space 103 Supply Inlet,7536,7539,3
+Output:Variable,Thermal Zone: Space 105 LAB A Supply Inlet,7536,7539,3
 Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7541,7544,3
 Output:Variable,*,7546,7549,3
 Output:Variable,Surface 1,7551,7554,3
@@ -498,9 +498,9 @@ Output:Meter:MeterFileOnly,InteriorLights:Electricity,7698,7700,2
 Output:Meter:MeterFileOnly,Electricity:HVAC,7702,7704,2
 Output:Meter:MeterFileOnly,Heating:Electricity,7706,7708,2
 Output:Meter:MeterFileOnly,Cooling:Electricity,7710,7712,2
-Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 101,7714,7716,2
+Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 103 LAB B,7714,7716,2
 Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 102 - PLUS,7718,7720,2
-Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 103,7722,7724,2
+Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 105 LAB A,7722,7724,2
 Output:Meter:MeterFileOnly,ElectricityNet:Facility,7726,7728,2
 Output:SQLite,SimpleAndTabular,7733,7734,1
 Output:Diagnostics,DisplayExtraWarnings,7739,7741,2

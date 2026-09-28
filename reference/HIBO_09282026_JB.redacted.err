@@ -1,0 +1,60 @@
+Program Version,EnergyPlus, Version 22.2.0-c249759bad, YMD=2026.09.28 14:03,
+   ************* Successfully added path "[local working directory]" to the sys.path in Python
+   ************* Beginning Zone Sizing Calculations
+   ************* Beginning System Sizing Calculations
+   ** Warning ** SizeDXCoil Coil:Cooling:DX:TwoSpeed DXVAV SYS 1 COOLING COIL
+   **   ~~~   ** ...High Speed Gross Rated Total Cooling Capacity [W] will be limited by the minimum rated volume flow per rated total capacity ratio.
+   **   ~~~   ** ...DX coil volume flow rate (m3/s ) = 0.266809
+   **   ~~~   ** ...Requested capacity (W ) = 7329.832
+   **   ~~~   ** ...Requested flow/capacity ratio (m3/s/W ) = 3.640E-005
+   **   ~~~   ** ...Minimum flow/capacity ratio (m3/s/W ) = 4.027E-005
+   **   ~~~   ** ...Adjusted capacity ( W ) = 6625.508
+   ************* SizeHeatingCoil: : Potential issue with equipment sizing for Coil:Heating:Electric DXVAV SYS 1 HEATING COIL
+   **   ~~~   ** User-Specified Nominal Capacity [W] = 15000.00000
+   **   ~~~   ** differs from Design Size Nominal Capacity [W] = 1430.24298
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** SimHVAC: Maximum iterations (100) exceeded for all HVAC loops, at 1YEAR, 11/06 06:01 - 06:02
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = DXVAV SYS 1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 3.040396E-002,1.765703E-002,1.402862E-002,2.908414E-002,3.330178E-002,1.989826E-002,1.648522E-002,2.732998E-002,3.008997E-002,1.754327E-002,
+   **   ~~~   ** Air System Named = DXVAV SYS 1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 31.413539,36.121546,28.771546,22.884737,31.424835,38.266399,31.359383,25.824351,31.412316,35.889163,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: -6.410338,3.762323,-2.964170,6.186574,-7.018855,4.241058,-3.481568,5.815656,-6.344377,3.737972,
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 103 LAB B SUPPLY INLET shows oscillating humidity ratio across iterations with a repeated value of 4.562790E-003
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 103 LAB B SUPPLY INLET humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 4.562790E-003,4.562832E-003,4.562781E-003,4.562828E-003,4.562793E-003,4.562819E-003,4.562788E-003,4.562821E-003,4.562789E-003,4.562820E-003,
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 102 - PLUS SUPPLY INLET shows oscillating humidity ratio across iterations with a repeated value of 4.562790E-003
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 102 - PLUS SUPPLY INLET humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 4.562790E-003,4.562832E-003,4.562781E-003,4.562828E-003,4.562793E-003,4.562819E-003,4.562788E-003,4.562821E-003,4.562789E-003,4.562820E-003,
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 105 LAB A SUPPLY INLET shows oscillating humidity ratio across iterations with a repeated value of 4.562790E-003
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 105 LAB A SUPPLY INLET humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 4.562790E-003,4.562832E-003,4.562781E-003,4.562828E-003,4.562793E-003,4.562819E-003,4.562788E-003,4.562821E-003,4.562789E-003,4.562820E-003,
+   ** Warning ** SimHVAC: Maximum iterations (100) exceeded for all HVAC loops, at 1YEAR, 11/07 06:02 - 06:03
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** Air System Named = DXVAV SYS 1 did not converge for temperature
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface temperature check value iteration history trace: 0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,
+   **   ~~~   ** Supply-to-demand interface deck 1 temperature check value iteration history trace: 1.705484E-002,1.523615E-002,2.119898E-002,2.283314E-002,1.640449E-002,1.450262E-002,2.180945E-002,2.395234E-002,1.685535E-002,1.490083E-002,
+   **   ~~~   ** Air System Named = DXVAV SYS 1 did not converge for energy
+   **   ~~~   ** Check values should be zero. Most Recent values listed first.
+   **   ~~~   ** Demand-to-Supply interface energy check value iteration history trace: 32.242942,28.776788,25.693072,28.807921,31.578921,27.953130,24.727882,28.812512,32.446205,28.721114,
+   **   ~~~   ** Supply-to-demand interface deck 1 energy check value iteration history trace: 3.548748,-3.143528,4.407062,-4.706594,3.413111,-2.992638,4.533366,-4.936624,3.507337,-3.074482,
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 103 LAB B SUPPLY INLET shows oscillating humidity ratio across iterations with a repeated value of 4.171813E-003
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 103 LAB B SUPPLY INLET humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 4.171813E-003,4.171845E-003,4.171815E-003,4.171841E-003,4.171812E-003,4.171845E-003,4.171815E-003,4.171841E-003,4.171812E-003,4.171845E-003,
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 102 - PLUS SUPPLY INLET shows oscillating humidity ratio across iterations with a repeated value of 4.171813E-003
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 102 - PLUS SUPPLY INLET humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 4.171813E-003,4.171845E-003,4.171815E-003,4.171841E-003,4.171812E-003,4.171845E-003,4.171815E-003,4.171841E-003,4.171812E-003,4.171845E-003,
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 105 LAB A SUPPLY INLET shows oscillating humidity ratio across iterations with a repeated value of 4.171813E-003
+   **   ~~~   ** Node named THERMAL ZONE: SPACE 105 LAB A SUPPLY INLET humidity ratio [kg-water/kg-dryair] iteration history trace (most recent first): 4.171813E-003,4.171845E-003,4.171815E-003,4.171841E-003,4.171812E-003,4.171845E-003,4.171815E-003,4.171841E-003,4.171812E-003,4.171845E-003,
+   ************* Simulation Error Summary *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 3 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 20.80sec

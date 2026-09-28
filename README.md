@@ -1,6 +1,6 @@
 # HIBO EnergyPlus building model
 
-EnergyPlus model of the Human-Centered Integrated Building Operation laboratory in Omaha, Nebraska. **Model: 27 September 2026. EnergyPlus: 22.2.0.**
+EnergyPlus model of the Human-Centered Integrated Building Operation laboratory in Omaha, Nebraska. **Model: 28 September 2026. EnergyPlus: 22.2.0.**
 
 ## Model report
 
@@ -12,7 +12,7 @@ Exact schedules are in Appendix A; additional connections, curves, and output re
 
 ## Run with EP-Launch
 
-Use **EP-Launch from EnergyPlus 22.2.0**. Select `model/HIBO_09272026_JB.idf` and `weather/USA_NE_Omaha-Eppley.Airfield.725500_TMY3.epw`, then click **Simulate**. Both files are included. No programming environment is required.
+Use **EP-Launch from EnergyPlus 22.2.0**. Select `model/HIBO_09282026_JB.idf` and `weather/USA_NE_Omaha-Eppley.Airfield.725500_TMY3.epw`, then click **Simulate**. Both files are included. No programming environment is required.
 
 | Folder | Contents |
 | --- | --- |
@@ -21,9 +21,9 @@ Use **EP-Launch from EnergyPlus 22.2.0**. Select `model/HIBO_09272026_JB.idf` an
 | `reports/` | Model report in Word, PDF, HTML, and Markdown |
 | `docs/` | Browser report, complete input register, and figures |
 | `data/` | Input inventories and annual end-use results |
-| `reference/` | Supplied annual HTML results and path-redacted error log |
+| `reference/` | Annual HTML report, zone-sizing profiles, and path-redacted error log |
 | `sources/` | Supporting-source notes |
 
 Only the IDF and EPW are needed to simulate. Folder names are organizational; EP-Launch can select files from other locations. Drawings and the nameplate photograph are supporting evidence, not runtime inputs. The EPW is already included.
 
-The model uses reference properties and operating assumptions as well as drawing/nameplate evidence; it is not a field-calibrated model. Raw inputs and supplied simulation results are unchanged. See [source notes](sources/README.md) before distributing supporting drawings.
+The model uses reference properties and operating assumptions as well as drawing/nameplate evidence; it is not a field-calibrated model. The included IDF and weather file are the simulation inputs; the reference folder contains the supplied outputs. See [source notes](sources/README.md) before distributing supporting drawings.

@@ -4,7 +4,7 @@ Model Inputs and Simulation Results
 
 Juhyun Bak | University of Nebraska–Lincoln
 
-Model: 27 September 2026 | EnergyPlus 22.2.0
+Model: 28 September 2026 | EnergyPlus 22.2.0
 
 # 1. Model Overview
 
@@ -109,13 +109,13 @@ All seven design days use 97,784 Pa and DefaultMultipliers; rain, snow, and dayl
 
 | IDF zone | Drawing room(s) | Floor/footprint area [m²] | Volume [m³] | Representation |
 | --- | --- | --- | --- | --- |
-| Thermal Zone: Space 101 | Lab B / room 103 | 18.414 | 56.13 | Dedicated VAV + reheat |
+| Thermal Zone: Space 103 LAB B | Lab B / room 103 | 18.414 | 56.13 | Dedicated VAV + reheat |
 | Thermal Zone: Space 102 - Plus | Lobby 101 + Restroom 102 + Control 104 | 24.497 | 72.81 | One combined zone; VAV + reheat |
-| Thermal Zone: Space 103 | Lab A / room 105 | 18.414 | 56.13 | Dedicated VAV + reheat |
+| Thermal Zone: Space 105 LAB A | Lab A / room 105 | 18.414 | 56.13 | Dedicated VAV + reheat |
 | MEP | MEP / room 106 | 6.457 | 19.68 | No dedicated terminal |
 | Thermal Zone: Plenum | Common return plenum | 67.782 | 98.50 | Above the rooms; not counted in floor-area total |
 
-The IDF’s Space 101 is drawing Lab B, room 103; it is not drawing Lobby 101. The three central architectural rooms share one simulated air temperature. The plenum footprint is not added again to building floor area. The MEP room has no dedicated air terminal. Model polygon area is not the same quantity as the architectural cover sheet’s gross building area. [1,3]
+Lab B is modeled as Thermal Zone: Space 103 LAB B, and Lab A as Thermal Zone: Space 105 LAB A. Lobby 101, Restroom 102, and Control 104 share the central zone’s simulated air temperature. The plenum footprint is not added again to building floor area. The MEP room has no dedicated air terminal. Model polygon area is not the same quantity as the architectural cover sheet’s gross building area. [1,3]
 
 **Table 3-2. Zone extents and enclosed volumes calculated from surface vertices**
 
@@ -123,9 +123,9 @@ The IDF’s Space 101 is drawing Lab B, room 103; it is not drawing Lobby 101. T
 | --- | --- | --- | --- |
 | MEP | 6.312–9.171 × 4.654–6.913 | 0.000–3.048 | 19.682 |
 | Thermal Zone: Plenum | 0.000–11.000 × 0.000–6.913 | 2.743–4.724 | 98.495 |
-| Thermal Zone: Space 101 | 0.000–3.956 × 0.000–4.654 | 0.000–3.048 | 56.125 |
+| Thermal Zone: Space 103 LAB B | 0.000–3.956 × 0.000–4.654 | 0.000–3.048 | 56.125 |
 | Thermal Zone: Space 102 - Plus | 1.829–7.044 × 0.000–6.913 | 0.000–3.048 | 72.806 |
-| Thermal Zone: Space 103 | 7.044–11.000 × 0.000–4.654 | 0.000–3.048 | 56.125 |
+| Thermal Zone: Space 105 LAB A | 7.044–11.000 × 0.000–4.654 | 0.000–3.048 | 56.125 |
 
 The central-zone extent is a bounding rectangle, not a statement that the zone itself is rectangular. Exact vertices, surface assignments, and reciprocal adjacent-surface names are supplied in the IDF and the complete input register. [1]
 
@@ -621,9 +621,9 @@ Each of the three main zones has one People object, using the same area-per-pers
 
 | Zone | Design people count | Full-schedule activity heat [W] |
 | --- | --- | --- |
-| Thermal Zone: Space 101 | 0.991 | 116.19 |
+| Thermal Zone: Space 103 LAB B | 0.991 | 116.19 |
 | Thermal Zone: Space 102 - Plus | 1.318 | 154.57 |
-| Thermal Zone: Space 103 | 0.991 | 116.19 |
+| Thermal Zone: Space 105 LAB A | 0.991 | 116.19 |
 
 The calculated count is fractional because an area-per-person density is used. The activity heat is total metabolic heat before the solver determines the sensible/latent split; it is not all convective sensible gain. ActSchd is 117.239998 W/person all day. The sensible-heat-fraction field is blank, and the CO₂ generation-rate field is also blank. [1]
 
@@ -654,9 +654,9 @@ The three main zones each contain a Lights object using Watts/Area. The lighting
 
 | Zone | Calculated design lighting [W] | Calculated design plug load [W] |
 | --- | --- | --- |
-| Thermal Zone: Space 101 | 113.82 | 124.85 |
+| Thermal Zone: Space 103 LAB B | 113.82 | 124.85 |
 | Thermal Zone: Space 102 - Plus | 151.42 | 166.09 |
-| Thermal Zone: Space 103 | 113.82 | 124.85 |
+| Thermal Zone: Space 105 LAB A | 113.82 | 124.85 |
 
 Exterior_Lights_a is a separate 88.49 W load. Its schedule is zero from 00:00–06:00 and one from 06:00–24:00 for AllDays. The Control Option field is blank. The exterior load is not applied as a zone internal heat gain. [1, L498–L506, L6056–L6061]
 
@@ -694,9 +694,9 @@ The air loop DXVAV Sys 1 serves all three main zones. Zone return nodes enter a 
 
 | Zone | Terminal name | Terminal reheat coil |
 | --- | --- | --- |
-| Thermal Zone: Space 101 | Thermal Zone: Space 101 VAV Reheat | Thermal Zone: Space 101 Reheat Coil |
+| Thermal Zone: Space 103 LAB B | Thermal Zone: Space 103 LAB B VAV Reheat | Thermal Zone: Space 103 LAB B Reheat Coil |
 | Thermal Zone: Space 102 - Plus | Thermal Zone: Space 102 - Plus VAV Reheat | Thermal Zone: Space 102 - Plus Reheat Coil |
-| Thermal Zone: Space 103 | Thermal Zone: Space 103 VAV Reheat | Thermal Zone: Space 103 Reheat Coil |
+| Thermal Zone: Space 105 LAB A | Thermal Zone: Space 105 LAB A VAV Reheat | Thermal Zone: Space 105 LAB A Reheat Coil |
 
 SupplyPath, ReturnPath, Branch, BranchList, NodeList and ZoneHVAC equipment-connection objects implement this routing. Appendix B.1 gives the common node sequence and points to the full connection definitions. MEP has no dedicated supply terminal. [1]
 
@@ -935,32 +935,31 @@ EUI is annual site energy divided by the modeled floor area of 67.78217 m², inc
 
 | End use | Annual electricity [kWh/yr] | Site EUI [kWh/(m² yr)] | Site EUI [kBtu/(ft² yr)] |
 | --- | ---: | ---: | ---: |
-| Interior equipment (electric) | 945.34 | 13.95 | 4.42 |
-| Interior lighting (electric) | 878.33 | 12.96 | 4.11 |
-| Exterior lighting (electric) | 581.38 | 8.58 | 2.72 |
-| Central heating (electric) | 257.42 | 3.80 | 1.20 |
-| Terminal reheat (electric) | 1,833.32 | 27.05 | 8.57 |
-| Cooling (electric) | 2,038.47 | 30.07 | 9.53 |
-| Fans (electric) | 4,831.75 | 71.28 | 22.60 |
-| Total | 11,366.00 | 167.68 | 53.16 |
+| Interior equipment (electric) | 944 | 13.93 | 4.42 |
+| Interior lighting (electric) | 878 | 12.95 | 4.11 |
+| Exterior lighting (electric) | 581 | 8.57 | 2.72 |
+| Heating incl. terminal reheat (electric) | 2,092 | 30.86 | 9.78 |
+| Cooling (electric) | 2,039 | 30.08 | 9.54 |
+| Fans (electric) | 4,831 | 71.27 | 22.59 |
+| Total | 11,366 | 167.69 | 53.16 |
 
-Source: [1,5]. Electrical rates are integrated at ten-minute intervals. Terminal reheat uses reported coil heat output and its entered efficiency of 1.0; lighting is calculated from the entered powers and schedules. All seven end uses reconcile to the facility electricity series at every recorded interval. Totals are calculated before rounding.
+Source: [1,5]. End-use values are read from the annual report at 0.01 GJ precision; total electricity is reported at 0.001 GJ. Converted kWh and EUI are approximate, and independently rounded entries may not sum exactly to the total.
 
-Central electric heating and terminal electric reheat are reported separately. No gas, elevator, hydronic-pump, service-water-heating, humidification, or dedicated refrigeration load is modeled. [1,5]
+Heating includes both the central electric heater and terminal electric reheat. No gas, elevator, hydronic-pump, service-water-heating, humidification, or dedicated refrigeration load is modeled. [1,5]
 
 ![HIBO annual site EUI by end use](../docs/assets/baseline-end-use-eui.png)
 
 *Figure 7-1. Annual site-energy end-use intensity for HIBO, Omaha TMY3. [5]*
 
-Fans are the largest end use: 4,831.75 kWh/year, or 42.5% of total electricity. Cooling is 2,038.47 kWh/year (17.9%); central heating and terminal reheat together are 2,090.74 kWh/year (18.4%). Thus heating, cooling, and fans together account for 78.8% of this model’s annual site energy. Interior equipment and interior/exterior lighting account for the remaining 21.2%.  [5]
+Fans are the largest end use, accounting for approximately 42.5% of annual electricity. Cooling accounts for 17.9%, and central heating plus terminal reheat for 18.4%. Heating, cooling, and fans together account for approximately 78.8%; interior equipment and interior/exterior lighting account for the remaining 21.2%. [5]
 
-Terminal reheat contributes 1,833.32 kWh/year, or 87.7% of heating electricity; the central heater contributes 257.42 kWh/year. Total site EUI is 167.68 kWh/(m² yr), equivalent to 53.16 kBtu/(ft² yr). [5]
+Total site electricity is approximately 11,366 kWh/year. Total site EUI is approximately 167.69 kWh/(m² yr), equivalent to 53.16 kBtu/(ft² yr). The supplied annual table does not separate central-heater and terminal-reheat electricity. [5]
 
 The supplied run completed with three warnings and no severe errors. Occupied heating setpoint-not-met time is 53.83 facility-hours; occupied cooling setpoint-not-met time is 0.00 hours. These are simulated results, not measured-building performance. [5,6]
 
 # 8. References
 
-[1] Bak, J. HIBO_09272026_JB.idf. User-supplied EnergyPlus input snapshot, 27 September 2026. Canonical file in model/. All input line references in this report refer to this unchanged file.
+[1] Bak, J. HIBO_09282026_JB.idf. User-supplied EnergyPlus input snapshot, 28 September 2026. Canonical file in model/. All input line references in this report refer to this unchanged file.
 
 [2] USA_NE_Omaha-Eppley.Airfield.725500_TMY3.epw. User-supplied weather file. LOCATION: Omaha Eppley Airfield; TMY3; WMO 725500. Header identifies NREL TMY Data Set (2008), generally 1973–2005 period of record. Included in weather/.
 
@@ -968,9 +967,9 @@ The supplied run completed with three warnings and no severe errors. Occupied he
 
 [4] AAON, Inc. RTU-1 nameplate photograph, IMG_4634.jpeg, supplied by the user. Electric heat maximum 15 kW; field note reconfiguring unit from 6 ton to 4 ton; maximum outlet-air temperature 200°F. Photograph is equipment-rating evidence, not a full control-sequence document.
 
-[5] EnergyPlus. HIBO_09272026_JBTable(1).html and HIBO_09272026_JB.csv. Supplied annual results from EnergyPlus 22.2.0-c249759bad, simulation timestamp 27 September 2026, 17:19:33. The tabular report is included in reference/.
+[5] EnergyPlus. HIBO_09282026_JBTable.html and HIBO_09282026_JBZsz.csv. Supplied outputs from EnergyPlus 22.2.0-c249759bad, simulation timestamp 28 September 2026, 14:03:43. Table.html contains annual summaries; Zsz.csv contains zone-sizing design-day profiles. Both are included in reference/.
 
-[6] EnergyPlus. HIBO_09272026_JB.err. Supplied error log for the same run. A local-path-redacted copy is included in reference/.
+[6] EnergyPlus. HIBO_09282026_JB.err. Supplied error log for the same run. A local-path-redacted copy is included in reference/.
 
 [7] Bonnema, E.; Leach, M.; Pless, S. Technical Support Document: Development of the Advanced Energy Design Guide for Large Hospitals – 50% Energy Savings. NREL/TP-5500-52588, June 2013. Sections 3.2–3.3 and Appendix C provide the model-description example; Section 3.3.8, pp. 57–58, provides the annual end-use table and stacked EUI format.
 
@@ -1304,9 +1303,9 @@ There are 127 Output:Variable records and 14 Output:Meter:MeterFileOnly records.
 | Electricity:HVAC | runperiod |
 | Heating:Electricity | Hourly |
 | Cooling:Electricity | Hourly |
-| Electricity:Zone:THERMAL ZONE: SPACE 101 | Hourly |
+| Electricity:Zone:THERMAL ZONE: SPACE 103 LAB B | Hourly |
 | Electricity:Zone:THERMAL ZONE: SPACE 102 - PLUS | Hourly |
-| Electricity:Zone:THERMAL ZONE: SPACE 103 | Hourly |
+| Electricity:Zone:THERMAL ZONE: SPACE 105 LAB A | Hourly |
 | ElectricityNet:Facility | Hourly |
 
 **Table B-9. All requested variable/key/frequency combinations (duplicate counts preserved)**
@@ -1326,9 +1325,9 @@ There are 127 Output:Variable records and 14 Output:Meter:MeterFileOnly records.
 | Cooling Coil Electricity Rate | DXVAV Sys 1 Cooling Coil | TimeStep |
 | Heating Coil Heating Rate | DXVAV Sys 1 Heating Coil | TimeStep |
 | Heating Coil Electricity Rate | DXVAV Sys 1 Heating Coil | TimeStep |
-| Heating Coil Heating Rate | Thermal Zone: Space 101 Reheat Coil | TimeStep |
+| Heating Coil Heating Rate | Thermal Zone: Space 103 LAB B Reheat Coil | TimeStep |
 | Heating Coil Heating Rate | Thermal Zone: Space 102 - Plus Reheat Coil | TimeStep |
-| Heating Coil Heating Rate | Thermal Zone: Space 103 Reheat Coil | TimeStep |
+| Heating Coil Heating Rate | Thermal Zone: Space 105 LAB A Reheat Coil | TimeStep |
 | Fan Electricity Rate | DXVAV Sys 1 Supply Fan | TimeStep |
 | Fan Air Mass Flow Rate | DXVAV Sys 1 Supply Fan | TimeStep |
 | Fan Electricity Rate | DXVAV Sys 1 Return Fan | TimeStep |
@@ -1336,9 +1335,9 @@ There are 127 Output:Variable records and 14 Output:Meter:MeterFileOnly records.
 | System Node Temperature | DXVAV Sys 1 Cooling Coil Outlet | TimeStep |
 | System Node Temperature | DXVAV Sys 1 Heating Coil Outlet | TimeStep |
 | System Node Temperature | DXVAV Sys 1 Supply Fan Outlet | TimeStep |
-| System Node Temperature | Thermal Zone: Space 101 Zone Equip Inlet | TimeStep |
+| System Node Temperature | Thermal Zone: Space 103 LAB B Zone Equip Inlet | TimeStep |
 | System Node Temperature | Thermal Zone: Space 102 - Plus Zone Equip Inlet | TimeStep |
-| System Node Temperature | Thermal Zone: Space 103 Zone Equip Inlet | TimeStep |
+| System Node Temperature | Thermal Zone: Space 105 LAB A Zone Equip Inlet | TimeStep |
 | Air System Outdoor Air Economizer Status | DXVAV Sys 1 | TimeStep |
 | Air System Outdoor Air Flow Fraction | DXVAV Sys 1 | TimeStep |
 | Cooling Coil Sensible Cooling Rate | DXVAV Sys 1 Cooling Coil | TimeStep |
@@ -1349,21 +1348,21 @@ There are 127 Output:Variable records and 14 Output:Meter:MeterFileOnly records.
 | System Node Humidity Ratio | DXVAV Sys 1 Mixed Air Outlet | TimeStep |
 | System Node Humidity Ratio | DXVAV Sys 1 Supply Fan Outlet | TimeStep |
 | System Node Setpoint Temperature | DXVAV Sys 1 Supply Fan Outlet | TimeStep |
-| Zone Thermostat Heating Setpoint Temperature | Thermal Zone: Space 101 | TimeStep |
-| Zone Thermostat Cooling Setpoint Temperature | Thermal Zone: Space 101 | TimeStep |
-| Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate | Thermal Zone: Space 101 | TimeStep |
-| Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate | Thermal Zone: Space 101 | TimeStep |
-| Zone Air Terminal VAV Damper Position | Thermal Zone: Space 101 VAV Reheat | TimeStep |
+| Zone Thermostat Heating Setpoint Temperature | Thermal Zone: Space 103 LAB B | TimeStep |
+| Zone Thermostat Cooling Setpoint Temperature | Thermal Zone: Space 103 LAB B | TimeStep |
+| Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate | Thermal Zone: Space 103 LAB B | TimeStep |
+| Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate | Thermal Zone: Space 103 LAB B | TimeStep |
+| Zone Air Terminal VAV Damper Position | Thermal Zone: Space 103 LAB B VAV Reheat | TimeStep |
 | Zone Thermostat Heating Setpoint Temperature | Thermal Zone: Space 102 - Plus | TimeStep |
 | Zone Thermostat Cooling Setpoint Temperature | Thermal Zone: Space 102 - Plus | TimeStep |
 | Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate | Thermal Zone: Space 102 - Plus | TimeStep |
 | Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate | Thermal Zone: Space 102 - Plus | TimeStep |
 | Zone Air Terminal VAV Damper Position | Thermal Zone: Space 102 - Plus VAV Reheat | TimeStep |
-| Zone Thermostat Heating Setpoint Temperature | Thermal Zone: Space 103 | TimeStep |
-| Zone Thermostat Cooling Setpoint Temperature | Thermal Zone: Space 103 | TimeStep |
-| Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate | Thermal Zone: Space 103 | TimeStep |
-| Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate | Thermal Zone: Space 103 | TimeStep |
-| Zone Air Terminal VAV Damper Position | Thermal Zone: Space 103 VAV Reheat | TimeStep |
+| Zone Thermostat Heating Setpoint Temperature | Thermal Zone: Space 105 LAB A | TimeStep |
+| Zone Thermostat Cooling Setpoint Temperature | Thermal Zone: Space 105 LAB A | TimeStep |
+| Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate | Thermal Zone: Space 105 LAB A | TimeStep |
+| Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate | Thermal Zone: Space 105 LAB A | TimeStep |
+| Zone Air Terminal VAV Damper Position | Thermal Zone: Space 105 LAB A VAV Reheat | TimeStep |
 | Site Day Type Index | * | Timestep |
 | Zone Windows Total Transmitted Solar Radiation Rate | * | Timestep |
 | Zone Exterior Windows Total Transmitted Beam Solar Radiation Rate | * | Timestep |
@@ -1401,17 +1400,17 @@ There are 127 Output:Variable records and 14 Output:Meter:MeterFileOnly records.
 | Zone Air Terminal Outdoor Air Volume Flow Rate | * | Timestep |
 | Zone Air Terminal Minimum Air Flow Fraction | * | Timestep |
 | Schedule Value | Min OA Sched | Timestep |
-| System Node Mass Flow Rate | Thermal Zone: Space 101 Supply Inlet | Timestep |
+| System Node Mass Flow Rate | Thermal Zone: Space 103 LAB B Supply Inlet | Timestep |
 | System Node Mass Flow Rate | Thermal Zone: Space 102 - Plus Supply Inlet | Timestep |
-| System Node Mass Flow Rate | Thermal Zone: Space 103 Supply Inlet | Timestep |
+| System Node Mass Flow Rate | Thermal Zone: Space 105 LAB A Supply Inlet | Timestep |
 | Zone Heating Setpoint Not Met Time | * | Timestep |
 | Zone Cooling Setpoint Not Met Time | * | Timestep |
 | Zone Heating Setpoint Not Met While Occupied Time | * | Timestep |
 | Zone Cooling Setpoint Not Met While Occupied Time | * | Timestep |
 | Air System Outdoor Air Mechanical Ventilation Requested Mass Flow Rate | DXVAV Sys 1 | Timestep |
-| System Node Standard Density Volume Flow Rate | Thermal Zone: Space 101 Supply Inlet | Timestep |
+| System Node Standard Density Volume Flow Rate | Thermal Zone: Space 103 LAB B Supply Inlet | Timestep |
 | System Node Standard Density Volume Flow Rate | Thermal Zone: Space 102 - Plus Supply Inlet | Timestep |
-| System Node Standard Density Volume Flow Rate | Thermal Zone: Space 103 Supply Inlet | Timestep |
+| System Node Standard Density Volume Flow Rate | Thermal Zone: Space 105 LAB A Supply Inlet | Timestep |
 | System Node Standard Density Volume Flow Rate | DXVAV Sys 1 Supply Fan Outlet | Timestep |
 | Site Ground Temperature | * | Timestep |
 | Surface Inside Face Temperature | Surface 1 | Timestep |
