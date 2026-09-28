@@ -1,0 +1,18 @@
+construction,opaque,R_m2K_W_excluding_films,C_kJ_m2K,layers_outside_to_inside,idf_start_line,idf_end_line
+EXT_Window_SN54,False,,,SN54_1in_IGU,1296,1298
+HIBO Metal Panel Exterior Wall,True,2.57692160717462,36.207088000000006,HIBO Metal Wall Panel 24ga Eq | HIBO Thermax CI R7.5 Eq | HIBO Air Barrier Eq | HIBO Exterior Gypsum Sheathing 5-8in | HIBO CFS Batt R13 6in Effective | HIBO Gypsum Board Type X 5-8in,1300,1307
+HIBO CMU Veneer Exterior Wall,True,2.917107133820131,101.27853649241955,HIBO Burnished CMU Veneer 4in Eq | HIBO Exterior Drainage Cavity | HIBO Thermax CI R7.5 Eq | HIBO Air Barrier Eq | HIBO Exterior Gypsum Sheathing 5-8in | HIBO CFS Batt R13 6in Effective | HIBO Gypsum Board Type X 5-8in,1309,1317
+HIBO EPDM Insulated Roof,True,5.288905328903156,9.125522,HIBO EPDM Membrane 45mil | HIBO Roof Polyiso 4in R30 Eq | HIBO Roof Vapor Retarder Eq | HIBO Metal Roof Deck Eq,1319,1324
+HIBO Slab Carpet,True,0.21775511060259345,338.81576128,HIBO Granular Fill 4in Eq | HIBO Concrete Slab 4in | HIBO Carpet Tile CPT-1 Eq,1326,1330
+HIBO Slab Sealed Concrete,True,0.1309717772692601,336.7462912,HIBO Granular Fill 4in Eq | HIBO Concrete Slab 4in,1332,1335
+HIBO APC-1 Ceiling,True,0.3899999999998596,3.2839208282271235,HIBO APC-1 Ultima High NRC 1940 Reference,1337,1339
+HIBO GYP Ceiling,True,0.09921875,13.843,HIBO Gypsum Board Type X 5-8in,1341,1343
+HIBO Interior Partition SA.6.20,True,1.4684374999999998,31.953200000000002,HIBO Gypsum Board Type X 5-8in | HIBO Interior Sound Batt Cavity 6in Eq | HIBO Gypsum Board Type X 5-8in,1345,1349
+HIBO Interior Partition SA.8.21,True,1.8917708333333332,33.3756,HIBO Gypsum Board Type X 5-8in | HIBO Interior Sound Batt Cavity 8in Eq | HIBO Gypsum Board Type X 5-8in,1351,1355
+HIBO Interior CTG,False,,,HIBO Interior CTG 1-4in,1357,1359
+HIBO HM Door 1-3-4in,True,0.3537941696113074,11.22,HIBO HM Door Steel Skin Eq | HIBO HM Door Core Eq | HIBO HM Door Steel Skin Eq,1361,1365
+HIBO Metal Frame Strip,True,0.2,5.55625,HIBO Hollow Metal Frame Eq,1367,1369
+HIBO Exterior Aluminum Frame Strip,True,0.2,16.4592,HIBO Exterior Aluminum Frame Strip Eq,1371,1373
+HIBO Internal Mass Half SA6,True,0.73421875,15.976600000000001,HIBO Internal Mass Half Cavity SA6 Eq | HIBO Gypsum Board Type X 5-8in,1375,1378
+HIBO Internal Mass Half HM Door,True,0.17689708480565372,5.61,HIBO Internal Mass Half HM Core | HIBO HM Door Steel Skin Eq,1380,1383
+HIBO ITSG Opaque Panel,True,0.41823529411742716,8.5344,HIBO ITSG Opaque Panel 1in Eq,1385,1387

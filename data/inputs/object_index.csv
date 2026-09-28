@@ -1,0 +1,506 @@
+class,name_or_first_field,start_line,end_line,number_of_fields
+Version,22.2,20,21,1
+SimulationControl,Yes,26,33,7
+Building,Building 1,38,46,8
+ShadowCalculation,PolygonClipping,51,61,10
+SurfaceConvectionAlgorithm:Inside,TARP,66,67,1
+SurfaceConvectionAlgorithm:Outside,TARP,72,73,1
+HeatBalanceAlgorithm,ConductionTransferFunction,78,80,2
+Timestep,6,85,86,1
+ConvergenceLimits,1,91,95,4
+Site:Location,Omaha Eppley Airfield,100,105,5
+SizingPeriod:DesignDay,Omaha Eppley Airfield Ann Clg .4% Condns DB=>MWB,110,138,28
+SizingPeriod:DesignDay,Omaha Eppley Airfield Ann Clg .4% Condns DP=>MDB,140,168,28
+SizingPeriod:DesignDay,Omaha Eppley Airfield Ann Clg .4% Condns Enth=>MDB,170,198,28
+SizingPeriod:DesignDay,Omaha Eppley Airfield Ann Clg .4% Condns WB=>MDB,200,228,28
+SizingPeriod:DesignDay,Omaha Eppley Airfield Ann Htg 99.6% Condns DB,230,258,28
+SizingPeriod:DesignDay,Omaha Eppley Airfield Ann Htg Wind 99.6% Condns WS=>MCDB,260,288,28
+SizingPeriod:DesignDay,Omaha Eppley Airfield Ann Hum_n 99.6% Condns DP=>MCDB,290,318,28
+RunPeriod,1year,323,336,13
+Site:GroundTemperature:BuildingSurface,21.5,341,353,12
+ScheduleTypeLimits,Any Number,358,359,1
+ScheduleTypeLimits,Fraction,361,365,4
+ScheduleTypeLimits,Temperature,367,371,4
+ScheduleTypeLimits,Control Type,373,377,4
+ScheduleTypeLimits,On/Off,379,383,4
+ScheduleTypeLimits,FlowRate,385,389,4
+Schedule:Compact,HTGSETP_SCH_NO_OPTIMUM,394,424,30
+Schedule:Compact,CLGSETP_SCH_NO_OPTIMUM,426,456,30
+Schedule:Compact,ltg_sch_office,458,496,38
+Schedule:Compact,Exterior_lighting_schedule_a,498,506,8
+Schedule:Compact,OCCUPY-1,508,550,42
+Schedule:Compact,EQUIP-1,552,575,23
+Schedule:Compact,INFIL-SCH,577,600,23
+Schedule:Compact,ActSchd,602,608,6
+Schedule:Compact,AvailSched_1,610,625,15
+Schedule:Compact,Min OA Sched,627,646,19
+Schedule:Compact,HVACTemplate-Always 4,648,654,6
+Schedule:Compact,HVACTemplate-Always 1,656,662,6
+Material,HIBO Metal Wall Panel 24ga Eq,685,694,9
+Material,HIBO Burnished CMU Veneer 4in Eq,718,727,9
+Material,HIBO Thermax CI R7.5 Eq,745,754,9
+Material,HIBO Exterior Gypsum Sheathing 5-8in,774,783,9
+Material,HIBO CFS Batt R13 6in Effective,795,804,9
+Material,HIBO Gypsum Board Type X 5-8in,824,833,9
+Material,HIBO EPDM Membrane 45mil,852,861,9
+Material,HIBO Roof Polyiso 4in R30 Eq,878,887,9
+Material,HIBO Metal Roof Deck Eq,908,917,9
+Material,HIBO Concrete Slab 4in,937,946,9
+Material,HIBO Granular Fill 4in Eq,965,974,9
+Material,HIBO APC-1 Ultima High NRC 1940 Reference,994,1003,9
+Material,HIBO Interior Sound Batt Cavity 6in Eq,1015,1024,9
+Material,HIBO Interior Sound Batt Cavity 8in Eq,1036,1045,9
+Material,HIBO HM Door Steel Skin Eq,1065,1074,9
+Material,HIBO HM Door Core Eq,1086,1095,9
+Material,HIBO Hollow Metal Frame Eq,1108,1117,9
+Material,HIBO Exterior Aluminum Frame Strip Eq,1130,1139,9
+Material,HIBO Internal Mass Half Cavity SA6 Eq,1151,1160,9
+Material,HIBO Internal Mass Half HM Core,1172,1181,9
+Material,HIBO ITSG Opaque Panel 1in Eq,1193,1202,9
+Material,HIBO Carpet Tile CPT-1 Eq,1222,1231,9
+Material:NoMass,HIBO Air Barrier Eq,1237,1243,6
+Material:NoMass,HIBO Roof Vapor Retarder Eq,1246,1252,6
+Material:AirGap,HIBO Exterior Drainage Cavity,1259,1261,2
+WindowMaterial:SimpleGlazingSystem,SN54_1in_IGU,1266,1270,4
+WindowMaterial:Glazing,HIBO Interior CTG 1-4in,1275,1291,16
+Construction,EXT_Window_SN54,1296,1298,2
+Construction,HIBO Metal Panel Exterior Wall,1300,1307,7
+Construction,HIBO CMU Veneer Exterior Wall,1309,1317,8
+Construction,HIBO EPDM Insulated Roof,1319,1324,5
+Construction,HIBO Slab Carpet,1326,1330,4
+Construction,HIBO Slab Sealed Concrete,1332,1335,3
+Construction,HIBO APC-1 Ceiling,1337,1339,2
+Construction,HIBO GYP Ceiling,1341,1343,2
+Construction,HIBO Interior Partition SA.6.20,1345,1349,4
+Construction,HIBO Interior Partition SA.8.21,1351,1355,4
+Construction,HIBO Interior CTG,1357,1359,2
+Construction,HIBO HM Door 1-3-4in,1361,1365,4
+Construction,HIBO Metal Frame Strip,1367,1369,2
+Construction,HIBO Exterior Aluminum Frame Strip,1371,1373,2
+Construction,HIBO Internal Mass Half SA6,1375,1378,3
+Construction,HIBO Internal Mass Half HM Door,1380,1383,3
+Construction,HIBO ITSG Opaque Panel,1385,1387,2
+GlobalGeometryRules,UpperLeftCorner,1392,1397,5
+Zone,MEP,1402,1415,13
+Zone,Thermal Zone: Plenum,1417,1430,13
+Zone,Thermal Zone: Space 101,1432,1445,13
+Zone,Thermal Zone: Space 102 - Plus,1447,1460,13
+Zone,Thermal Zone: Space 103,1462,1475,13
+BuildingSurface:Detailed,Surface 40,1480,1503,23
+BuildingSurface:Detailed,Surface 41 Ext,1505,1528,23
+BuildingSurface:Detailed,Surface 42 Ext,1530,1553,23
+BuildingSurface:Detailed,Surface 43,1555,1578,23
+BuildingSurface:Detailed,Surface 44,1580,1603,23
+BuildingSurface:Detailed,Surface 45,1605,1628,23
+BuildingSurface:Detailed,Surface 46,1630,1653,23
+BuildingSurface:Detailed,Surface 47,1655,1678,23
+BuildingSurface:Detailed,Surface 48,1680,1703,23
+BuildingSurface:Detailed,Surface 49,1705,1728,23
+BuildingSurface:Detailed,Surface 50,1730,1753,23
+BuildingSurface:Detailed,Surface 51,1755,1778,23
+BuildingSurface:Detailed,Surface 52,1780,1803,23
+BuildingSurface:Detailed,Surface 53,1805,1828,23
+BuildingSurface:Detailed,Surface 54,1830,1853,23
+BuildingSurface:Detailed,Surface 55,1855,1878,23
+BuildingSurface:Detailed,Surface 61,1880,1903,23
+BuildingSurface:Detailed,Surface 62,1905,1928,23
+BuildingSurface:Detailed,Surface 63,1930,1965,35
+BuildingSurface:Detailed,Surface 64,1967,1990,23
+BuildingSurface:Detailed,Surface 65,1992,2015,23
+BuildingSurface:Detailed,Surface 1,2017,2040,23
+BuildingSurface:Detailed,Surface 3 Ext,2042,2065,23
+BuildingSurface:Detailed,Surface 4,2067,2090,23
+BuildingSurface:Detailed,Surface 5,2092,2115,23
+BuildingSurface:Detailed,Surface 6,2117,2140,23
+BuildingSurface:Detailed,Surface 69 Ext,2142,2165,23
+BuildingSurface:Detailed,Surface 70 Ext,2167,2190,23
+BuildingSurface:Detailed,Surface 8,2192,2215,23
+BuildingSurface:Detailed,Surface 11,2217,2240,23
+BuildingSurface:Detailed,Surface 13,2242,2265,23
+BuildingSurface:Detailed,Surface 14,2267,2290,23
+BuildingSurface:Detailed,Surface 68 Ext,2292,2315,23
+BuildingSurface:Detailed,Surface 9,2317,2340,23
+BuildingSurface:Detailed,Surface 23,2342,2377,35
+BuildingSurface:Detailed,Surface 24 Ext,2379,2402,23
+BuildingSurface:Detailed,Surface 25,2404,2427,23
+BuildingSurface:Detailed,Surface 26,2429,2452,23
+BuildingSurface:Detailed,Surface 27,2454,2477,23
+BuildingSurface:Detailed,Surface 29,2479,2502,23
+BuildingSurface:Detailed,Surface 32,2504,2539,35
+BuildingSurface:Detailed,Surface 33,2541,2564,23
+BuildingSurface:Detailed,Surface 35,2566,2589,23
+BuildingSurface:Detailed,Surface 36 Ext,2591,2614,23
+BuildingSurface:Detailed,Surface 37 Ext,2616,2639,23
+BuildingSurface:Detailed,Surface 39,2641,2664,23
+BuildingSurface:Detailed,Surface 15,2666,2689,23
+BuildingSurface:Detailed,Surface 16,2691,2714,23
+BuildingSurface:Detailed,Surface 17 Ext,2716,2739,23
+BuildingSurface:Detailed,Surface 20,2741,2764,23
+BuildingSurface:Detailed,Surface 21,2766,2789,23
+BuildingSurface:Detailed,Surface 22,2791,2814,23
+BuildingSurface:Detailed,Surface 66 Ext,2816,2839,23
+BuildingSurface:Detailed,Surface 69 Low CMU,2841,2864,23
+BuildingSurface:Detailed,Surface 68 Low CMU,2866,2889,23
+BuildingSurface:Detailed,Surface 66 Low CMU,2891,2914,23
+BuildingSurface:Detailed,Surface 67 Ext,2916,2939,23
+BuildingSurface:Detailed,Surface 56A,2941,2964,23
+BuildingSurface:Detailed,Surface 56B,2966,2989,23
+BuildingSurface:Detailed,Surface 71,2991,3014,23
+BuildingSurface:Detailed,Surface 72,3016,3039,23
+BuildingSurface:Detailed,Surface 73,3041,3064,23
+BuildingSurface:Detailed,Surface 74,3066,3089,23
+BuildingSurface:Detailed,Surface 75,3091,3114,23
+BuildingSurface:Detailed,Surface 76,3116,3139,23
+BuildingSurface:Detailed,Surface 77,3141,3164,23
+BuildingSurface:Detailed,Surface 51B,3166,3189,23
+FenestrationSurface:Detailed,HIBO CWC LabB Vision,3194,3215,21
+FenestrationSurface:Detailed,HIBO CWB Control Vision,3217,3238,21
+FenestrationSurface:Detailed,HIBO CWC LabA Vision,3240,3261,21
+FenestrationSurface:Detailed,HIBO Door 103 Frame Top A,3263,3284,21
+FenestrationSurface:Detailed,HIBO Door 103 Frame Top B,3286,3307,21
+FenestrationSurface:Detailed,HIBO Door 103 Frame Left A,3309,3330,21
+FenestrationSurface:Detailed,HIBO Door 103 Frame Left B,3332,3353,21
+FenestrationSurface:Detailed,HIBO Door 103 Frame Right A,3355,3376,21
+FenestrationSurface:Detailed,HIBO Door 103 Frame Right B,3378,3399,21
+FenestrationSurface:Detailed,HIBO Door 103 Leaf Bottom A,3401,3422,21
+FenestrationSurface:Detailed,HIBO Door 103 Leaf Bottom B,3424,3445,21
+FenestrationSurface:Detailed,HIBO Door 103 Leaf Top A,3447,3468,21
+FenestrationSurface:Detailed,HIBO Door 103 Leaf Top B,3470,3491,21
+FenestrationSurface:Detailed,HIBO Door 103 Leaf Left A,3493,3514,21
+FenestrationSurface:Detailed,HIBO Door 103 Leaf Left B,3516,3537,21
+FenestrationSurface:Detailed,HIBO Door 103 Leaf Right A,3539,3560,21
+FenestrationSurface:Detailed,HIBO Door 103 Leaf Right B,3562,3583,21
+FenestrationSurface:Detailed,HIBO Door 103 CTG Lite A,3585,3606,21
+FenestrationSurface:Detailed,HIBO Door 103 CTG Lite B,3608,3629,21
+FenestrationSurface:Detailed,HIBO Door 105 Frame Top A,3631,3652,21
+FenestrationSurface:Detailed,HIBO Door 105 Frame Top B,3654,3675,21
+FenestrationSurface:Detailed,HIBO Door 105 Frame Left A,3677,3698,21
+FenestrationSurface:Detailed,HIBO Door 105 Frame Left B,3700,3721,21
+FenestrationSurface:Detailed,HIBO Door 105 Frame Right A,3723,3744,21
+FenestrationSurface:Detailed,HIBO Door 105 Frame Right B,3746,3767,21
+FenestrationSurface:Detailed,HIBO Door 105 Leaf Bottom A,3769,3790,21
+FenestrationSurface:Detailed,HIBO Door 105 Leaf Bottom B,3792,3813,21
+FenestrationSurface:Detailed,HIBO Door 105 Leaf Top A,3815,3836,21
+FenestrationSurface:Detailed,HIBO Door 105 Leaf Top B,3838,3859,21
+FenestrationSurface:Detailed,HIBO Door 105 Leaf Left A,3861,3882,21
+FenestrationSurface:Detailed,HIBO Door 105 Leaf Left B,3884,3905,21
+FenestrationSurface:Detailed,HIBO Door 105 Leaf Right A,3907,3928,21
+FenestrationSurface:Detailed,HIBO Door 105 Leaf Right B,3930,3951,21
+FenestrationSurface:Detailed,HIBO Door 105 CTG Lite A,3953,3974,21
+FenestrationSurface:Detailed,HIBO Door 105 CTG Lite B,3976,3997,21
+FenestrationSurface:Detailed,HIBO Door 106 Frame Top A,3999,4020,21
+FenestrationSurface:Detailed,HIBO Door 106 Frame Top B,4022,4043,21
+FenestrationSurface:Detailed,HIBO Door 106 Frame Left A,4045,4066,21
+FenestrationSurface:Detailed,HIBO Door 106 Frame Left B,4068,4089,21
+FenestrationSurface:Detailed,HIBO Door 106 Frame Right A,4091,4112,21
+FenestrationSurface:Detailed,HIBO Door 106 Frame Right B,4114,4135,21
+FenestrationSurface:Detailed,HIBO Door 106 Opaque Leaf A,4137,4158,21
+FenestrationSurface:Detailed,HIBO Door 106 Opaque Leaf B,4160,4181,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control Frame Bottom A,4183,4204,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control Frame Bottom B,4206,4227,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control Frame Top A,4229,4250,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control Frame Top B,4252,4273,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control Frame Left A,4275,4296,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control Frame Left B,4298,4319,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control Frame Right A,4321,4342,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control Frame Right B,4344,4365,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control CTG A,4367,4388,21
+FenestrationSurface:Detailed,HIBO Type A LabB-Control CTG B,4390,4411,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control Frame Bottom A,4413,4434,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control Frame Bottom B,4436,4457,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control Frame Top A,4459,4480,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control Frame Top B,4482,4503,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control Frame Left A,4505,4526,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control Frame Left B,4528,4549,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control Frame Right A,4551,4572,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control Frame Right B,4574,4595,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control CTG A,4597,4618,21
+FenestrationSurface:Detailed,HIBO Type A LabA-Control CTG B,4620,4641,21
+FenestrationSurface:Detailed,HIBO CWC LabB Spandrel Frame Top,4643,4664,21
+FenestrationSurface:Detailed,HIBO CWC LabB Spandrel Frame Left,4666,4687,21
+FenestrationSurface:Detailed,HIBO CWC LabB Spandrel Frame Right,4689,4710,21
+FenestrationSurface:Detailed,HIBO CWC LabB Opaque Spandrel 1,4712,4733,21
+FenestrationSurface:Detailed,HIBO CWC LabB Spandrel Mullion 1,4735,4756,21
+FenestrationSurface:Detailed,HIBO CWC LabB Opaque Spandrel 2,4758,4779,21
+FenestrationSurface:Detailed,HIBO CWC LabB Spandrel Mullion 2,4781,4802,21
+FenestrationSurface:Detailed,HIBO CWC LabB Opaque Spandrel 3,4804,4825,21
+FenestrationSurface:Detailed,HIBO CWC LabB Spandrel Mullion 3,4827,4848,21
+FenestrationSurface:Detailed,HIBO CWC LabB Opaque Spandrel 4,4850,4871,21
+FenestrationSurface:Detailed,HIBO CWB Control Spandrel Frame Top,4873,4894,21
+FenestrationSurface:Detailed,HIBO CWB Control Spandrel Frame Left,4896,4917,21
+FenestrationSurface:Detailed,HIBO CWB Control Spandrel Frame Right,4919,4940,21
+FenestrationSurface:Detailed,HIBO CWB Control Opaque Spandrel 1,4942,4963,21
+FenestrationSurface:Detailed,HIBO CWC LabA Spandrel Frame Top,4965,4986,21
+FenestrationSurface:Detailed,HIBO CWC LabA Spandrel Frame Left,4988,5009,21
+FenestrationSurface:Detailed,HIBO CWC LabA Spandrel Frame Right,5011,5032,21
+FenestrationSurface:Detailed,HIBO CWC LabA Opaque Spandrel 1,5034,5055,21
+FenestrationSurface:Detailed,HIBO CWC LabA Spandrel Mullion 1,5057,5078,21
+FenestrationSurface:Detailed,HIBO CWC LabA Opaque Spandrel 2,5080,5101,21
+FenestrationSurface:Detailed,HIBO CWC LabA Spandrel Mullion 2,5103,5124,21
+FenestrationSurface:Detailed,HIBO CWC LabA Opaque Spandrel 3,5126,5147,21
+FenestrationSurface:Detailed,HIBO CWC LabA Spandrel Mullion 3,5149,5170,21
+FenestrationSurface:Detailed,HIBO CWC LabA Opaque Spandrel 4,5172,5193,21
+FenestrationSurface:Detailed,HIBO CWA LabB West Frame Bottom,5195,5216,21
+FenestrationSurface:Detailed,HIBO CWA LabB West Frame Top,5218,5239,21
+FenestrationSurface:Detailed,HIBO CWA LabB West Frame Left,5241,5262,21
+FenestrationSurface:Detailed,HIBO CWA LabB West Frame Right,5264,5285,21
+FenestrationSurface:Detailed,HIBO CWA LabB West Lower CTIG,5287,5308,21
+FenestrationSurface:Detailed,HIBO CWA LabB West Upper CTIG,5310,5331,21
+FenestrationSurface:Detailed,HIBO CWA LabB West Horizontal Mullion,5333,5354,21
+FenestrationSurface:Detailed,HIBO CWA LabA East Frame Bottom,5356,5377,21
+FenestrationSurface:Detailed,HIBO CWA LabA East Frame Top,5379,5400,21
+FenestrationSurface:Detailed,HIBO CWA LabA East Frame Left,5402,5423,21
+FenestrationSurface:Detailed,HIBO CWA LabA East Frame Right,5425,5446,21
+FenestrationSurface:Detailed,HIBO CWA LabA East Lower CTIG,5448,5469,21
+FenestrationSurface:Detailed,HIBO CWA LabA East Upper CTIG,5471,5492,21
+FenestrationSurface:Detailed,HIBO CWA LabA East Horizontal Mullion,5494,5515,21
+FenestrationSurface:Detailed,HIBO N1 Leaf Stiles and Rails Bottom,5517,5538,21
+FenestrationSurface:Detailed,HIBO N1 Leaf Stiles and Rails Top,5540,5561,21
+FenestrationSurface:Detailed,HIBO N1 Leaf Stiles and Rails Left,5563,5584,21
+FenestrationSurface:Detailed,HIBO N1 Leaf Stiles and Rails Right,5586,5607,21
+FenestrationSurface:Detailed,HIBO N1 Lower CTIG,5609,5630,21
+FenestrationSurface:Detailed,HIBO N1 Upper CTIG,5632,5653,21
+FenestrationSurface:Detailed,HIBO N1 Center Rail,5655,5676,21
+WindowProperty:FrameAndDivider,HIBO CWB Vision Frame,5681,5707,26
+WindowProperty:FrameAndDivider,HIBO CWC Vision Frame,5709,5735,26
+InternalMass,HIBO Same-Zone Partition 104,5740,5745,5
+InternalMass,HIBO Same-Zone Door 104,5747,5752,5
+InternalMass,HIBO Same-Zone Partition 102,5754,5759,5
+InternalMass,HIBO Same-Zone Door 102,5761,5766,5
+Shading:Building:Detailed,HIBO Upper Parapet South,5771,5786,15
+Shading:Building:Detailed,HIBO Upper Parapet West,5788,5803,15
+Shading:Building:Detailed,HIBO Upper Parapet East,5805,5820,15
+Shading:Building:Detailed,HIBO Upper Parapet NW Shoulder,5822,5837,15
+Shading:Building:Detailed,HIBO Upper Parapet NE Shoulder,5839,5854,15
+People,Space 101 People 1,5859,5872,13
+People,Space 102 People 1,5874,5887,13
+People,Space 103 People 1,5889,5902,13
+Lights,Space 101 Lights 1,5907,5920,13
+Lights,Space 102 Lights 1,5922,5935,13
+Lights,Space 103 Lights 1,5937,5950,13
+ElectricEquipment,Space 101 ElecEq 1,5955,5966,11
+ElectricEquipment,Space 102 ElecEq 1,5968,5979,11
+ElectricEquipment,Space 103 ElecEq 1,5981,5992,11
+ZoneInfiltration:DesignFlowRate,Space 101 Infil 1,5997,6009,12
+ZoneInfiltration:DesignFlowRate,Space 102 Infil 1,6011,6023,12
+ZoneInfiltration:DesignFlowRate,Space 103 Infil 1,6025,6037,12
+ZoneInfiltration:DesignFlowRate,MEP Infil 1,6039,6051,12
+Exterior:Lights,Exterior_Lights_a,6056,6061,5
+DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 101,6066,6073,7
+DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 102 - Plus,6075,6082,7
+DesignSpecification:OutdoorAir,SZ DSOA Thermal Zone: Space 103,6084,6091,7
+DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 101,6096,6099,3
+DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 102 - Plus,6101,6104,3
+DesignSpecification:ZoneAirDistribution,SZ DSZAD Thermal Zone: Space 103,6106,6109,3
+Sizing:Parameters,1.2,6114,6116,2
+Sizing:Zone,Thermal Zone: Space 101,6121,6155,34
+Sizing:Zone,Thermal Zone: Space 102 - Plus,6157,6191,34
+Sizing:Zone,Thermal Zone: Space 103,6193,6227,34
+Sizing:System,DXVAV Sys 1,6232,6269,37
+ZoneControl:Thermostat,Thermal Zone: Space 101 Thermostat,6274,6279,5
+ZoneControl:Thermostat,Thermal Zone: Space 102 - Plus Thermostat,6281,6286,5
+ZoneControl:Thermostat,Thermal Zone: Space 103 Thermostat,6288,6293,5
+ThermostatSetpoint:DualSetpoint,Dual SP Control,6298,6301,3
+AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 101 VAV Reheat,6306,6326,20
+AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 102 - Plus VAV Reheat,6328,6348,20
+AirTerminal:SingleDuct:VAV:Reheat,Thermal Zone: Space 103 VAV Reheat,6350,6370,20
+ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 101 ATU,6375,6379,4
+ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 102 - Plus ATU,6381,6385,4
+ZoneHVAC:AirDistributionUnit,Thermal Zone: Space 103 ATU,6387,6391,4
+ZoneHVAC:EquipmentList,Thermal Zone: Space 101 Equipment,6396,6404,8
+ZoneHVAC:EquipmentList,Thermal Zone: Space 102 - Plus Equipment,6406,6414,8
+ZoneHVAC:EquipmentList,Thermal Zone: Space 103 Equipment,6416,6424,8
+ZoneHVAC:EquipmentConnections,Thermal Zone: Space 101,6429,6435,6
+ZoneHVAC:EquipmentConnections,Thermal Zone: Space 102 - Plus,6437,6443,6
+ZoneHVAC:EquipmentConnections,Thermal Zone: Space 103,6445,6451,6
+Fan:VariableVolume,DXVAV Sys 1 Return Fan,6456,6473,17
+Fan:VariableVolume,DXVAV Sys 1 Supply Fan,6475,6492,17
+Coil:Cooling:DX:TwoSpeed,DXVAV Sys 1 Cooling Coil,6497,6530,33
+Coil:Heating:Electric,Thermal Zone: Space 101 Reheat Coil,6535,6541,6
+Coil:Heating:Electric,Thermal Zone: Space 102 - Plus Reheat Coil,6543,6549,6
+Coil:Heating:Electric,Thermal Zone: Space 103 Reheat Coil,6551,6557,6
+Coil:Heating:Electric,DXVAV Sys 1 Heating Coil,6559,6566,7
+CoilSystem:Cooling:DX,DXVAV Sys 1 System,6571,6581,10
+Controller:OutdoorAir,DXVAV Sys 1 OA Controller,6586,6606,20
+Controller:MechanicalVentilation,HIBO Multizone Ventilation Controller,6611,6625,14
+AirLoopHVAC:ControllerList,DXVAV Sys 1 OA System Controllers,6630,6633,3
+AirLoopHVAC,DXVAV Sys 1,6638,6648,10
+AirLoopHVAC:OutdoorAirSystem:EquipmentList,DXVAV Sys 1 OA System Equipment,6653,6656,3
+AirLoopHVAC:OutdoorAirSystem,DXVAV Sys 1 OA System,6661,6664,3
+OutdoorAir:Mixer,DXVAV Sys 1 OA Mixing Box,6669,6674,5
+AirLoopHVAC:ZoneSplitter,DXVAV Sys 1 Zone Splitter,6679,6684,5
+AirLoopHVAC:SupplyPath,DXVAV Sys 1 Supply Path,6689,6693,4
+AirLoopHVAC:ReturnPlenum,DXVAV Sys 1 Return Plenum,6698,6706,8
+AirLoopHVAC:ReturnPath,DXVAV Sys 1 Return Path,6711,6715,4
+Branch,DXVAV Sys 1 Main Branch,6720,6742,22
+BranchList,DXVAV Sys 1 Branches,6747,6749,2
+NodeList,DXVAV Sys 1 Mixed Air Nodes,6754,6757,3
+NodeList,DXVAV Sys 1 SAT Setpoint Nodes,6759,6762,3
+OutdoorAir:Node,DXVAV Sys 1 Outside Air Inlet,6767,6768,1
+AvailabilityManager:NightCycle,DXVAV Sys 1 Availability,6773,6780,7
+AvailabilityManagerAssignmentList,DXVAV Sys 1 Availability Managers,6785,6788,3
+SetpointManager:MixedAir,DXVAV Sys 1 Cooling Coil Air Temp Manager,6793,6799,6
+SetpointManager:MixedAir,DXVAV Sys 1 Heating Coil Air Temp Manager,6801,6807,6
+SetpointManager:Warmest,DXVAV Sys 1 SAT Reset Manager,6812,6819,7
+Curve:Quadratic,DXVAV Sys 1 DX Coil PLF,6824,6830,6
+Curve:Cubic,DXVAV Sys 1 DX Coil Cap-FF,6835,6846,11
+Curve:Cubic,DXVAV Sys 1 DX Coil EIR-FF,6848,6859,11
+Curve:Biquadratic,DXVAV Sys 1 DX Coil Cap-FT,6864,6880,16
+Curve:Biquadratic,DXVAV Sys 1 DX Coil EIR-FT,6882,6898,16
+Curve:Biquadratic,DXVAV Sys 1 DX Coil Low Cap-FT,6900,6916,16
+Curve:Biquadratic,DXVAV Sys 1 DX Coil Low EIR-FT,6918,6934,16
+Curve:RectangularHyperbola2,BatteryChargeCurve,6939,6947,8
+Curve:RectangularHyperbola2,BatteryDischargeCurve,6949,6957,8
+Curve:DoubleExponentialDecay,old_BatteryCycleCurve,6962,6970,8
+Curve:DoubleExponentialDecay,new_BatteryCycleCurve,6972,6980,8
+Output:VariableDictionary,regular,6985,6986,1
+Output:Surfaces:List,Lines,6991,6992,1
+Output:Surfaces:Drawing,DXF,6997,6998,1
+Output:Schedules,Timestep,7003,7004,1
+Output:Constructions,Constructions,7009,7011,2
+Output:EnergyManagementSystem,Verbose,7016,7019,3
+Output:Table:SummaryReports,AllSummary,7024,7025,1
+OutputControl:Table:Style,HTML,7030,7031,1
+Output:Variable,*,7036,7039,3
+Output:Variable,*,7041,7044,3
+Output:Variable,Whole Building,7046,7049,3
+Output:Variable,*,7051,7054,3
+Output:Variable,*,7056,7059,3
+Output:Variable,*,7061,7064,3
+Output:Variable,*,7066,7069,3
+Output:Variable,*,7071,7074,3
+Output:Variable,*,7076,7079,3
+Output:Variable,*,7081,7084,3
+Output:Variable,*,7086,7089,3
+Output:Variable,DXVAV Sys 1 Cooling Coil,7091,7094,3
+Output:Variable,DXVAV Sys 1 Cooling Coil,7096,7099,3
+Output:Variable,DXVAV Sys 1 Heating Coil,7101,7104,3
+Output:Variable,DXVAV Sys 1 Heating Coil,7106,7109,3
+Output:Variable,Thermal Zone: Space 101 Reheat Coil,7111,7114,3
+Output:Variable,Thermal Zone: Space 102 - Plus Reheat Coil,7116,7119,3
+Output:Variable,Thermal Zone: Space 103 Reheat Coil,7121,7124,3
+Output:Variable,DXVAV Sys 1 Supply Fan,7126,7129,3
+Output:Variable,DXVAV Sys 1 Supply Fan,7131,7134,3
+Output:Variable,DXVAV Sys 1 Return Fan,7136,7139,3
+Output:Variable,DXVAV Sys 1 Mixed Air Outlet,7141,7144,3
+Output:Variable,DXVAV Sys 1 Cooling Coil Outlet,7146,7149,3
+Output:Variable,DXVAV Sys 1 Heating Coil Outlet,7151,7154,3
+Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7156,7159,3
+Output:Variable,Thermal Zone: Space 101 Zone Equip Inlet,7161,7164,3
+Output:Variable,Thermal Zone: Space 102 - Plus Zone Equip Inlet,7166,7169,3
+Output:Variable,Thermal Zone: Space 103 Zone Equip Inlet,7171,7174,3
+Output:Variable,DXVAV Sys 1,7176,7179,3
+Output:Variable,DXVAV Sys 1,7181,7184,3
+Output:Variable,DXVAV Sys 1 Cooling Coil,7186,7189,3
+Output:Variable,DXVAV Sys 1 Cooling Coil,7191,7194,3
+Output:Variable,DXVAV Sys 1 Cooling Coil,7196,7199,3
+Output:Variable,DXVAV Sys 1 Mixed Air Outlet,7201,7204,3
+Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7206,7209,3
+Output:Variable,DXVAV Sys 1 Mixed Air Outlet,7211,7214,3
+Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7216,7219,3
+Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7221,7224,3
+Output:Variable,Thermal Zone: Space 101,7226,7229,3
+Output:Variable,Thermal Zone: Space 101,7231,7234,3
+Output:Variable,Thermal Zone: Space 101,7236,7239,3
+Output:Variable,Thermal Zone: Space 101,7241,7244,3
+Output:Variable,Thermal Zone: Space 101 VAV Reheat,7246,7249,3
+Output:Variable,Thermal Zone: Space 102 - Plus,7251,7254,3
+Output:Variable,Thermal Zone: Space 102 - Plus,7256,7259,3
+Output:Variable,Thermal Zone: Space 102 - Plus,7261,7264,3
+Output:Variable,Thermal Zone: Space 102 - Plus,7266,7269,3
+Output:Variable,Thermal Zone: Space 102 - Plus VAV Reheat,7271,7274,3
+Output:Variable,Thermal Zone: Space 103,7276,7279,3
+Output:Variable,Thermal Zone: Space 103,7281,7284,3
+Output:Variable,Thermal Zone: Space 103,7286,7289,3
+Output:Variable,Thermal Zone: Space 103,7291,7294,3
+Output:Variable,Thermal Zone: Space 103 VAV Reheat,7296,7299,3
+Output:Variable,*,7301,7304,3
+Output:Variable,*,7306,7309,3
+Output:Variable,*,7311,7314,3
+Output:Variable,*,7316,7319,3
+Output:Variable,*,7321,7324,3
+Output:Variable,*,7326,7329,3
+Output:Variable,*,7331,7334,3
+Output:Variable,*,7336,7339,3
+Output:Variable,*,7341,7344,3
+Output:Variable,*,7346,7349,3
+Output:Variable,*,7351,7354,3
+Output:Variable,*,7356,7359,3
+Output:Variable,*,7361,7364,3
+Output:Variable,*,7366,7369,3
+Output:Variable,*,7371,7374,3
+Output:Variable,*,7376,7379,3
+Output:Variable,*,7381,7384,3
+Output:Variable,*,7386,7389,3
+Output:Variable,*,7391,7394,3
+Output:Variable,*,7396,7399,3
+Output:Variable,*,7401,7404,3
+Output:Variable,*,7406,7409,3
+Output:Variable,*,7411,7414,3
+Output:Variable,*,7416,7419,3
+Output:Variable,*,7421,7424,3
+Output:Variable,*,7426,7429,3
+Output:Variable,*,7431,7434,3
+Output:Variable,*,7436,7439,3
+Output:Variable,*,7441,7444,3
+Output:Variable,*,7446,7449,3
+Output:Variable,*,7451,7454,3
+Output:Variable,DXVAV Sys 1,7456,7459,3
+Output:Variable,DXVAV Sys 1,7461,7464,3
+Output:Variable,DXVAV Sys 1,7466,7469,3
+Output:Variable,*,7471,7474,3
+Output:Variable,*,7476,7479,3
+Output:Variable,Min OA Sched,7481,7484,3
+Output:Variable,Thermal Zone: Space 101 Supply Inlet,7486,7489,3
+Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,7491,7494,3
+Output:Variable,Thermal Zone: Space 103 Supply Inlet,7496,7499,3
+Output:Variable,*,7501,7504,3
+Output:Variable,*,7506,7509,3
+Output:Variable,*,7511,7514,3
+Output:Variable,*,7516,7519,3
+Output:Variable,DXVAV Sys 1,7521,7524,3
+Output:Variable,Thermal Zone: Space 101 Supply Inlet,7526,7529,3
+Output:Variable,Thermal Zone: Space 102 - Plus Supply Inlet,7531,7534,3
+Output:Variable,Thermal Zone: Space 103 Supply Inlet,7536,7539,3
+Output:Variable,DXVAV Sys 1 Supply Fan Outlet,7541,7544,3
+Output:Variable,*,7546,7549,3
+Output:Variable,Surface 1,7551,7554,3
+Output:Variable,Surface 1,7556,7559,3
+Output:Variable,Surface 1,7561,7564,3
+Output:Variable,Surface 1,7566,7569,3
+Output:Variable,Surface 9,7571,7574,3
+Output:Variable,Surface 9,7576,7579,3
+Output:Variable,Surface 9,7581,7584,3
+Output:Variable,Surface 9,7586,7589,3
+Output:Variable,Surface 15,7591,7594,3
+Output:Variable,Surface 15,7596,7599,3
+Output:Variable,Surface 15,7601,7604,3
+Output:Variable,Surface 15,7606,7609,3
+Output:Variable,Surface 23,7611,7614,3
+Output:Variable,Surface 23,7616,7619,3
+Output:Variable,Surface 23,7621,7624,3
+Output:Variable,Surface 23,7626,7629,3
+Output:Variable,Surface 33,7631,7634,3
+Output:Variable,Surface 33,7636,7639,3
+Output:Variable,Surface 33,7641,7644,3
+Output:Variable,Surface 33,7646,7649,3
+Output:Variable,Surface 40,7651,7654,3
+Output:Variable,Surface 40,7656,7659,3
+Output:Variable,Surface 40,7661,7664,3
+Output:Variable,Surface 40,7666,7669,3
+Output:Meter:MeterFileOnly,Electricity:Facility,7674,7676,2
+Output:Meter:MeterFileOnly,Electricity:Building,7678,7680,2
+Output:Meter:MeterFileOnly,InteriorLights:Electricity,7682,7684,2
+Output:Meter:MeterFileOnly,Electricity:HVAC,7686,7688,2
+Output:Meter:MeterFileOnly,Electricity:Facility,7690,7692,2
+Output:Meter:MeterFileOnly,Electricity:Building,7694,7696,2
+Output:Meter:MeterFileOnly,InteriorLights:Electricity,7698,7700,2
+Output:Meter:MeterFileOnly,Electricity:HVAC,7702,7704,2
+Output:Meter:MeterFileOnly,Heating:Electricity,7706,7708,2
+Output:Meter:MeterFileOnly,Cooling:Electricity,7710,7712,2
+Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 101,7714,7716,2
+Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 102 - PLUS,7718,7720,2
+Output:Meter:MeterFileOnly,Electricity:Zone:THERMAL ZONE: SPACE 103,7722,7724,2
+Output:Meter:MeterFileOnly,ElectricityNet:Facility,7726,7728,2
+Output:SQLite,SimpleAndTabular,7733,7734,1
+Output:Diagnostics,DisplayExtraWarnings,7739,7741,2

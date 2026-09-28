@@ -1,0 +1,109 @@
+name,type,construction,host,zone,boundary,vertex_polygon_area_m2,world_azimuth_deg,tilt_deg,frame,adjacent_subsurface
+HIBO Door 106 Frame Top B,Door,HIBO Metal Frame Strip,Surface 45,MEP,Surface,0.0516128000000009,243.0,90.0,,HIBO Door 106 Frame Top A
+HIBO Door 106 Frame Left B,Door,HIBO Metal Frame Strip,Surface 45,MEP,Surface,0.10838687999999941,243.0,90.0,,HIBO Door 106 Frame Left A
+HIBO Door 106 Frame Right B,Door,HIBO Metal Frame Strip,Surface 45,MEP,Surface,0.10838687999999941,243.0,90.0,,HIBO Door 106 Frame Right A
+HIBO Door 106 Opaque Leaf B,Door,HIBO HM Door 1-3-4in,Surface 45,MEP,Surface,1.95096384,243.0,90.0,,HIBO Door 106 Opaque Leaf A
+HIBO CWC LabB Spandrel Frame Top,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.18580607999999987,153.0,90.0,,
+HIBO CWC LabB Spandrel Frame Left,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.0490321600000001,153.0,90.0,,
+HIBO CWC LabB Spandrel Frame Right,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999999436,153.0,90.0,,
+HIBO CWC LabB Opaque Spandrel 1,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,0.8212886800000008,153.0,90.0,,
+HIBO CWC LabB Spandrel Mullion 1,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999999436,153.0,90.0,,
+HIBO CWC LabB Opaque Spandrel 2,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,0.8212886800000008,153.0,90.0,,
+HIBO CWC LabB Spandrel Mullion 2,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999999436,153.0,90.0,,
+HIBO CWC LabB Opaque Spandrel 3,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,0.8212886800000003,153.0,90.0,,
+HIBO CWC LabB Spandrel Mullion 3,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999999436,153.0,90.0,,
+HIBO CWC LabB Opaque Spandrel 4,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,0.8212886800000003,153.0,90.0,,
+HIBO CWB Control Spandrel Frame Top,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.06193535999999611,153.0,90.0,,
+HIBO CWB Control Spandrel Frame Left,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999999436,153.0,90.0,,
+HIBO CWB Control Spandrel Frame Right,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999999436,153.0,90.0,,
+HIBO CWB Control Opaque Spandrel 1,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,1.0787075200000054,153.0,90.0,,
+HIBO CWC LabA Spandrel Frame Top,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.18580607999999899,153.0,90.0,,
+HIBO CWC LabA Spandrel Frame Left,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.04903216000000299,153.0,90.0,,
+HIBO CWC LabA Spandrel Frame Right,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999995883,153.0,90.0,,
+HIBO CWC LabA Opaque Spandrel 1,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,0.8212886800000021,153.0,90.0,,
+HIBO CWC LabA Spandrel Mullion 1,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999995883,153.0,90.0,,
+HIBO CWC LabA Opaque Spandrel 2,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,0.8212886800000057,153.0,90.0,,
+HIBO CWC LabA Spandrel Mullion 2,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999995883,153.0,90.0,,
+HIBO CWC LabA Opaque Spandrel 3,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,0.8212886800000021,153.0,90.0,,
+HIBO CWC LabA Spandrel Mullion 3,Door,HIBO Exterior Aluminum Frame Strip,Surface 55,Thermal Zone: Plenum,Outdoors,0.049032159999995883,153.0,90.0,,
+HIBO CWC LabA Opaque Spandrel 4,Door,HIBO ITSG Opaque Panel,Surface 55,Thermal Zone: Plenum,Outdoors,0.8212886800000021,153.0,90.0,,
+HIBO Door 103 Frame Top A,Door,HIBO Metal Frame Strip,Surface 5,Thermal Zone: Space 101,Surface,0.051612800000000014,63.0,90.0,,HIBO Door 103 Frame Top B
+HIBO Door 103 Frame Left A,Door,HIBO Metal Frame Strip,Surface 5,Thermal Zone: Space 101,Surface,0.1083868800000003,63.0,90.0,,HIBO Door 103 Frame Left B
+HIBO Door 103 Frame Right A,Door,HIBO Metal Frame Strip,Surface 5,Thermal Zone: Space 101,Surface,0.10838687999999941,63.0,90.0,,HIBO Door 103 Frame Right B
+HIBO Door 103 Leaf Bottom A,Door,HIBO HM Door 1-3-4in,Surface 5,Thermal Zone: Space 101,Surface,0.97548192,63.0,90.0,,HIBO Door 103 Leaf Bottom B
+HIBO Door 103 Leaf Top A,Door,HIBO HM Door 1-3-4in,Surface 5,Thermal Zone: Space 101,Surface,0.13935456000000013,63.0,90.0,,HIBO Door 103 Leaf Top B
+HIBO Door 103 Leaf Left A,Door,HIBO HM Door 1-3-4in,Surface 5,Thermal Zone: Space 101,Surface,0.13935456000000013,63.0,90.0,,HIBO Door 103 Leaf Left B
+HIBO Door 103 Leaf Right A,Door,HIBO HM Door 1-3-4in,Surface 5,Thermal Zone: Space 101,Surface,0.13935456000000102,63.0,90.0,,HIBO Door 103 Leaf Right B
+HIBO Door 103 CTG Lite A,Window,HIBO Interior CTG,Surface 5,Thermal Zone: Space 101,Surface,0.5574182399999987,63.0,90.0,,HIBO Door 103 CTG Lite B
+HIBO Type A LabB-Control Frame Bottom A,Door,HIBO Metal Frame Strip,Surface 6,Thermal Zone: Space 101,Surface,0.061935360000000106,63.0,90.0,,HIBO Type A LabB-Control Frame Bottom B
+HIBO Type A LabB-Control Frame Top A,Door,HIBO Metal Frame Strip,Surface 6,Thermal Zone: Space 101,Surface,0.06193535999999966,63.0,90.0,,HIBO Type A LabB-Control Frame Top B
+HIBO Type A LabB-Control Frame Left A,Door,HIBO Metal Frame Strip,Surface 6,Thermal Zone: Space 101,Surface,0.04129023999999992,63.0,90.0,,HIBO Type A LabB-Control Frame Left B
+HIBO Type A LabB-Control Frame Right A,Door,HIBO Metal Frame Strip,Surface 6,Thermal Zone: Space 101,Surface,0.04129024000000037,63.0,90.0,,HIBO Type A LabB-Control Frame Right B
+HIBO Type A LabB-Control CTG A,Window,HIBO Interior CTG,Surface 6,Thermal Zone: Space 101,Surface,0.9083852799999996,63.0,90.0,,HIBO Type A LabB-Control CTG B
+HIBO CWC LabB Vision,Window,EXT_Window_SN54,Surface 69 Ext,Thermal Zone: Space 101,Outdoors,9.03224,153.0,90.0,HIBO CWC Vision Frame,
+HIBO CWA LabB West Frame Bottom,Door,HIBO Exterior Aluminum Frame Strip,Surface 70 Ext,Thermal Zone: Space 101,Outdoors,0.051612800000000236,243.0,90.0,,
+HIBO CWA LabB West Frame Top,Door,HIBO Exterior Aluminum Frame Strip,Surface 70 Ext,Thermal Zone: Space 101,Outdoors,0.0516128000000009,243.0,90.0,,
+HIBO CWA LabB West Frame Left,Door,HIBO Exterior Aluminum Frame Strip,Surface 70 Ext,Thermal Zone: Space 101,Outdoors,0.11870943999999994,243.0,90.0,,
+HIBO CWA LabB West Frame Right,Door,HIBO Exterior Aluminum Frame Strip,Surface 70 Ext,Thermal Zone: Space 101,Outdoors,0.11870944000000083,243.0,90.0,,
+HIBO CWA LabB West Lower CTIG,Window,EXT_Window_SN54,Surface 70 Ext,Thermal Zone: Space 101,Outdoors,0.7432243200000002,243.0,90.0,,
+HIBO CWA LabB West Upper CTIG,Window,EXT_Window_SN54,Surface 70 Ext,Thermal Zone: Space 101,Outdoors,1.3470940800000002,243.0,90.0,,
+HIBO CWA LabB West Horizontal Mullion,Door,HIBO Exterior Aluminum Frame Strip,Surface 70 Ext,Thermal Zone: Space 101,Outdoors,0.046451519999999746,243.0,90.0,,
+HIBO Type A LabA-Control Frame Bottom B,Door,HIBO Metal Frame Strip,Surface 11,Thermal Zone: Space 102 - Plus,Surface,0.061935360000000106,63.0,90.0,,HIBO Type A LabA-Control Frame Bottom A
+HIBO Type A LabA-Control Frame Top B,Door,HIBO Metal Frame Strip,Surface 11,Thermal Zone: Space 102 - Plus,Surface,0.06193535999999966,63.0,90.0,,HIBO Type A LabA-Control Frame Top A
+HIBO Type A LabA-Control Frame Left B,Door,HIBO Metal Frame Strip,Surface 11,Thermal Zone: Space 102 - Plus,Surface,0.04129023999999992,63.0,90.0,,HIBO Type A LabA-Control Frame Left A
+HIBO Type A LabA-Control Frame Right B,Door,HIBO Metal Frame Strip,Surface 11,Thermal Zone: Space 102 - Plus,Surface,0.04129024000000037,63.0,90.0,,HIBO Type A LabA-Control Frame Right A
+HIBO Type A LabA-Control CTG B,Window,HIBO Interior CTG,Surface 11,Thermal Zone: Space 102 - Plus,Surface,0.9083852799999996,63.0,90.0,,HIBO Type A LabA-Control CTG A
+HIBO Type A LabB-Control Frame Bottom B,Door,HIBO Metal Frame Strip,Surface 13,Thermal Zone: Space 102 - Plus,Surface,0.061935360000000106,243.0,90.0,,HIBO Type A LabB-Control Frame Bottom A
+HIBO Type A LabB-Control Frame Top B,Door,HIBO Metal Frame Strip,Surface 13,Thermal Zone: Space 102 - Plus,Surface,0.06193535999999966,243.0,90.0,,HIBO Type A LabB-Control Frame Top A
+HIBO Type A LabB-Control Frame Left B,Door,HIBO Metal Frame Strip,Surface 13,Thermal Zone: Space 102 - Plus,Surface,0.04129023999999992,243.0,90.0,,HIBO Type A LabB-Control Frame Left A
+HIBO Type A LabB-Control Frame Right B,Door,HIBO Metal Frame Strip,Surface 13,Thermal Zone: Space 102 - Plus,Surface,0.04129024000000037,243.0,90.0,,HIBO Type A LabB-Control Frame Right A
+HIBO Type A LabB-Control CTG B,Window,HIBO Interior CTG,Surface 13,Thermal Zone: Space 102 - Plus,Surface,0.9083852799999996,243.0,90.0,,HIBO Type A LabB-Control CTG A
+HIBO CWB Control Vision,Window,EXT_Window_SN54,Surface 68 Ext,Thermal Zone: Space 102 - Plus,Outdoors,2.8387040000000026,153.0,90.0,HIBO CWB Vision Frame,
+HIBO N1 Leaf Stiles and Rails Bottom,Door,HIBO Exterior Aluminum Frame Strip,Surface 24 Ext,Thermal Zone: Space 102 - Plus,Outdoors,0.04645151999999997,333.0,90.0,,
+HIBO N1 Leaf Stiles and Rails Top,Door,HIBO Exterior Aluminum Frame Strip,Surface 24 Ext,Thermal Zone: Space 102 - Plus,Outdoors,0.046451519999999746,333.0,90.0,,
+HIBO N1 Leaf Stiles and Rails Left,Door,HIBO Exterior Aluminum Frame Strip,Surface 24 Ext,Thermal Zone: Space 102 - Plus,Outdoors,0.10580623999999972,333.0,90.0,,
+HIBO N1 Leaf Stiles and Rails Right,Door,HIBO Exterior Aluminum Frame Strip,Surface 24 Ext,Thermal Zone: Space 102 - Plus,Outdoors,0.10580623999999972,333.0,90.0,,
+HIBO N1 Lower CTIG,GlassDoor,EXT_Window_SN54,Surface 24 Ext,Thermal Zone: Space 102 - Plus,Outdoors,0.8258048000000002,333.0,90.0,,
+HIBO N1 Upper CTIG,GlassDoor,EXT_Window_SN54,Surface 24 Ext,Thermal Zone: Space 102 - Plus,Outdoors,0.8258048000000011,333.0,90.0,,
+HIBO N1 Center Rail,Door,HIBO Exterior Aluminum Frame Strip,Surface 24 Ext,Thermal Zone: Space 102 - Plus,Outdoors,0.04129023999999948,333.0,90.0,,
+HIBO Door 106 Frame Top A,Door,HIBO Metal Frame Strip,Surface 25,Thermal Zone: Space 102 - Plus,Surface,0.0516128000000009,63.0,90.0,,HIBO Door 106 Frame Top B
+HIBO Door 106 Frame Left A,Door,HIBO Metal Frame Strip,Surface 25,Thermal Zone: Space 102 - Plus,Surface,0.10838687999999941,63.0,90.0,,HIBO Door 106 Frame Left B
+HIBO Door 106 Frame Right A,Door,HIBO Metal Frame Strip,Surface 25,Thermal Zone: Space 102 - Plus,Surface,0.10838687999999941,63.0,90.0,,HIBO Door 106 Frame Right B
+HIBO Door 106 Opaque Leaf A,Door,HIBO HM Door 1-3-4in,Surface 25,Thermal Zone: Space 102 - Plus,Surface,1.95096384,63.0,90.0,,HIBO Door 106 Opaque Leaf B
+HIBO Door 105 Frame Top B,Door,HIBO Metal Frame Strip,Surface 27,Thermal Zone: Space 102 - Plus,Surface,0.051612800000000014,63.0,90.0,,HIBO Door 105 Frame Top A
+HIBO Door 105 Frame Left B,Door,HIBO Metal Frame Strip,Surface 27,Thermal Zone: Space 102 - Plus,Surface,0.1083868800000003,63.0,90.0,,HIBO Door 105 Frame Left A
+HIBO Door 105 Frame Right B,Door,HIBO Metal Frame Strip,Surface 27,Thermal Zone: Space 102 - Plus,Surface,0.10838687999999941,63.0,90.0,,HIBO Door 105 Frame Right A
+HIBO Door 105 Leaf Bottom B,Door,HIBO HM Door 1-3-4in,Surface 27,Thermal Zone: Space 102 - Plus,Surface,0.97548192,63.0,90.0,,HIBO Door 105 Leaf Bottom A
+HIBO Door 105 Leaf Top B,Door,HIBO HM Door 1-3-4in,Surface 27,Thermal Zone: Space 102 - Plus,Surface,0.13935456000000013,63.0,90.0,,HIBO Door 105 Leaf Top A
+HIBO Door 105 Leaf Left B,Door,HIBO HM Door 1-3-4in,Surface 27,Thermal Zone: Space 102 - Plus,Surface,0.13935456000000013,63.0,90.0,,HIBO Door 105 Leaf Left A
+HIBO Door 105 Leaf Right B,Door,HIBO HM Door 1-3-4in,Surface 27,Thermal Zone: Space 102 - Plus,Surface,0.13935456000000102,63.0,90.0,,HIBO Door 105 Leaf Right A
+HIBO Door 105 CTG Lite B,Window,HIBO Interior CTG,Surface 27,Thermal Zone: Space 102 - Plus,Surface,0.5574182399999987,63.0,90.0,,HIBO Door 105 CTG Lite A
+HIBO Door 103 Frame Top B,Door,HIBO Metal Frame Strip,Surface 29,Thermal Zone: Space 102 - Plus,Surface,0.051612800000000014,243.0,90.0,,HIBO Door 103 Frame Top A
+HIBO Door 103 Frame Left B,Door,HIBO Metal Frame Strip,Surface 29,Thermal Zone: Space 102 - Plus,Surface,0.1083868800000003,243.0,90.0,,HIBO Door 103 Frame Left A
+HIBO Door 103 Frame Right B,Door,HIBO Metal Frame Strip,Surface 29,Thermal Zone: Space 102 - Plus,Surface,0.10838687999999941,243.0,90.0,,HIBO Door 103 Frame Right A
+HIBO Door 103 Leaf Bottom B,Door,HIBO HM Door 1-3-4in,Surface 29,Thermal Zone: Space 102 - Plus,Surface,0.97548192,243.0,90.0,,HIBO Door 103 Leaf Bottom A
+HIBO Door 103 Leaf Top B,Door,HIBO HM Door 1-3-4in,Surface 29,Thermal Zone: Space 102 - Plus,Surface,0.13935456000000013,243.0,90.0,,HIBO Door 103 Leaf Top A
+HIBO Door 103 Leaf Left B,Door,HIBO HM Door 1-3-4in,Surface 29,Thermal Zone: Space 102 - Plus,Surface,0.13935456000000013,243.0,90.0,,HIBO Door 103 Leaf Left A
+HIBO Door 103 Leaf Right B,Door,HIBO HM Door 1-3-4in,Surface 29,Thermal Zone: Space 102 - Plus,Surface,0.13935456000000102,243.0,90.0,,HIBO Door 103 Leaf Right A
+HIBO Door 103 CTG Lite B,Window,HIBO Interior CTG,Surface 29,Thermal Zone: Space 102 - Plus,Surface,0.5574182399999987,243.0,90.0,,HIBO Door 103 CTG Lite A
+HIBO Type A LabA-Control Frame Bottom A,Door,HIBO Metal Frame Strip,Surface 20,Thermal Zone: Space 103,Surface,0.061935360000000106,243.0,90.0,,HIBO Type A LabA-Control Frame Bottom B
+HIBO Type A LabA-Control Frame Top A,Door,HIBO Metal Frame Strip,Surface 20,Thermal Zone: Space 103,Surface,0.06193535999999966,243.0,90.0,,HIBO Type A LabA-Control Frame Top B
+HIBO Type A LabA-Control Frame Left A,Door,HIBO Metal Frame Strip,Surface 20,Thermal Zone: Space 103,Surface,0.04129023999999992,243.0,90.0,,HIBO Type A LabA-Control Frame Left B
+HIBO Type A LabA-Control Frame Right A,Door,HIBO Metal Frame Strip,Surface 20,Thermal Zone: Space 103,Surface,0.04129024000000037,243.0,90.0,,HIBO Type A LabA-Control Frame Right B
+HIBO Type A LabA-Control CTG A,Window,HIBO Interior CTG,Surface 20,Thermal Zone: Space 103,Surface,0.9083852799999996,243.0,90.0,,HIBO Type A LabA-Control CTG B
+HIBO Door 105 Frame Top A,Door,HIBO Metal Frame Strip,Surface 21,Thermal Zone: Space 103,Surface,0.051612800000000014,243.0,90.0,,HIBO Door 105 Frame Top B
+HIBO Door 105 Frame Left A,Door,HIBO Metal Frame Strip,Surface 21,Thermal Zone: Space 103,Surface,0.1083868800000003,243.0,90.0,,HIBO Door 105 Frame Left B
+HIBO Door 105 Frame Right A,Door,HIBO Metal Frame Strip,Surface 21,Thermal Zone: Space 103,Surface,0.10838687999999941,243.0,90.0,,HIBO Door 105 Frame Right B
+HIBO Door 105 Leaf Bottom A,Door,HIBO HM Door 1-3-4in,Surface 21,Thermal Zone: Space 103,Surface,0.97548192,243.0,90.0,,HIBO Door 105 Leaf Bottom B
+HIBO Door 105 Leaf Top A,Door,HIBO HM Door 1-3-4in,Surface 21,Thermal Zone: Space 103,Surface,0.13935456000000013,243.0,90.0,,HIBO Door 105 Leaf Top B
+HIBO Door 105 Leaf Left A,Door,HIBO HM Door 1-3-4in,Surface 21,Thermal Zone: Space 103,Surface,0.13935456000000013,243.0,90.0,,HIBO Door 105 Leaf Left B
+HIBO Door 105 Leaf Right A,Door,HIBO HM Door 1-3-4in,Surface 21,Thermal Zone: Space 103,Surface,0.13935456000000102,243.0,90.0,,HIBO Door 105 Leaf Right B
+HIBO Door 105 CTG Lite A,Window,HIBO Interior CTG,Surface 21,Thermal Zone: Space 103,Surface,0.5574182399999987,243.0,90.0,,HIBO Door 105 CTG Lite B
+HIBO CWC LabA Vision,Window,EXT_Window_SN54,Surface 66 Ext,Thermal Zone: Space 103,Outdoors,9.032240000000002,153.0,90.0,HIBO CWC Vision Frame,
+HIBO CWA LabA East Frame Bottom,Door,HIBO Exterior Aluminum Frame Strip,Surface 67 Ext,Thermal Zone: Space 103,Outdoors,0.051612800000000236,63.0,90.0,,
+HIBO CWA LabA East Frame Top,Door,HIBO Exterior Aluminum Frame Strip,Surface 67 Ext,Thermal Zone: Space 103,Outdoors,0.0516128000000009,63.0,90.0,,
+HIBO CWA LabA East Frame Left,Door,HIBO Exterior Aluminum Frame Strip,Surface 67 Ext,Thermal Zone: Space 103,Outdoors,0.11870943999999994,63.0,90.0,,
+HIBO CWA LabA East Frame Right,Door,HIBO Exterior Aluminum Frame Strip,Surface 67 Ext,Thermal Zone: Space 103,Outdoors,0.11870944000000083,63.0,90.0,,
+HIBO CWA LabA East Lower CTIG,Window,EXT_Window_SN54,Surface 67 Ext,Thermal Zone: Space 103,Outdoors,0.7432243200000002,63.0,90.0,,
+HIBO CWA LabA East Upper CTIG,Window,EXT_Window_SN54,Surface 67 Ext,Thermal Zone: Space 103,Outdoors,1.3470940800000002,63.0,90.0,,
+HIBO CWA LabA East Horizontal Mullion,Door,HIBO Exterior Aluminum Frame Strip,Surface 67 Ext,Thermal Zone: Space 103,Outdoors,0.046451519999999746,63.0,90.0,,

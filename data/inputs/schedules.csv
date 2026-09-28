@@ -1,0 +1,84 @@
+schedule,type_limits,through,day_types,interval_end,value,idf_start_line,idf_end_line
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WeekDays,6:00,15.56,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WeekDays,7:00,21.11,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WeekDays,19:00,21.11,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WeekDays,24:00,15.56,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,Weekends,24:00,15.56,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,Holiday,24:00,15.56,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WinterDesignDay,24:00,21.11,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,SummerDesignDay,24:00,15.56,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,CustomDay1,24:00,15.56,394,424
+HTGSETP_SCH_NO_OPTIMUM,Temperature,12/31,CustomDay2,24:00,15.56,394,424
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WeekDays,6:00,29.44,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WeekDays,7:00,23.89,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WeekDays,18:00,23.89,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WeekDays,24:00,29.44,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,Weekends,24:00,29.44,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,Holiday,24:00,29.44,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,WinterDesignDay,24:00,29.44,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,SummerDesignDay,24:00,23.89,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,CustomDay1,24:00,29.44,426,456
+CLGSETP_SCH_NO_OPTIMUM,Temperature,12/31,CustomDay2,24:00,29.44,426,456
+ltg_sch_office,Fraction,12/31,SummerDesignDay,24:00,1,458,496
+ltg_sch_office,Fraction,12/31,WinterDesignDay,24:00,0,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,5:00,0.1141323175375,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,7:00,0.145834697228125,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,8:00,0.266305615378125,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,12:00,0.570652211059375,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,13:00,0.507247451678125,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,17:00,0.570652211059375,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,18:00,0.386776533528125,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,20:00,0.266305615378125,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,22:00,0.202900855996875,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,23:00,0.145834697228125,458,496
+ltg_sch_office,Fraction,12/31,Weekdays,24:00,0.1141323175375,458,496
+ltg_sch_office,Fraction,12/31,Saturday,24:00,0.1141323175375,458,496
+ltg_sch_office,Fraction,12/31,AllOtherDays,24:00,0.1141323175375,458,496
+Exterior_lighting_schedule_a,fraction,12/31,AllDays,06:00,0,498,506
+Exterior_lighting_schedule_a,fraction,12/31,AllDays,24:00,1,498,506
+OCCUPY-1,Fraction,12/31,Weekdays,6:00,0.0,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,7:00,0.11,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,8:00,0.21,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,12:00,1.0,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,13:00,0.53,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,17:00,1.0,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,18:00,0.32,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,22:00,0.11,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,23:00,0.05,508,550
+OCCUPY-1,Fraction,12/31,Weekdays,24:00,0.0,508,550
+OCCUPY-1,Fraction,12/31,Weekends,24:00,0.0,508,550
+OCCUPY-1,Fraction,12/31,Holiday,24:00,0.0,508,550
+OCCUPY-1,Fraction,12/31,WinterDesignDay,24:00,0.0,508,550
+OCCUPY-1,Fraction,12/31,SummerDesignDay,24:00,1.0,508,550
+OCCUPY-1,Fraction,12/31,CustomDay1,24:00,0.0,508,550
+OCCUPY-1,Fraction,12/31,CustomDay2,24:00,0.0,508,550
+EQUIP-1,Fraction,12/31,WeekDays SummerDesignDay CustomDay1 CustomDay2,8:00,0.02,552,575
+EQUIP-1,Fraction,12/31,WeekDays SummerDesignDay CustomDay1 CustomDay2,9:00,0.4,552,575
+EQUIP-1,Fraction,12/31,WeekDays SummerDesignDay CustomDay1 CustomDay2,14:00,0.9,552,575
+EQUIP-1,Fraction,12/31,WeekDays SummerDesignDay CustomDay1 CustomDay2,15:00,0.8,552,575
+EQUIP-1,Fraction,12/31,WeekDays SummerDesignDay CustomDay1 CustomDay2,16:00,0.7,552,575
+EQUIP-1,Fraction,12/31,WeekDays SummerDesignDay CustomDay1 CustomDay2,18:00,0.5,552,575
+EQUIP-1,Fraction,12/31,WeekDays SummerDesignDay CustomDay1 CustomDay2,21:00,0.3,552,575
+EQUIP-1,Fraction,12/31,WeekDays SummerDesignDay CustomDay1 CustomDay2,24:00,0.02,552,575
+EQUIP-1,Fraction,12/31,Weekends WinterDesignDay Holiday,24:00,0.02,552,575
+INFIL-SCH,Fraction,12/31,Weekdays,7:00,1.0,577,600
+INFIL-SCH,Fraction,12/31,Weekdays,19:00,.25,577,600
+INFIL-SCH,Fraction,12/31,Weekdays,24:00,1.0,577,600
+INFIL-SCH,Fraction,12/31,Saturday,07:00,1.0,577,600
+INFIL-SCH,Fraction,12/31,Saturday,18:00,.25,577,600
+INFIL-SCH,Fraction,12/31,Saturday,24:00,1,577,600
+INFIL-SCH,Fraction,12/31,WinterDesignDay SummerDesignDay,24:00,1,577,600
+INFIL-SCH,Fraction,12/31,Sunday Holidays AllOtherDays,24:00,1,577,600
+ActSchd,Any Number,12/31,AllDays,24:00,117.239997864,602,608
+AvailSched_1,On/Off,12/31,WeekDays CustomDay1 CustomDay2,24:00,1,610,625
+AvailSched_1,On/Off,12/31,WeekEnds Holiday,24:00,1,610,625
+AvailSched_1,On/Off,12/31,SummerDesignDay,24:00,1,610,625
+AvailSched_1,On/Off,12/31,WinterDesignDay,24:00,1,610,625
+Min OA Sched,Fraction,12/31,WeekDays CustomDay1 CustomDay2,6:00,0,627,646
+Min OA Sched,Fraction,12/31,WeekDays CustomDay1 CustomDay2,23:00,1,627,646
+Min OA Sched,Fraction,12/31,WeekDays CustomDay1 CustomDay2,24:00,0,627,646
+Min OA Sched,Fraction,12/31,WeekEnds Holiday,24:00,0,627,646
+Min OA Sched,Fraction,12/31,SummerDesignDay,24:00,1,627,646
+Min OA Sched,Fraction,12/31,WinterDesignDay,24:00,1,627,646
+HVACTemplate-Always 4,Any Number,12/31,AllDays,24:00,4,648,654
+HVACTemplate-Always 1,Any Number,12/31,AllDays,24:00,1,656,662
