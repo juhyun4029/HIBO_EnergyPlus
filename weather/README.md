@@ -5,3 +5,9 @@
 The file contains 8,760 hourly TMY3 records for Omaha Eppley Airfield (WMO 725500; 41.32°, −95.90°; UTC−6; 299 m). It is not an actual-weather file for 2026.
 
 Weather and design days are described in report Section 2. The slab boundary temperatures are separate IDF inputs in Section 4.3; they are not taken from the EPW ground-temperature header.
+
+HIBO_Lab 10 year data is included.
+
+Source: https://epw.tools
+Location: 41.2464, -96.0173
+Station: Omaha Millard Airport
